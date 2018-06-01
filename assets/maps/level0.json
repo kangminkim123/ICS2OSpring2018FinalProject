@@ -161,34 +161,10 @@
                  "width":1024,
                  "x":12288,
                  "y":1536
-                }, 
-                {
-                 "gid":33,
-                 "height":768,
-                 "id":274,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1024,
-                 "x":13312,
-                 "y":1536
-                }, 
-                {
-                 "gid":33,
-                 "height":768,
-                 "id":275,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1024,
-                 "x":14336,
-                 "y":1536
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -3673,8 +3649,8 @@
                  "type":"blob",
                  "visible":true,
                  "width":114,
-                 "x":2564.66666666667,
-                 "y":1057.66666666667
+                 "x":2564.67,
+                 "y":1057.67
                 }, 
                 {
                  "gid":145,
@@ -4752,5 +4728,5 @@
  "tilewidth":128,
  "type":"map",
  "version":1,
- "width":200
+ "width":100
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="325">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="325">
  <tileset firstgid="1" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -462,7 +462,7 @@
    <image width="56" height="59" source="../sprites/stickerKnight/window3.png"/>
   </tile>
  </tileset>
- <objectgroup name="parallax" visible="0">
+ <objectgroup name="parallax">
   <object id="26" gid="33" x="0" y="1536" width="1024" height="768"/>
   <object id="262" gid="33" x="1024" y="1536" width="1024" height="768"/>
   <object id="263" gid="33" x="2048" y="1536" width="1024" height="768"/>
@@ -476,8 +476,6 @@
   <object id="271" gid="33" x="10240" y="1536" width="1024" height="768"/>
   <object id="272" gid="33" x="11264" y="1536" width="1024" height="768"/>
   <object id="273" gid="33" x="12288" y="1536" width="1024" height="768"/>
-  <object id="274" gid="33" x="13312" y="1536" width="1024" height="768"/>
-  <object id="275" gid="33" x="14336" y="1536" width="1024" height="768"/>
  </objectgroup>
  <objectgroup name="middleground">
   <object id="27" gid="18" x="0" y="1536" width="128" height="128">
