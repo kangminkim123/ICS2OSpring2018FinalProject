@@ -52,11 +52,11 @@ function M.new( instance )
 		local y1, y2 = self.y + 50, other.y - other.height/2
 		-- Also skip bumping into floating platforms
 		if event.contact and ( y1 > y2 ) then
-		if other.floating then
-			event.contact.isEnabled = false
-		else
-			event.contact.friction = 0.1
-		end
+			if other.floating then
+				event.contact.isEnabled = false
+			else
+				event.contact.friction = 0.1
+			end
 		end
 	end
 

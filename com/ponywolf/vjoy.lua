@@ -15,7 +15,7 @@ function M.newButton(key, radius)
 
   if type(radius) == "number" then
     instance = display.newCircle(0,0, radius)
-    instance:setFillColor( 0.2, 0.2, 0.2, 0.9 )
+    instance:setFillColor( 0.2, 0.2, 0.2, 0.75 )
     instance.strokeWidth = 6
     instance:setStrokeColor( 1, 1, 1, 1 )
   else

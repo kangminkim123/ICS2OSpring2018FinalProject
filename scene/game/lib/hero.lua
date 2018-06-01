@@ -22,7 +22,7 @@ function M.new( instance, options )
 	local x, y = instance.x, instance.y
 
 	--the score
-	local score
+	--local score
 
 	-- Load spritesheet
 
@@ -139,7 +139,7 @@ function M.new( instance, options )
 	end
 
 	function instance:hurt()
-		fx.flash( self )
+		--fx.flash( self )
 		audio.play( sounds.hurt[math.random(2)] )
 		if self.shield:damage() <= 0 then
 			-- We died
