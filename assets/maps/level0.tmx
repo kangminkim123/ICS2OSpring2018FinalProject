@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="250" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="312">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="250" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="313">
  <tileset firstgid="1" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -102,7 +102,7 @@
    <image width="1024" height="768" source="../sprites/summer/background/summerBackground.png"/>
   </tile>
  </tileset>
- <tileset firstgid="35" name="characters" tilewidth="260" tileheight="207" tilecount="34" columns="0">
+ <tileset firstgid="34" name="characters" tilewidth="260" tileheight="207" tilecount="34" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="1">
    <image width="150" height="174" source="../sprites/enemy/bunny1_hurt.png"/>
@@ -207,7 +207,7 @@
    <image width="182" height="123" source="../sprites/enemy/wingMan5.png"/>
   </tile>
  </tileset>
- <tileset firstgid="70" name="items" tilewidth="211" tileheight="215" tilecount="20" columns="0">
+ <tileset firstgid="69" name="items" tilewidth="211" tileheight="215" tilecount="20" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="160" height="32" source="../sprites/items/Kunai.png"/>
@@ -270,7 +270,196 @@
    <image width="20" height="20" source="../sprites/items/portal_yellowParticle.png"/>
   </tile>
  </tileset>
- <objectgroup name="parallax" visible="0">
+ <tileset firstgid="89" name="stickerKnight" tilewidth="384" tileheight="332" tilecount="62" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="160" height="192" source="../sprites/stickerKnight/alter.png"/>
+  </tile>
+  <tile id="1">
+   <image width="135" height="115" source="../sprites/stickerKnight/backgroundArch.png"/>
+  </tile>
+  <tile id="2">
+   <image width="380" height="140" source="../sprites/stickerKnight/backgroundMountain.png"/>
+  </tile>
+  <tile id="3">
+   <image width="129" height="332" source="../sprites/stickerKnight/backgroundTower.png"/>
+  </tile>
+  <tile id="4">
+   <image width="109" height="177" source="../sprites/stickerKnight/backgroundTree.png"/>
+  </tile>
+  <tile id="5">
+   <image width="96" height="64" source="../sprites/stickerKnight/blobBlue.png"/>
+  </tile>
+  <tile id="6">
+   <image width="96" height="64" source="../sprites/stickerKnight/blobGreen.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../sprites/stickerKnight/blue.png"/>
+  </tile>
+  <tile id="8">
+   <image width="96" height="128" source="../sprites/stickerKnight/bombStroked.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../sprites/stickerKnight/castleWall.png"/>
+  </tile>
+  <tile id="10">
+   <image width="384" height="128" source="../sprites/stickerKnight/cloud.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="192" source="../sprites/stickerKnight/column1.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="192" source="../sprites/stickerKnight/column2.png"/>
+  </tile>
+  <tile id="13">
+   <image width="160" height="192" source="../sprites/stickerKnight/doorBlueStroked.png"/>
+  </tile>
+  <tile id="14">
+   <image width="160" height="192" source="../sprites/stickerKnight/doorGreenStroke.png"/>
+  </tile>
+  <tile id="15">
+   <image width="160" height="192" source="../sprites/stickerKnight/doorRedStroked.png"/>
+  </tile>
+  <tile id="16">
+   <image width="160" height="192" source="../sprites/stickerKnight/doorStroked.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="64" source="../sprites/stickerKnight/earthWall.png"/>
+  </tile>
+  <tile id="18">
+   <image width="64" height="64" source="../sprites/stickerKnight/earthWall2.png"/>
+  </tile>
+  <tile id="19">
+   <image width="160" height="192" source="../sprites/stickerKnight/exit.png"/>
+  </tile>
+  <tile id="20">
+   <image width="192" height="192" source="../sprites/stickerKnight/flare.png"/>
+  </tile>
+  <tile id="21">
+   <image width="64" height="64" source="../sprites/stickerKnight/gemBlueStroked.png"/>
+  </tile>
+  <tile id="22">
+   <image width="64" height="64" source="../sprites/stickerKnight/gemRedStroked.png"/>
+  </tile>
+  <tile id="23">
+   <image width="224" height="32" source="../sprites/stickerKnight/grassLarge.png"/>
+  </tile>
+  <tile id="24">
+   <image width="160" height="32" source="../sprites/stickerKnight/grassSmall.png"/>
+  </tile>
+  <tile id="25">
+   <image width="64" height="64" source="../sprites/stickerKnight/grey.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="160" source="../sprites/stickerKnight/hero.png"/>
+  </tile>
+  <tile id="27">
+   <image width="96" height="64" source="../sprites/stickerKnight/keyGreenStroked.png"/>
+  </tile>
+  <tile id="28">
+   <image width="96" height="64" source="../sprites/stickerKnight/keyRedStroked.png"/>
+  </tile>
+  <tile id="29">
+   <image width="96" height="64" source="../sprites/stickerKnight/keyYellowStroked.png"/>
+  </tile>
+  <tile id="30">
+   <image width="192" height="64" source="../sprites/stickerKnight/platform1.png"/>
+  </tile>
+  <tile id="31">
+   <image width="192" height="64" source="../sprites/stickerKnight/platform2.png"/>
+  </tile>
+  <tile id="32">
+   <image width="192" height="64" source="../sprites/stickerKnight/platform3.png"/>
+  </tile>
+  <tile id="33">
+   <image width="192" height="64" source="../sprites/stickerKnight/platform4.png"/>
+  </tile>
+  <tile id="34">
+   <image width="256" height="96" source="../sprites/stickerKnight/platformBase1.png"/>
+  </tile>
+  <tile id="35">
+   <image width="256" height="96" source="../sprites/stickerKnight/platformBase2.png"/>
+  </tile>
+  <tile id="36">
+   <image width="256" height="96" source="../sprites/stickerKnight/platformBase3.png"/>
+  </tile>
+  <tile id="37">
+   <image width="256" height="96" source="../sprites/stickerKnight/platformBase4.png"/>
+  </tile>
+  <tile id="38">
+   <image width="128" height="96" source="../sprites/stickerKnight/platformBlock1.png"/>
+  </tile>
+  <tile id="39">
+   <image width="128" height="96" source="../sprites/stickerKnight/platformBlock2.png"/>
+  </tile>
+  <tile id="40">
+   <image width="128" height="96" source="../sprites/stickerKnight/platformBlock3.png"/>
+  </tile>
+  <tile id="41">
+   <image width="128" height="96" source="../sprites/stickerKnight/platformBlock4.png"/>
+  </tile>
+  <tile id="42">
+   <image width="96" height="64" source="../sprites/stickerKnight/platformConnector1.png"/>
+  </tile>
+  <tile id="43">
+   <image width="96" height="64" source="../sprites/stickerKnight/platformConnector2.png"/>
+  </tile>
+  <tile id="44">
+   <image width="96" height="64" source="../sprites/stickerKnight/platformConnector3.png"/>
+  </tile>
+  <tile id="45">
+   <image width="96" height="64" source="../sprites/stickerKnight/platformConnector4.png"/>
+  </tile>
+  <tile id="46">
+   <image width="96" height="96" source="../sprites/stickerKnight/pushBlock1.png"/>
+  </tile>
+  <tile id="47">
+   <image width="96" height="96" source="../sprites/stickerKnight/pushBlock2.png"/>
+  </tile>
+  <tile id="48">
+   <image width="96" height="96" source="../sprites/stickerKnight/pushBlock3.png"/>
+  </tile>
+  <tile id="49">
+   <image width="64" height="64" source="../sprites/stickerKnight/shadow.png"/>
+  </tile>
+  <tile id="50">
+   <image width="93" height="93" source="../sprites/stickerKnight/shieldStroked.png"/>
+  </tile>
+  <tile id="51">
+   <image width="160" height="128" source="../sprites/stickerKnight/sign.png"/>
+  </tile>
+  <tile id="52">
+   <image width="133" height="160" source="../sprites/stickerKnight/skeleton.png"/>
+  </tile>
+  <tile id="53">
+   <image width="192" height="96" source="../sprites/stickerKnight/swordStroked.png"/>
+  </tile>
+  <tile id="54">
+   <image width="96" height="96" source="../sprites/stickerKnight/torch.png"/>
+  </tile>
+  <tile id="55">
+   <image width="128" height="32" source="../sprites/stickerKnight/trap.png"/>
+  </tile>
+  <tile id="56">
+   <image width="128" height="96" source="../sprites/stickerKnight/wallDecor1.png"/>
+  </tile>
+  <tile id="57">
+   <image width="128" height="96" source="../sprites/stickerKnight/wallDecor2.png"/>
+  </tile>
+  <tile id="58">
+   <image width="160" height="128" source="../sprites/stickerKnight/wallDecor3.png"/>
+  </tile>
+  <tile id="59">
+   <image width="65" height="64" source="../sprites/stickerKnight/window1.png"/>
+  </tile>
+  <tile id="60">
+   <image width="64" height="64" source="../sprites/stickerKnight/window2.png"/>
+  </tile>
+  <tile id="61">
+   <image width="56" height="59" source="../sprites/stickerKnight/window3.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="parallax">
   <object id="26" gid="33" x="0" y="1536" width="1024" height="768"/>
   <object id="262" gid="33" x="1024" y="1536" width="1024" height="768"/>
   <object id="263" gid="33" x="2048" y="1536" width="1024" height="768"/>
@@ -784,12 +973,12 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="280" type="coin" gid="63" x="1792" y="1280" width="142" height="148"/>
-  <object id="281" gid="71" x="1664" y="1408" width="128" height="32"/>
-  <object id="282" gid="71" x="1792" y="1408" width="128" height="32"/>
-  <object id="283" gid="71" x="1920" y="1408" width="128" height="32"/>
-  <object id="284" gid="71" x="1792" y="1408" width="128" height="32"/>
-  <object id="285" type="spikes" gid="71" x="1664" y="1408" width="128" height="32"/>
+  <object id="280" type="coin" gid="62" x="1792" y="1280" width="142" height="148"/>
+  <object id="281" gid="70" x="1664" y="1408" width="128" height="32"/>
+  <object id="282" gid="70" x="1792" y="1408" width="128" height="32"/>
+  <object id="283" gid="70" x="1920" y="1408" width="128" height="32"/>
+  <object id="284" gid="70" x="1792" y="1408" width="128" height="32"/>
+  <object id="285" type="spikes" gid="70" x="1664" y="1408" width="128" height="32"/>
   <object id="290" gid="3" x="1280" y="1152" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -844,10 +1033,11 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="309" type="blob" gid="48" x="2176" y="384" width="260" height="134"/>
+  <object id="309" type="blob" gid="47" x="2176" y="384" width="260" height="134"/>
+  <object id="312" type="exit" gid="104" x="3456" y="1408" width="640" height="768"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="55" name="hero" type="hero" gid="20" x="128" y="1280" width="282" height="301"/>
-  <object id="278" type="blob" gid="38" x="1152" y="1408" width="120" height="191"/>
+  <object id="278" type="blob" gid="37" x="1152" y="1408" width="120" height="191"/>
  </objectgroup>
 </map>

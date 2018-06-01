@@ -15,7 +15,8 @@ function scene:show( event )
 	if ( phase == "will" ) then
 		composer.removeScene( prevScene )
 	elseif ( phase == "did" ) then
-		composer.gotoScene( prevScene, options )
+		--composer.gotoScene( prevScene, options )
+		composer.gotoScene( "scene.levelSelectScene", options )
 	end
 end
 

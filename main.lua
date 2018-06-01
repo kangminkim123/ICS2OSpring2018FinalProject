@@ -33,7 +33,7 @@ end
 audio.reserveChannels(1)
 
 -- go to menu screen
-composer.gotoScene( "scene.menu", { params={ } } )
+composer.gotoScene( "scene.mainMenuScene", { params={ } } )
 
 -- Or, instead of the line above, you can cheat skip to a specific level by using the
 -- following line, passing to it the JSON file of the level you want to jump to

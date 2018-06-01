@@ -188,7 +188,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -3399,7 +3399,7 @@
                  "y":1536
                 }, 
                 {
-                 "gid":63,
+                 "gid":62,
                  "height":148,
                  "id":280,
                  "name":"",
@@ -3411,7 +3411,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":71,
+                 "gid":70,
                  "height":32,
                  "id":281,
                  "name":"",
@@ -3423,7 +3423,7 @@
                  "y":1408
                 }, 
                 {
-                 "gid":71,
+                 "gid":70,
                  "height":32,
                  "id":282,
                  "name":"",
@@ -3435,7 +3435,7 @@
                  "y":1408
                 }, 
                 {
-                 "gid":71,
+                 "gid":70,
                  "height":32,
                  "id":283,
                  "name":"",
@@ -3447,7 +3447,7 @@
                  "y":1408
                 }, 
                 {
-                 "gid":71,
+                 "gid":70,
                  "height":32,
                  "id":284,
                  "name":"",
@@ -3459,7 +3459,7 @@
                  "y":1408
                 }, 
                 {
-                 "gid":71,
+                 "gid":70,
                  "height":32,
                  "id":285,
                  "name":"",
@@ -3669,7 +3669,7 @@
                  "y":640
                 }, 
                 {
-                 "gid":48,
+                 "gid":47,
                  "height":134,
                  "id":309,
                  "name":"",
@@ -3681,16 +3681,16 @@
                  "y":384
                 }, 
                 {
-                 "gid":48,
-                 "height":134,
-                 "id":310,
+                 "gid":104,
+                 "height":768,
+                 "id":312,
                  "name":"",
                  "rotation":0,
-                 "type":"enemy",
+                 "type":"exit",
                  "visible":true,
-                 "width":260,
-                 "x":2304,
-                 "y":1152
+                 "width":640,
+                 "x":3456,
+                 "y":1408
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3715,7 +3715,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":38,
+                 "gid":37,
                  "height":191,
                  "id":278,
                  "name":"",
@@ -3732,7 +3732,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":311,
+ "nextobjectid":313,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.5",
@@ -3970,7 +3970,7 @@
         }, 
         {
          "columns":0,
-         "firstgid":35,
+         "firstgid":34,
          "grid":
             {
              "height":1,
@@ -4193,7 +4193,7 @@
         }, 
         {
          "columns":0,
-         "firstgid":70,
+         "firstgid":69,
          "grid":
             {
              "height":1,
@@ -4329,6 +4329,397 @@
                 }
             },
          "tilewidth":211
+        }, 
+        {
+         "columns":0,
+         "firstgid":89,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"stickerKnight",
+         "spacing":0,
+         "tilecount":62,
+         "tileheight":332,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"..\/sprites\/stickerKnight\/alter.png",
+                 "imageheight":192,
+                 "imagewidth":160
+                },
+             "1":
+                {
+                 "image":"..\/sprites\/stickerKnight\/backgroundArch.png",
+                 "imageheight":115,
+                 "imagewidth":135
+                },
+             "10":
+                {
+                 "image":"..\/sprites\/stickerKnight\/cloud.png",
+                 "imageheight":128,
+                 "imagewidth":384
+                },
+             "11":
+                {
+                 "image":"..\/sprites\/stickerKnight\/column1.png",
+                 "imageheight":192,
+                 "imagewidth":128
+                },
+             "12":
+                {
+                 "image":"..\/sprites\/stickerKnight\/column2.png",
+                 "imageheight":192,
+                 "imagewidth":128
+                },
+             "13":
+                {
+                 "image":"..\/sprites\/stickerKnight\/doorBlueStroked.png",
+                 "imageheight":192,
+                 "imagewidth":160
+                },
+             "14":
+                {
+                 "image":"..\/sprites\/stickerKnight\/doorGreenStroke.png",
+                 "imageheight":192,
+                 "imagewidth":160
+                },
+             "15":
+                {
+                 "image":"..\/sprites\/stickerKnight\/doorRedStroked.png",
+                 "imageheight":192,
+                 "imagewidth":160
+                },
+             "16":
+                {
+                 "image":"..\/sprites\/stickerKnight\/doorStroked.png",
+                 "imageheight":192,
+                 "imagewidth":160
+                },
+             "17":
+                {
+                 "image":"..\/sprites\/stickerKnight\/earthWall.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "18":
+                {
+                 "image":"..\/sprites\/stickerKnight\/earthWall2.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "19":
+                {
+                 "image":"..\/sprites\/stickerKnight\/exit.png",
+                 "imageheight":192,
+                 "imagewidth":160
+                },
+             "2":
+                {
+                 "image":"..\/sprites\/stickerKnight\/backgroundMountain.png",
+                 "imageheight":140,
+                 "imagewidth":380
+                },
+             "20":
+                {
+                 "image":"..\/sprites\/stickerKnight\/flare.png",
+                 "imageheight":192,
+                 "imagewidth":192
+                },
+             "21":
+                {
+                 "image":"..\/sprites\/stickerKnight\/gemBlueStroked.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "22":
+                {
+                 "image":"..\/sprites\/stickerKnight\/gemRedStroked.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "23":
+                {
+                 "image":"..\/sprites\/stickerKnight\/grassLarge.png",
+                 "imageheight":32,
+                 "imagewidth":224
+                },
+             "24":
+                {
+                 "image":"..\/sprites\/stickerKnight\/grassSmall.png",
+                 "imageheight":32,
+                 "imagewidth":160
+                },
+             "25":
+                {
+                 "image":"..\/sprites\/stickerKnight\/grey.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "26":
+                {
+                 "image":"..\/sprites\/stickerKnight\/hero.png",
+                 "imageheight":160,
+                 "imagewidth":128
+                },
+             "27":
+                {
+                 "image":"..\/sprites\/stickerKnight\/keyGreenStroked.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "28":
+                {
+                 "image":"..\/sprites\/stickerKnight\/keyRedStroked.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "29":
+                {
+                 "image":"..\/sprites\/stickerKnight\/keyYellowStroked.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "3":
+                {
+                 "image":"..\/sprites\/stickerKnight\/backgroundTower.png",
+                 "imageheight":332,
+                 "imagewidth":129
+                },
+             "30":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platform1.png",
+                 "imageheight":64,
+                 "imagewidth":192
+                },
+             "31":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platform2.png",
+                 "imageheight":64,
+                 "imagewidth":192
+                },
+             "32":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platform3.png",
+                 "imageheight":64,
+                 "imagewidth":192
+                },
+             "33":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platform4.png",
+                 "imageheight":64,
+                 "imagewidth":192
+                },
+             "34":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBase1.png",
+                 "imageheight":96,
+                 "imagewidth":256
+                },
+             "35":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBase2.png",
+                 "imageheight":96,
+                 "imagewidth":256
+                },
+             "36":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBase3.png",
+                 "imageheight":96,
+                 "imagewidth":256
+                },
+             "37":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBase4.png",
+                 "imageheight":96,
+                 "imagewidth":256
+                },
+             "38":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBlock1.png",
+                 "imageheight":96,
+                 "imagewidth":128
+                },
+             "39":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBlock2.png",
+                 "imageheight":96,
+                 "imagewidth":128
+                },
+             "4":
+                {
+                 "image":"..\/sprites\/stickerKnight\/backgroundTree.png",
+                 "imageheight":177,
+                 "imagewidth":109
+                },
+             "40":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBlock3.png",
+                 "imageheight":96,
+                 "imagewidth":128
+                },
+             "41":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformBlock4.png",
+                 "imageheight":96,
+                 "imagewidth":128
+                },
+             "42":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformConnector1.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "43":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformConnector2.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "44":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformConnector3.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "45":
+                {
+                 "image":"..\/sprites\/stickerKnight\/platformConnector4.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "46":
+                {
+                 "image":"..\/sprites\/stickerKnight\/pushBlock1.png",
+                 "imageheight":96,
+                 "imagewidth":96
+                },
+             "47":
+                {
+                 "image":"..\/sprites\/stickerKnight\/pushBlock2.png",
+                 "imageheight":96,
+                 "imagewidth":96
+                },
+             "48":
+                {
+                 "image":"..\/sprites\/stickerKnight\/pushBlock3.png",
+                 "imageheight":96,
+                 "imagewidth":96
+                },
+             "49":
+                {
+                 "image":"..\/sprites\/stickerKnight\/shadow.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "5":
+                {
+                 "image":"..\/sprites\/stickerKnight\/blobBlue.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "50":
+                {
+                 "image":"..\/sprites\/stickerKnight\/shieldStroked.png",
+                 "imageheight":93,
+                 "imagewidth":93
+                },
+             "51":
+                {
+                 "image":"..\/sprites\/stickerKnight\/sign.png",
+                 "imageheight":128,
+                 "imagewidth":160
+                },
+             "52":
+                {
+                 "image":"..\/sprites\/stickerKnight\/skeleton.png",
+                 "imageheight":160,
+                 "imagewidth":133
+                },
+             "53":
+                {
+                 "image":"..\/sprites\/stickerKnight\/swordStroked.png",
+                 "imageheight":96,
+                 "imagewidth":192
+                },
+             "54":
+                {
+                 "image":"..\/sprites\/stickerKnight\/torch.png",
+                 "imageheight":96,
+                 "imagewidth":96
+                },
+             "55":
+                {
+                 "image":"..\/sprites\/stickerKnight\/trap.png",
+                 "imageheight":32,
+                 "imagewidth":128
+                },
+             "56":
+                {
+                 "image":"..\/sprites\/stickerKnight\/wallDecor1.png",
+                 "imageheight":96,
+                 "imagewidth":128
+                },
+             "57":
+                {
+                 "image":"..\/sprites\/stickerKnight\/wallDecor2.png",
+                 "imageheight":96,
+                 "imagewidth":128
+                },
+             "58":
+                {
+                 "image":"..\/sprites\/stickerKnight\/wallDecor3.png",
+                 "imageheight":128,
+                 "imagewidth":160
+                },
+             "59":
+                {
+                 "image":"..\/sprites\/stickerKnight\/window1.png",
+                 "imageheight":64,
+                 "imagewidth":65
+                },
+             "6":
+                {
+                 "image":"..\/sprites\/stickerKnight\/blobGreen.png",
+                 "imageheight":64,
+                 "imagewidth":96
+                },
+             "60":
+                {
+                 "image":"..\/sprites\/stickerKnight\/window2.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "61":
+                {
+                 "image":"..\/sprites\/stickerKnight\/window3.png",
+                 "imageheight":59,
+                 "imagewidth":56
+                },
+             "7":
+                {
+                 "image":"..\/sprites\/stickerKnight\/blue.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "8":
+                {
+                 "image":"..\/sprites\/stickerKnight\/bombStroked.png",
+                 "imageheight":128,
+                 "imagewidth":96
+                },
+             "9":
+                {
+                 "image":"..\/sprites\/stickerKnight\/castleWall.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                }
+            },
+         "tilewidth":384
         }],
  "tilewidth":128,
  "type":"map",

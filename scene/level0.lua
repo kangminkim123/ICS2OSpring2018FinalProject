@@ -86,8 +86,9 @@ function scene:create( event )
 	--physics.setDrawMode("hybrid")
 
 	-- Load our map
+
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = event.params.map or "assets/maps/level0.json"
+	local filename = "./assets/maps/level0.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -109,7 +110,7 @@ function scene:create( event )
 	local gem = display.newImageRect( sceneGroup, "scene/game/img/gem.png", 64, 64 )
 	gem.x = display.contentWidth - gem.contentWidth / 2 - 24
 	gem.y = display.screenOriginY + gem.contentHeight / 2 + 20
-
+	
 	scene.score = scoring.new( { score = event.params.score } )
 	local score = scene.score
 	score.x = display.contentWidth - score.contentWidth / 2 - 32 - gem.width
@@ -124,7 +125,7 @@ function scene:create( event )
 	-- Touch the sheilds to go back to the main...
 	function shield:tap(event)
 		fx.fadeOut( function()
-				composer.gotoScene( "scene.menu")
+				composer.gotoScene( "scene.levelSelectScene")
 			end )
 	end
 	shield:addEventListener("tap")

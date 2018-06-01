@@ -14,9 +14,9 @@ local scene = composer.newScene()
 local function key(event)
 	-- go back to menu if we are not already there
 	if event.phase == "up" and event.keyName == "escape" then
-		if not (composer.getSceneName("current") == "scene.menu") then
+		if not (composer.getSceneName("current") == "scene.mainMenuScene") then
 			fx.fadeOut(function ()
-					composer.gotoScene("scene.menu")
+					composer.gotoScene("scene.mainMenuScene")
 				end)
 		end
 	end
@@ -39,7 +39,8 @@ function scene:create( event )
 	start = ui:findObject( "start" )
 	function start:tap()
 		fx.fadeOut( function()
-				composer.gotoScene( "scene.scene0", { params = {} } )
+				--composer.gotoScene( "scene.level0", { params = {} } )
+				composer.gotoScene( "scene.levelSelectScene", { params = {} } )
 			end )
 	end
 	fx.breath( start )

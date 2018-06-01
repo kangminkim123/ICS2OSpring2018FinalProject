@@ -21,6 +21,9 @@ function M.new( instance, options )
 	local parent = instance.parent
 	local x, y = instance.x, instance.y
 
+	--the score
+	local score
+
 	-- Load spritesheet
 
     -- our character
