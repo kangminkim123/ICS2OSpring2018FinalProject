@@ -19,14 +19,7 @@ function M.new( instance )
 		if phase == "began" and other.type == "hero" then
 			audio.play( sounds.coin )
 			scene.score:add( 100 )
-			--if composer.getVariable( "score" ) then
-			--	local newScore = composer.getVariable( "score" ) + 100
-			--	composer.setVariable( "score", newScore )
-			--else
-			--	composer.setVariable( "score", 100 )
-			--end
 			
-			--print( composer.getVariable( "score" ) )
 			display.remove( self )
 		end
 	end
