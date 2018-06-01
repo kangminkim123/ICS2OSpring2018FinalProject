@@ -21,9 +21,6 @@ function M.new( instance, options )
 	local parent = instance.parent
 	local x, y = instance.x, instance.y
 
-	--the score
-	--local score
-
 	-- Load spritesheet
 
     -- our character
@@ -131,7 +128,7 @@ function M.new( instance, options )
 
 	function instance:jump()
 		if not self.jumping then
-			self:applyLinearImpulse( 0, -3000 )
+			self:applyLinearImpulse( 0, -3500 )
 			self:setSequence( "jump" )
 			instance:play()
 			self.jumping = true
