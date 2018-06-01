@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="250" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="313">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="314">
  <tileset firstgid="1" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -973,7 +973,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="280" type="coin" gid="62" x="1792" y="1280" width="142" height="148"/>
+  <object id="280" type="coin" gid="62" x="896" y="1280" width="142" height="148"/>
   <object id="281" gid="70" x="1664" y="1408" width="128" height="32"/>
   <object id="282" gid="70" x="1792" y="1408" width="128" height="32"/>
   <object id="283" gid="70" x="1920" y="1408" width="128" height="32"/>
@@ -1034,10 +1034,11 @@
    </properties>
   </object>
   <object id="309" type="blob" gid="47" x="2176" y="384" width="260" height="134"/>
-  <object id="312" type="exit" gid="104" x="3456" y="1408" width="640" height="768"/>
+  <object id="312" type="exit" gid="104" x="2176" y="1408" width="640" height="768"/>
+  <object id="313" type="coin" gid="62" x="640" y="1280" width="142" height="148"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="55" name="hero" type="hero" gid="20" x="128" y="1280" width="282" height="301"/>
-  <object id="278" type="blob" gid="37" x="1152" y="1408" width="120" height="191"/>
+  <object id="278" type="blob" gid="37" x="1408" y="1408" width="120" height="191"/>
  </objectgroup>
 </map>

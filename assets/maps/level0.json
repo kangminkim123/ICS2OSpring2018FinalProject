@@ -3407,7 +3407,7 @@
                  "type":"coin",
                  "visible":true,
                  "width":142,
-                 "x":1792,
+                 "x":896,
                  "y":1280
                 }, 
                 {
@@ -3689,8 +3689,20 @@
                  "type":"exit",
                  "visible":true,
                  "width":640,
-                 "x":3456,
+                 "x":2176,
                  "y":1408
+                }, 
+                {
+                 "gid":62,
+                 "height":148,
+                 "id":313,
+                 "name":"",
+                 "rotation":0,
+                 "type":"coin",
+                 "visible":true,
+                 "width":142,
+                 "x":640,
+                 "y":1280
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3723,7 +3735,7 @@
                  "type":"blob",
                  "visible":true,
                  "width":120,
-                 "x":1152,
+                 "x":1408,
                  "y":1408
                 }],
          "opacity":1,
@@ -3732,7 +3744,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":313,
+ "nextobjectid":314,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.5",
@@ -4724,5 +4736,5 @@
  "tilewidth":128,
  "type":"map",
  "version":1,
- "width":250
+ "width":200
 }

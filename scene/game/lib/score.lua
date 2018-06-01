@@ -4,6 +4,8 @@
 -- Define module
 local M = {}
 
+local composer = require( "composer" )
+
 function M.new( options )
 
 	-- Default options for instance
@@ -18,7 +20,8 @@ function M.new( options )
 	local width = options.width or 256
 
 	local score
-	local num = options.score or 0
+	--local num = options.score or 0
+	local num = composer.getVariable( "score" ) or 0
 	local textOptions = { x = x, y = y, text = label .. " " .. num, width = width, font = font, fontSize = size, align = align }
 
 	score = display.newEmbossedText( textOptions )
@@ -29,6 +32,13 @@ function M.new( options )
 
 	function score:add( points )
 		score.target = self.target + ( points or 10 )
+		if composer.getVariable( "score" ) then
+			local newScore = composer.getVariable( "score" ) + points
+			composer.setVariable( "score", newScore )
+		else
+			composer.setVariable( "score", points )
+		end
+		
 		local function countUp()
 			local diff = math.ceil( ( score.target - score.num ) / 12 )
 			score.num = score.num + diff
