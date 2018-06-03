@@ -2617,7 +2617,7 @@
                  "type":"",
                  "visible":true,
                  "width":128,
-                 "x":3584,
+                 "x":3456,
                  "y":1280
                 }, 
                 {
@@ -4171,6 +4171,50 @@
                  "width":320,
                  "x":6528,
                  "y":1792
+                }, 
+                {
+                 "gid":40,
+                 "height":0,
+                 "id":728,
+                 "name":"",
+                 "rotation":-450,
+                 "type":"",
+                 "visible":true,
+                 "width":2937.64356435644,
+                 "x":1141.49386503067,
+                 "y":1284.32178217822
+                }, 
+                {
+                 "gid":19,
+                 "height":128,
+                 "id":732,
+                 "name":"",
+                 "properties":
+                    {
+                     "bodyType":"static"
+                    },
+                 "propertytypes":
+                    {
+                     "bodyType":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":128,
+                 "x":3584,
+                 "y":1280
+                }, 
+                {
+                 "gid":35,
+                 "height":142,
+                 "id":733,
+                 "name":"hero",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":142,
+                 "x":768,
+                 "y":1280
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4198,7 +4242,19 @@
                  "gid":24,
                  "height":298,
                  "id":725,
-                 "name":"",
+                 "name":"block",
+                 "properties":
+                    {
+                     "bodyType":"dynamic",
+                     "density":2,
+                     "friction":0.45
+                    },
+                 "propertytypes":
+                    {
+                     "bodyType":"string",
+                     "density":"float",
+                     "friction":"float"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -4210,7 +4266,7 @@
                  "gid":34,
                  "height":125,
                  "id":517,
-                 "name":"",
+                 "name":"coin",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -4265,6 +4321,54 @@
                  "width":660,
                  "x":4039.46703296703,
                  "y":-434.467032967033
+                }, 
+                {
+                 "gid":34,
+                 "height":125,
+                 "id":726,
+                 "name":"coin",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":125,
+                 "x":4608,
+                 "y":1152
+                }, 
+                {
+                 "gid":36,
+                 "height":578,
+                 "id":727,
+                 "name":"exit",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":456.571428571429,
+                 "x":6272,
+                 "y":1280
+                }, 
+                {
+                 "gid":1073741866,
+                 "height":368,
+                 "id":729,
+                 "name":"enemy",
+                 "rotation":180,
+                 "type":"",
+                 "visible":true,
+                 "width":294.4,
+                 "x":3840,
+                 "y":784
+                }, 
+                {
+                 "gid":45,
+                 "height":231,
+                 "id":731,
+                 "name":"blob",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":145.130890052356,
+                 "x":2816,
+                 "y":1280
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4272,7 +4376,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":726,
+ "nextobjectid":734,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",
@@ -4290,7 +4394,7 @@
          "margin":0,
          "name":"FinalProjecTiles",
          "spacing":0,
-         "tilecount":34,
+         "tilecount":46,
          "tileheight":1143,
          "tiles":
             {
@@ -4462,11 +4566,83 @@
                  "imageheight":77,
                  "imagewidth":77
                 },
+             "34":
+                {
+                 "image":"..\/sprites\/blockyLand\/crate.png",
+                 "imageheight":110,
+                 "imagewidth":110
+                },
+             "35":
+                {
+                 "image":"..\/sprites\/blockyLand\/door.png",
+                 "imageheight":238,
+                 "imagewidth":188
+                },
+             "36":
+                {
+                 "image":"..\/sprites\/blockyLand\/spike.png",
+                 "imageheight":80,
+                 "imagewidth":128
+                },
+             "37":
+                {
+                 "image":"..\/sprites\/blockyLand\/tileOne.png",
+                 "imageheight":128,
+                 "imagewidth":128
+                },
+             "38":
+                {
+                 "image":"..\/sprites\/blockyLand\/tileSeven.png",
+                 "imageheight":128,
+                 "imagewidth":128
+                },
+             "39":
+                {
+                 "image":"..\/sprites\/summer\/background\/sky.png",
+                 "imageheight":101,
+                 "imagewidth":326
+                },
              "4":
                 {
                  "image":"..\/sprites\/graveyard\/Tiles\/Tile1.png",
                  "imageheight":128,
                  "imagewidth":128
+                },
+             "40":
+                {
+                 "image":"..\/sprites\/summer\/background\/summerBackground.png",
+                 "imageheight":768,
+                 "imagewidth":1024
+                },
+             "41":
+                {
+                 "image":"..\/sprites\/stickerKnight\/hero.png",
+                 "imageheight":160,
+                 "imagewidth":128
+                },
+             "42":
+                {
+                 "image":"..\/sprites\/enemy\/cloud.png",
+                 "imageheight":134,
+                 "imagewidth":260
+                },
+             "43":
+                {
+                 "image":"..\/sprites\/enemy\/spikeBall1.png",
+                 "imageheight":148,
+                 "imagewidth":142
+                },
+             "44":
+                {
+                 "image":"..\/sprites\/enemy\/bunny1_ready.png",
+                 "imageheight":191,
+                 "imagewidth":120
+                },
+             "45":
+                {
+                 "image":"..\/sprites\/enemy\/spikeMan_stand.png",
+                 "imageheight":155,
+                 "imagewidth":90
                 },
              "5":
                 {
