@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="825">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="865">
  <tileset firstgid="1" name="FinalProjecTiles" tilewidth="2000" tileheight="1143" tilecount="53" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -767,6 +767,78 @@
    </properties>
   </object>
   <object id="783" gid="6" x="-256" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="825" gid="9" x="7424" y="1920" width="128" height="128"/>
+  <object id="826" gid="9" x="7552" y="1920" width="128" height="128"/>
+  <object id="827" gid="9" x="7552" y="1920" width="128" height="128"/>
+  <object id="828" gid="9" x="7424" y="1920" width="128" height="128"/>
+  <object id="829" gid="9" x="7424" y="1792" width="128" height="128"/>
+  <object id="830" gid="9" x="7552" y="1792" width="128" height="128"/>
+  <object id="831" gid="9" x="7552" y="1792" width="128" height="128"/>
+  <object id="832" gid="9" x="7424" y="1792" width="128" height="128"/>
+  <object id="833" gid="9" x="7424" y="1664" width="128" height="128"/>
+  <object id="834" gid="9" x="7552" y="1664" width="128" height="128"/>
+  <object id="835" gid="9" x="7552" y="1664" width="128" height="128"/>
+  <object id="836" gid="9" x="7424" y="1664" width="128" height="128"/>
+  <object id="837" gid="9" x="7424" y="1536" width="128" height="128"/>
+  <object id="838" gid="9" x="7552" y="1536" width="128" height="128"/>
+  <object id="839" gid="9" x="7552" y="1536" width="128" height="128"/>
+  <object id="840" gid="9" x="7424" y="1536" width="128" height="128"/>
+  <object id="841" gid="6" x="7424" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="842" gid="6" x="7552" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="843" gid="6" x="7552" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="844" gid="6" x="7424" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="845" gid="9" x="7680" y="1920" width="128" height="128"/>
+  <object id="846" gid="9" x="7808" y="1920" width="128" height="128"/>
+  <object id="847" gid="9" x="7808" y="1920" width="128" height="128"/>
+  <object id="848" gid="9" x="7680" y="1920" width="128" height="128"/>
+  <object id="849" gid="9" x="7680" y="1792" width="128" height="128"/>
+  <object id="850" gid="9" x="7808" y="1792" width="128" height="128"/>
+  <object id="851" gid="9" x="7808" y="1792" width="128" height="128"/>
+  <object id="852" gid="9" x="7680" y="1792" width="128" height="128"/>
+  <object id="853" gid="9" x="7680" y="1664" width="128" height="128"/>
+  <object id="854" gid="9" x="7808" y="1664" width="128" height="128"/>
+  <object id="855" gid="9" x="7808" y="1664" width="128" height="128"/>
+  <object id="856" gid="9" x="7680" y="1664" width="128" height="128"/>
+  <object id="857" gid="9" x="7680" y="1536" width="128" height="128"/>
+  <object id="858" gid="9" x="7808" y="1536" width="128" height="128"/>
+  <object id="859" gid="9" x="7808" y="1536" width="128" height="128"/>
+  <object id="860" gid="9" x="7680" y="1536" width="128" height="128"/>
+  <object id="861" gid="6" x="7680" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="862" gid="6" x="7808" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="863" gid="6" x="7808" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="864" gid="6" x="7680" y="1408" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
