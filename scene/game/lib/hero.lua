@@ -208,6 +208,15 @@ function M.new( instance, options )
 		if ( dx < 0 and vx > -max ) or ( dx > 0 and vx < max ) then
 			instance:applyForce( dx or 0, 0, instance.x, instance.y )
 		end
+
+		-- if the hero goes below the ground
+		-- (meaning fell through water or hole)
+		if instance.y > 2000 then
+			-- you have died
+			print( "dead" )
+			instance:hurt()
+		end
+
 		-- Turn around
 		instance.xScale = math.min( 1, math.max( instance.xScale + flip, -1 ) )
 	end
