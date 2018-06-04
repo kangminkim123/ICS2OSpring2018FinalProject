@@ -88,11 +88,11 @@ function M.new( instance, options )
 	instance:play()
 
 	-- Add physics
-	--physics.addBody( instance, "dynamic", { radius = 100, density = 3, bounce = 0, friction =  1.0 } )
-	local enemyShape = { 66,-170, 66,220, -66,220, -66,-170 }
-	physics.addBody( instance, "dynamic", { shape=enemyShape, density = 3, bounce = 0, friction =  1.0 } )
+	physics.addBody( instance, "dynamic", { radius = 100, density = 3, bounce = 0, friction =  1.0 } )
+	--local enemyShape = { 66,-170, 66,220, -66,220, -66,-170 }
+	--physics.addBody( instance, "dynamic", { shape=enemyShape, density = 3, bounce = 0, friction =  1.0 } )
 	instance.isFixedRotation = true
-	--instance.anchorY = 0.77
+	instance.anchorY = 0.77
 	--instance.anchorY = 0.95
 
 	-- Keyboard control
