@@ -21,19 +21,55 @@ function M.new( instance )
 	local x, y = instance.x, instance.y
 
 	-- Load spritesheet
-	local sheetData = { width = 192, height = 256, numFrames = 79, sheetContentWidth = 1920, sheetContentHeight = 2048 }
-	local sheet = graphics.newImageSheet( "scene/game/img/sprites.png", sheetData )
-	local sequenceData = {
-		{ name = "idle", frames = { 21 } },
-		{ name = "walk", frames = { 22, 23, 24, 25 } , time = 500, loopCount = 0 },
-	}
-	instance = display.newSprite( parent, sheet, sequenceData )
-	instance.x, instance.y = x, y
+
+    -- our character
+    local sheetOptionsIdleRobot = require("assets.spritesheets.robot.robotIdle")
+    local sheetIdleRobot = graphics.newImageSheet( "./assets/spritesheets/robot/robotIdle.png", sheetOptionsIdleRobot:getSheet() )
+
+    local sheetOptionsRunRobot = require("assets.spritesheets.robot.robotRun")
+    local sheetRunningRobot = graphics.newImageSheet( "./assets/spritesheets/robot/robotRun.png", sheetOptionsRunRobot:getSheet() )
+
+    -- sequences table
+    local sequence_data = {
+        -- consecutive frames sequence
+        {
+            name = "idle",
+            start = 1,
+            count = 10,
+            time = 800,
+            loopCount = 0,
+            sheet = sheetOptionsIdleRobot
+        },
+        {
+            name = "walk",
+            start = 1,
+            count = 10,
+            time = 1000,
+            loopCount = 0,
+            sheet = sheetRunningRobot
+        }
+    }
+
+    instance = display.newSprite( parent, sheetIdleRobot, sequence_data )
+	instance.x,instance.y = x, y
 	instance:setSequence( "walk" )
 	instance:play()
 
+
+	-- Load spritesheet
+	--local sheetData = { width = 192, height = 256, numFrames = 79, sheetContentWidth = 1920, sheetContentHeight = 2048 }
+	--local sheet = graphics.newImageSheet( "scene/game/img/sprites.png", sheetData )
+	--local sequenceData = {
+	--	{ name = "idle", frames = { 21 } },
+	--	{ name = "walk", frames = { 22, 23, 24, 25 } , time = 500, loopCount = 0 },
+	--}
+	--instance = display.newSprite( parent, sheet, sequenceData )
+	--instance.x, instance.y = x, y
+	--instance:setSequence( "walk" )
+	--instance:play()
+
 	-- Add physics
-	physics.addBody( instance, "dynamic", { radius = 54, density = 3, bounce = 0, friction =  1.0 } )
+	physics.addBody( instance, "dynamic", { radius = 100, density = 3, bounce = 0, friction =  1.0 } )
 	instance.isFixedRotation = true
 	instance.anchorY = 0.77
 	instance.angularDamping = 3
