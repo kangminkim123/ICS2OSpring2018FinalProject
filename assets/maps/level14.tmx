@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="40" height="120" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="328">
+ <tileset firstgid="1" name="winter" tilewidth="511" tileheight="280" tilecount="10" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="101" height="101" source="../sprites/winter/Object/Crate.png"/>
+  </tile>
+  <tile id="1">
+   <image width="97" height="78" source="../sprites/winter/Object/Crystal.png"/>
+  </tile>
+  <tile id="2">
+   <image width="101" height="101" source="../sprites/winter/Object/IceBox.png"/>
+  </tile>
+  <tile id="3">
+   <image width="511" height="201" source="../sprites/winter/Object/Igloo.png"/>
+  </tile>
+  <tile id="4">
+   <image width="87" height="94" source="../sprites/winter/Object/Sign1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="87" height="93" source="../sprites/winter/Object/Sign2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="193" height="210" source="../sprites/winter/Object/SnowMan.png"/>
+  </tile>
+  <tile id="7">
+   <image width="124" height="78" source="../sprites/winter/Object/Stone.png"/>
+  </tile>
+  <tile id="8">
+   <image width="364" height="280" source="../sprites/winter/Object/Tree1.png"/>
+  </tile>
+  <tile id="9">
+   <image width="228" height="280" source="../sprites/winter/Object/Tree2.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="parallax"/>
+ <objectgroup name="middleground"/>
+ <objectgroup name="forground">
+  <object id="325" type="hero" gid="7" x="640" y="14592" width="193" height="210"/>
+ </objectgroup>
+</map>
