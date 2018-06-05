@@ -209,12 +209,13 @@ function M.new( instance, options )
 			instance:applyForce( dx or 0, 0, instance.x, instance.y )
 		end
 
+		print( instance.y )
 		-- if the hero goes below the ground
 		-- (meaning fell through water or hole)
 		if instance.y > 2000 then
 			-- you have died
 			print( "dead" )
-			instance:hurt()
+			--instance:hurt()
 		end
 
 		-- Turn around
