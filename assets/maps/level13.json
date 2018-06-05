@@ -8,15 +8,15 @@
          "objects":[
                 {
                  "gid":31,
-                 "height":4491.51062496286,
+                 "height":4491.51,
                  "id":722,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":10266.1594442729,
+                 "width":10266.2,
                  "x":-1616,
-                 "y":1923.50005132832
+                 "y":1923.5
                 }],
          "opacity":1,
          "type":"objectgroup",
