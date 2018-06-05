@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="328">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="89" height="32" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="461">
  <tileset firstgid="1" name="background" tilewidth="1024" tileheight="768" tilecount="1" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -111,10 +111,203 @@
    <image width="326" height="101" source="../sprites/summer/background/sky.png"/>
   </tile>
  </tileset>
+ <tileset firstgid="36" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../sprites/summer/tile/water2.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="99" source="../sprites/summer/tile/water.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="93" source="../sprites/summer/tile/ledge2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="93" source="../sprites/summer/tile/ledge1.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="93" source="../sprites/summer/tile/ledge.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../sprites/summer/tile/block9.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../sprites/summer/tile/block8.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../sprites/summer/tile/block7.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../sprites/summer/tile/block6.png"/>
+  </tile>
+  <tile id="9">
+   <image width="129" height="129" source="../sprites/summer/tile/block4.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../sprites/summer/tile/block3.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../sprites/summer/tile/block2.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../sprites/summer/tile/block14.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../sprites/summer/tile/block13.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../sprites/summer/tile/block12.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../sprites/summer/tile/block11.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../sprites/summer/tile/block10.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../sprites/summer/tile/block1.png"/>
+  </tile>
+  <tile id="18">
+   <image width="282" height="275" source="../sprites/summer/objects/Tree3.png"/>
+  </tile>
+  <tile id="19">
+   <image width="282" height="301" source="../sprites/summer/objects/Tree2.png"/>
+  </tile>
+  <tile id="20">
+   <image width="116" height="44" source="../sprites/summer/objects/Tree1.png"/>
+  </tile>
+  <tile id="21">
+   <image width="90" height="54" source="../sprites/summer/objects/Stone.png"/>
+  </tile>
+  <tile id="22">
+   <image width="62" height="64" source="../sprites/summer/objects/Sign2.png"/>
+  </tile>
+  <tile id="23">
+   <image width="63" height="65" source="../sprites/summer/objects/Sign1.png"/>
+  </tile>
+  <tile id="24">
+   <image width="50" height="41" source="../sprites/summer/objects/Mushroom2.png"/>
+  </tile>
+  <tile id="25">
+   <image width="49" height="41" source="../sprites/summer/objects/Mushroom1.png"/>
+  </tile>
+  <tile id="26">
+   <image width="77" height="77" source="../sprites/summer/objects/Crate.png"/>
+  </tile>
+  <tile id="27">
+   <image width="73" height="46" source="../sprites/summer/objects/Bush4.png"/>
+  </tile>
+  <tile id="28">
+   <image width="73" height="47" source="../sprites/summer/objects/Bush3.png"/>
+  </tile>
+  <tile id="29">
+   <image width="133" height="65" source="../sprites/summer/objects/Bush2.png"/>
+  </tile>
+  <tile id="30">
+   <image width="133" height="65" source="../sprites/summer/objects/Bush1.png"/>
+  </tile>
+ </tileset>
  <objectgroup name="parallax">
-  <object id="326" gid="1" x="4" y="956" width="1024" height="768"/>
-  <object id="327" gid="1" x="1030" y="956" width="1024" height="768"/>
+  <object id="326" gid="1" x="5.57576" y="2429.12" width="1024" height="768"/>
+  <object id="327" gid="1" x="1027.97" y="2431.88" width="1024" height="768"/>
+  <object id="328" gid="1" x="2052.38" y="2430.8" width="1024" height="768"/>
+  <object id="329" gid="1" x="3069.38" y="2432.47" width="1066" height="768"/>
+  <object id="330" gid="1" x="4130.31" y="2430.26" width="1024" height="768"/>
+  <object id="331" gid="1" x="5145.31" y="2433.26" width="1036" height="768"/>
+  <object id="332" gid="1" x="6166.69" y="2434.73" width="1024" height="768"/>
+  <object id="333" gid="1" x="7187.69" y="2431.73" width="1024" height="768"/>
+  <object id="342" gid="1" x="8192" y="2433" width="1024" height="768"/>
+  <object id="343" gid="1" x="9215" y="2432" width="1024" height="768"/>
+  <object id="344" gid="1" x="10236.4" y="2437.47" width="1024" height="768"/>
+  <object id="345" gid="1" x="11259.4" y="2436.47" width="1024" height="768"/>
+  <object id="346" gid="1" x="12282.3" y="2438.26" width="1024" height="768"/>
+  <object id="347" gid="1" x="13305.3" y="2437.26" width="1024" height="768"/>
+  <object id="348" gid="1" x="14326.7" y="2442.73" width="1024" height="768"/>
+  <object id="349" gid="1" x="15349.7" y="2441.73" width="1024" height="768"/>
  </objectgroup>
- <objectgroup name="middleground"/>
+ <objectgroup name="middleground">
+  <object id="387" gid="52" x="1026" y="2817.33" width="128" height="128"/>
+  <object id="388" gid="52" x="898" y="2817.33" width="128" height="128"/>
+  <object id="389" gid="52" x="770" y="2817.33" width="128" height="128"/>
+  <object id="390" gid="52" x="642" y="2817.33" width="128" height="128"/>
+  <object id="391" gid="52" x="514" y="2817.33" width="128" height="128"/>
+  <object id="392" gid="52" x="386" y="2817.33" width="128" height="128"/>
+  <object id="393" gid="52" x="258" y="2817.33" width="128" height="128"/>
+  <object id="394" gid="52" x="130" y="2817.33" width="128" height="128"/>
+  <object id="395" gid="49" x="2" y="2817.33" width="128" height="128"/>
+  <object id="396" gid="44" x="1026" y="2689.33" width="128" height="128"/>
+  <object id="397" gid="44" x="898" y="2689.33" width="128" height="128"/>
+  <object id="398" gid="44" x="770" y="2689.33" width="128" height="128"/>
+  <object id="399" gid="44" x="642" y="2689.33" width="128" height="128"/>
+  <object id="400" gid="44" x="514" y="2689.33" width="128" height="128"/>
+  <object id="401" gid="44" x="386" y="2689.33" width="128" height="128"/>
+  <object id="402" gid="44" x="258" y="2689.33" width="128" height="128"/>
+  <object id="403" gid="44" x="130" y="2689.33" width="128" height="128"/>
+  <object id="404" gid="45" x="2" y="2689.33" width="129" height="129"/>
+  <object id="405" gid="44" x="1026" y="2561.33" width="128" height="128"/>
+  <object id="406" gid="44" x="898" y="2561.33" width="128" height="128"/>
+  <object id="407" gid="44" x="642" y="2561.33" width="128" height="128"/>
+  <object id="408" gid="44" x="770" y="2561.33" width="128" height="128"/>
+  <object id="409" gid="44" x="514" y="2561.33" width="128" height="128"/>
+  <object id="410" gid="44" x="386" y="2561.33" width="128" height="128"/>
+  <object id="411" gid="44" x="258" y="2561.33" width="128" height="128"/>
+  <object id="412" gid="44" x="130" y="2561.33" width="128" height="128"/>
+  <object id="413" gid="45" x="2" y="2561.33" width="129" height="129"/>
+  <object id="414" gid="47" x="1026" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="415" gid="47" x="898" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="416" gid="47" x="770" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="417" gid="47" x="642" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="418" gid="47" x="514" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="419" gid="47" x="386" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="420" gid="47" x="258" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="421" gid="47" x="2" y="2433.33" width="128" height="128"/>
+  <object id="422" gid="47" x="130" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="423" gid="53" x="2" y="2433.33" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="forground"/>
 </map>
