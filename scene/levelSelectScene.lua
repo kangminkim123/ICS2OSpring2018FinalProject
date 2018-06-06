@@ -111,7 +111,7 @@ local function onlevel7Release()
 	return true	-- indicates successful touch
 end
 
--- 'onRelease' event listener for level8
+-- 'onRelease' event listener for level8S
 local function onlevel8Release()
 	
 	-- go to level0.lua scene
