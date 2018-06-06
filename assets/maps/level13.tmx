@@ -789,11 +789,6 @@
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="752" gid="6" x="7296" y="1408" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
   <object id="753" gid="6" x="7168" y="1408" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
@@ -1293,5 +1288,10 @@
   <object id="1036" type="blob" gid="44" x="9600" y="1536" width="142" height="148"/>
   <object id="1039" type="blob" gid="44" x="10368" y="1536" width="142" height="148"/>
   <object id="1040" type="spikes" gid="25" x="9984" y="1536" width="132" height="74"/>
+  <object id="752" gid="6" x="7296" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
