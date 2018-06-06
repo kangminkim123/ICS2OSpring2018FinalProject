@@ -21,9 +21,6 @@ function M.new( instance, options )
 	local parent = instance.parent
 	local x, y = instance.x, instance.y
 
-	--the score
-	--local score
-
 	-- Load spritesheet
 
     -- our character
@@ -92,8 +89,11 @@ function M.new( instance, options )
 
 	-- Add physics
 	physics.addBody( instance, "dynamic", { radius = 100, density = 3, bounce = 0, friction =  1.0 } )
+	--local enemyShape = { 66,-170, 66,220, -66,220, -66,-170 }
+	--physics.addBody( instance, "dynamic", { shape=enemyShape, density = 3, bounce = 0, friction =  1.0 } )
 	instance.isFixedRotation = true
 	instance.anchorY = 0.77
+	--instance.anchorY = 0.95
 
 	-- Keyboard control
 	local max, acceleration, left, right, flip = 375, 10000, 0, 0, 0
@@ -131,7 +131,7 @@ function M.new( instance, options )
 
 	function instance:jump()
 		if not self.jumping then
-			self:applyLinearImpulse( 0, -3000 )
+			self:applyLinearImpulse( 0, -3500 )
 			self:setSequence( "jump" )
 			instance:play()
 			self.jumping = true
@@ -208,6 +208,16 @@ function M.new( instance, options )
 		if ( dx < 0 and vx > -max ) or ( dx > 0 and vx < max ) then
 			instance:applyForce( dx or 0, 0, instance.x, instance.y )
 		end
+
+		print( instance.y )
+		-- if the hero goes below the ground
+		-- (meaning fell through water or hole)
+		if instance.y > 2000 then
+			-- you have died
+			print( "dead" )
+			--instance:hurt()
+		end
+
 		-- Turn around
 		instance.xScale = math.min( 1, math.max( instance.xScale + flip, -1 ) )
 	end
