@@ -83,12 +83,12 @@ function scene:create( event )
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
-	physics.setDrawMode("hybrid")
+	--physics.setDrawMode("hybrid")
 
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level0.json"
+	local filename = "./assets/maps/level11.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
