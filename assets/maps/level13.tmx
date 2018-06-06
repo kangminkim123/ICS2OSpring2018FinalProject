@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="865">
- <tileset firstgid="1" name="FinalProjecTiles" tilewidth="2000" tileheight="1143" tilecount="53" columns="0">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="866">
+ <tileset firstgid="1" name="FinalProjecTiles" tilewidth="2000" tileheight="1143" tilecount="54" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../sprites/graveyard/Tiles/Bone1.png"/>
@@ -160,6 +160,9 @@
   </tile>
   <tile id="52">
    <image width="282" height="275" source="../sprites/summer/objects/Tree3.png"/>
+  </tile>
+  <tile id="53">
+   <image width="250" height="300" source="../sprites/items/AncientSword.png"/>
   </tile>
  </tileset>
  <objectgroup name="parallax">
@@ -578,11 +581,6 @@
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="669" gid="6" x="6656" y="1408" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
   <object id="670" gid="9" x="7168" y="1920" width="128" height="128"/>
   <object id="671" gid="9" x="7296" y="1920" width="128" height="128"/>
   <object id="672" gid="9" x="7040" y="1920" width="128" height="128"/>
@@ -678,7 +676,7 @@
   <object id="717" gid="1" x="6016" y="1792" width="392" height="392"/>
   <object id="718" gid="3" x="6912" y="1792" width="264" height="264"/>
   <object id="719" gid="4" x="6528" y="1792" width="320" height="320"/>
-  <object id="728" name="boarder" gid="40" x="101.49" y="1316.32" width="2937.64" rotation="-450">
+  <object id="728" name="boarder" gid="40" x="101.49" y="1316.32" width="2937.64" height="101" rotation="-450">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -843,6 +841,7 @@
     <property name="bodyType" value="static"/>
    </properties>
   </object>
+  <object id="865" name="Old Sword" type="coin" gid="54" x="6912" y="1024" width="336.667" height="404" rotation="180"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="417" gid="21" x="128" y="1276" width="287.655" height="291"/>
@@ -854,14 +853,19 @@
    </properties>
   </object>
   <object id="517" type="coin" gid="34" x="2432" y="1152" width="125" height="125"/>
-  <object id="721" gid="28" x="7040" y="1280" width="130.145" height="132.556"/>
-  <object id="720" gid="26" x="7204" y="1280" width="187" height="191.11"/>
-  <object id="723" gid="22" x="6220.47" y="196.533" width="534" height="264.066" rotation="-360"/>
-  <object id="724" gid="25" x="6807.47" y="173.533" width="660" height="370" rotation="-540"/>
+  <object id="721" gid="28" x="6144" y="1280" width="130.145" height="132.556"/>
+  <object id="720" gid="26" x="6400" y="1280" width="187" height="191.11"/>
+  <object id="723" gid="22" x="6912" y="256" width="534" height="264.066" rotation="-360"/>
+  <object id="724" gid="25" x="7495.47" y="229.533" width="660" height="370" rotation="-540"/>
   <object id="726" type="coin" gid="34" x="4608" y="1152" width="125" height="125"/>
-  <object id="727" type="exit" gid="36" x="6272" y="1280" width="456.571" height="578"/>
+  <object id="727" type="exit" gid="36" x="7040" y="1280" width="456.571" height="578"/>
   <object id="729" type="enemy" gid="1073741866" x="3840" y="784" width="294.4" height="368" rotation="180"/>
   <object id="731" type="blob" gid="45" x="2816" y="1280" width="145.131" height="231"/>
   <object id="734" type="spikes" gid="37" x="5296" y="1152" width="179.2" height="112"/>
+  <object id="669" gid="6" x="6656" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
