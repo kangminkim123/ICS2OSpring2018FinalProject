@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="984">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1045">
  <tileset firstgid="1" name="FinalProjecTiles" tilewidth="2000" tileheight="1143" tilecount="55" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -170,6 +170,7 @@
  </tileset>
  <objectgroup name="parallax">
   <object id="722" gid="31" x="-1616" y="1923.5" width="10266.2" height="4491.51"/>
+  <object id="1017" gid="41" x="8576" y="1920" width="5973.33" height="4480"/>
  </objectgroup>
  <objectgroup name="middleground">
   <object id="327" gid="9" x="0" y="1536" width="128" height="128"/>
@@ -924,7 +925,7 @@
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="865" name="Old Sword" type="coin" gid="54" x="6912" y="1024" width="336.667" height="404" rotation="180"/>
+  <object id="865" name="Old Sword" type="coin" gid="54" x="7552" y="1024" width="336.667" height="404" rotation="180"/>
   <object id="866" gid="9" x="7936" y="1920" width="128" height="128"/>
   <object id="867" gid="9" x="8064" y="1920" width="128" height="128"/>
   <object id="868" gid="9" x="8064" y="1920" width="128" height="128"/>
@@ -975,6 +976,30 @@
   <object id="900" gid="39" x="8704" y="1920" width="128" height="128"/>
   <object id="946" gid="39" x="8192" y="1408" width="128" height="128"/>
   <object id="949" gid="9" x="8320" y="1408" width="128" height="128"/>
+  <object id="1003" gid="39" x="11776" y="1920" width="128" height="128"/>
+  <object id="1004" gid="39" x="11520" y="1920" width="128" height="128"/>
+  <object id="1005" gid="39" x="11264" y="1920" width="128" height="128"/>
+  <object id="1006" gid="39" x="11776" y="1792" width="128" height="128"/>
+  <object id="1007" gid="39" x="11520" y="1792" width="128" height="128"/>
+  <object id="1008" gid="39" x="11264" y="1792" width="128" height="128"/>
+  <object id="1009" gid="39" x="11776" y="1664" width="128" height="128"/>
+  <object id="1010" gid="39" x="11520" y="1664" width="128" height="128"/>
+  <object id="1011" gid="39" x="11264" y="1664" width="128" height="128"/>
+  <object id="1012" gid="39" x="11776" y="1536" width="128" height="128"/>
+  <object id="1013" gid="39" x="11520" y="1536" width="128" height="128"/>
+  <object id="1014" gid="39" x="11264" y="1536" width="128" height="128"/>
+  <object id="1015" gid="9" x="11392" y="1408" width="128" height="128"/>
+  <object id="1016" gid="39" x="11264" y="1408" width="128" height="128"/>
+  <object id="1019" type="exit" gid="36" x="11520" y="1152" width="374.151" height="473.66"/>
+  <object id="1020" gid="51" x="11338.7" y="1152" width="143.333" height="86">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1041" gid="23" x="6912" y="1280" width="100" height="64"/>
+  <object id="1042" gid="23" x="7040" y="1280" width="100" height="64"/>
+  <object id="1043" gid="23" x="7552" y="1280" width="100" height="64"/>
+  <object id="1044" gid="23" x="7680" y="1280" width="100" height="64"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="417" gid="21" x="128" y="1276" width="287.655" height="291"/>
@@ -992,7 +1017,6 @@
   <object id="724" gid="25" x="8775.47" y="256" width="660" height="370" rotation="-540"/>
   <object id="726" type="coin" gid="34" x="4608" y="1152" width="125" height="125"/>
   <object id="729" type="enemy" gid="1073741866" x="3840" y="784" width="294.4" height="368" rotation="180"/>
-  <object id="731" type="blob" gid="45" x="2816" y="1280" width="145.131" height="231"/>
   <object id="734" type="spikes" gid="37" x="5296" y="1152" width="179.2" height="112"/>
   <object id="669" gid="6" x="6656" y="1408" width="128" height="128">
    <properties>
@@ -1142,27 +1166,27 @@
    </properties>
   </object>
   <object id="969" gid="32" x="9344" y="1792" width="128" height="99"/>
-  <object id="970" gid="18" x="9472" y="1280" width="128" height="128">
+  <object id="970" gid="18" x="9472" y="1080" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="972" gid="20" x="10496" y="1280" width="128" height="128">
+  <object id="972" gid="20" x="10496" y="1080" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="973" gid="19" x="9728" y="1280" width="128" height="128">
+  <object id="973" gid="19" x="9728" y="1080" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="974" gid="19" x="9984" y="1280" width="128" height="128">
+  <object id="974" gid="19" x="9984" y="1080" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="975" gid="19" x="10240" y="1280" width="128" height="128">
+  <object id="975" gid="19" x="10240" y="1080" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
@@ -1174,25 +1198,100 @@
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="980" type="spikes" gid="55" x="9600" y="1224" width="127" height="60">
+  <object id="980" type="spikes" gid="55" x="9600" y="1024" width="127" height="60">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="981" type="spikes" gid="55" x="9856" y="1224" width="127" height="60">
+  <object id="981" type="spikes" gid="55" x="9856" y="1024" width="127" height="60">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="982" type="spikes" gid="55" x="10112" y="1224" width="127" height="60">
+  <object id="982" type="spikes" gid="55" x="10112" y="1024" width="127" height="60">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="983" type="spikes" gid="55" x="10368" y="1224" width="127" height="60">
+  <object id="983" type="spikes" gid="55" x="10368" y="1024" width="127" height="60">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
+  <object id="984" type="blob" gid="27" x="2688" y="1280" width="363.12" height="178"/>
+  <object id="985" type="coin" gid="34" x="9160" y="1336" width="125" height="125"/>
+  <object id="986" type="coin" gid="34" x="10824" y="1344" width="125" height="125"/>
+  <object id="987" gid="9" x="11648" y="1920" width="128" height="128"/>
+  <object id="988" gid="9" x="11392" y="1920" width="128" height="128"/>
+  <object id="989" gid="9" x="11648" y="1792" width="128" height="128"/>
+  <object id="990" gid="9" x="11392" y="1792" width="128" height="128"/>
+  <object id="991" gid="9" x="11648" y="1664" width="128" height="128"/>
+  <object id="992" gid="9" x="11392" y="1664" width="128" height="128"/>
+  <object id="993" gid="9" x="11648" y="1536" width="128" height="128"/>
+  <object id="994" gid="9" x="11392" y="1536" width="128" height="128"/>
+  <object id="995" gid="39" x="11776" y="1408" width="128" height="128"/>
+  <object id="996" gid="39" x="11520" y="1408" width="128" height="128"/>
+  <object id="997" gid="9" x="11648" y="1408" width="128" height="128"/>
+  <object id="998" gid="6" x="11648" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="999" gid="6" x="11392" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1000" gid="38" x="11776" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1001" gid="38" x="11520" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1002" gid="38" x="11264" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1021" type="spikes" gid="33" x="11136" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1022" type="spikes" gid="33" x="11008" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1023" type="spikes" gid="33" x="10880" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1024" type="spikes" gid="33" x="10752" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1025" type="spikes" gid="33" x="10624" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1026" gid="32" x="11136" y="1792" width="128" height="99"/>
+  <object id="1027" gid="32" x="11008" y="1792" width="128" height="99"/>
+  <object id="1028" gid="32" x="10880" y="1792" width="128" height="99"/>
+  <object id="1029" gid="32" x="10752" y="1792" width="128" height="99"/>
+  <object id="1030" gid="32" x="10624" y="1792" width="128" height="99"/>
+  <object id="1031" gid="1073741861" x="11136" y="1408" width="216" height="135" rotation="90"/>
+  <object id="1032" name="boarder" gid="40" x="9488" y="1408" width="326" rotation="90"/>
+  <object id="1033" name="boarder" gid="40" x="10512" y="1408" width="310" rotation="90"/>
+  <object id="1036" type="blob" gid="44" x="9600" y="1536" width="142" height="148"/>
+  <object id="1039" type="blob" gid="44" x="10368" y="1536" width="142" height="148"/>
+  <object id="1040" type="spikes" gid="25" x="9984" y="1536" width="132" height="74"/>
  </objectgroup>
 </map>
