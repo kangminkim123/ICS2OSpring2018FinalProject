@@ -26,7 +26,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":5973.33333333333,
+                 "width":5973.33,
                  "x":8576,
                  "y":1920
                 }],
@@ -4326,7 +4326,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":728,
                  "name":"boarder",
                  "properties":
@@ -6136,13 +6136,13 @@
                 }, 
                 {
                  "gid":36,
-                 "height":473.659574468086,
+                 "height":473.66,
                  "id":1019,
                  "name":"",
                  "rotation":0,
                  "type":"exit",
                  "visible":true,
-                 "width":374.151260504202,
+                 "width":374.151,
                  "x":11520,
                  "y":1152
                 }, 
@@ -6162,8 +6162,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":143.333333333333,
-                 "x":11338.6666666667,
+                 "width":143.333,
+                 "x":11338.7,
                  "y":1152
                 }, 
                 {
@@ -6213,6 +6213,30 @@
                  "width":100,
                  "x":7680,
                  "y":1280
+                }, 
+                {
+                 "gid":3,
+                 "height":264,
+                 "id":1046,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":264,
+                 "x":7216,
+                 "y":1712
+                }, 
+                {
+                 "gid":4,
+                 "height":320,
+                 "id":1047,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":320,
+                 "x":7688,
+                 "y":1736
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -7878,7 +7902,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":1032,
                  "name":"boarder",
                  "rotation":90,
@@ -7890,7 +7914,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":1033,
                  "name":"boarder",
                  "rotation":90,
@@ -7962,7 +7986,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1045,
+ "nextobjectid":1048,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",

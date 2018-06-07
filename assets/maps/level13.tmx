@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1045">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1048">
  <tileset firstgid="1" name="FinalProjecTiles" tilewidth="2000" tileheight="1143" tilecount="55" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -760,7 +760,7 @@
   <object id="717" gid="1" x="6016" y="1792" width="392" height="392"/>
   <object id="718" gid="3" x="6912" y="1792" width="264" height="264"/>
   <object id="719" gid="4" x="6528" y="1792" width="320" height="320"/>
-  <object id="728" name="boarder" gid="40" x="101.49" y="1316.32" width="2937.64" rotation="-450">
+  <object id="728" name="boarder" gid="40" x="101.49" y="1316.32" width="2937.64" height="101" rotation="-450">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -995,6 +995,8 @@
   <object id="1042" gid="23" x="7040" y="1280" width="100" height="64"/>
   <object id="1043" gid="23" x="7552" y="1280" width="100" height="64"/>
   <object id="1044" gid="23" x="7680" y="1280" width="100" height="64"/>
+  <object id="1046" gid="3" x="7216" y="1712" width="264" height="264"/>
+  <object id="1047" gid="4" x="7688" y="1736" width="320" height="320"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="417" gid="21" x="128" y="1276" width="287.655" height="291"/>
@@ -1283,8 +1285,8 @@
   <object id="1029" gid="32" x="10752" y="1792" width="128" height="99"/>
   <object id="1030" gid="32" x="10624" y="1792" width="128" height="99"/>
   <object id="1031" gid="1073741861" x="11136" y="1408" width="216" height="135" rotation="90"/>
-  <object id="1032" name="boarder" gid="40" x="9488" y="1408" width="326" rotation="90"/>
-  <object id="1033" name="boarder" gid="40" x="10512" y="1408" width="310" rotation="90"/>
+  <object id="1032" name="boarder" gid="40" x="9488" y="1408" width="326" height="101" rotation="90"/>
+  <object id="1033" name="boarder" gid="40" x="10512" y="1408" width="310" height="101" rotation="90"/>
   <object id="1036" type="blob" gid="44" x="9600" y="1536" width="142" height="148"/>
   <object id="1039" type="blob" gid="44" x="10368" y="1536" width="142" height="148"/>
   <object id="1040" type="spikes" gid="25" x="9984" y="1536" width="132" height="74"/>
