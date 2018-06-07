@@ -15,6 +15,8 @@ https://docs.coronalabs.com/guide/system/composer/index.html
 
 -- Include the Composer library
 local composer = require( "composer" )
+-- for global varaibles
+local globalData = require( "globalData" )
 
 -- Removes status bar on iOS
 -- https://docs.coronalabs.com/api/library/display/setStatusBar.html
@@ -31,6 +33,9 @@ end
 
 -- reserve music channel
 audio.reserveChannels(1)
+
+-- global height variable
+--globalData.heroYPosition = 0
 
 -- go to menu screen
 composer.gotoScene( "scene.mainMenuScene", { params={ } } )
