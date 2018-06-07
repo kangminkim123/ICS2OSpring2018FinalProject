@@ -87,7 +87,7 @@ end
 local function onlevel5Release()
 	
 	-- go to level5.lua scene
-	composer.gotoScene( "scene.level5", { params = {} } )
+composer.gotoScene( ".scene.level5", { params = {} } )
 
 	return true	-- indicates successful touch
 end
