@@ -80,7 +80,11 @@ local function onlevel4Release()
 	
 	-- go to level0.lua scene
 <<<<<<< HEAD
+<<<<<<< HEAD
 	composer.gotoScene( ".scene.level4", { params = {} } )
+=======
+	composer.gotoScene( "scene.level4", "fade", 500 )
+>>>>>>> eb205fce833fc34a6d17531da600fd1684205c0c
 =======
 	composer.gotoScene( "scene.level4", "fade", 500 )
 >>>>>>> eb205fce833fc34a6d17531da600fd1684205c0c
