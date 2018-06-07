@@ -7,18 +7,12 @@ local physics = require( "physics" )
 local json = require( "json" )
 local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
--- for global varaibles
-local globalData = require( "globalData" )
 
 -- Variables local to scene
 local map, hero, shield, parallax
 
 -- Create a new Composer scene
 local scene = composer.newScene()
-
--- set hero's position
--- global height variable
-globalData.heroYPosition = 2500
 
 -- This function is called when scene is created
 function scene:create( event )
@@ -89,12 +83,12 @@ function scene:create( event )
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
-	physics.setDrawMode("hybrid")
+	--physics.setDrawMode("hybrid")
 
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level0.json"
+	local filename = "./assets/maps/level7.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )

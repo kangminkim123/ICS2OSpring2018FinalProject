@@ -25,7 +25,7 @@ function M.new( instance )
 		if phase == "began" and other.name == "hero" and not other.isDead then
 			other.isDead = true
 			other.linearDamping = 8
-			audio.play( sounds.door )
+			audio.play( sounds.thud )
 			self.fill.effect = "filter.exposure"
 			transition.to( self.fill.effect, { time = 666, exposure = -5, onComplete = function()
 				fx.fadeOut( function()
