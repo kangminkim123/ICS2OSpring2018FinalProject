@@ -4,6 +4,8 @@
 -- Use this as a template to build an in-game hero 
 local fx = require( "com.ponywolf.ponyfx" )
 local composer = require( "composer" )
+-- for global varaibles
+local globalData = require( "globalData" )
 
 -- Define module
 local M = {}
@@ -209,14 +211,17 @@ function M.new( instance, options )
 			instance:applyForce( dx or 0, 0, instance.x, instance.y )
 		end
 
-		print( instance.y )
+		--print( globalData.heroYPosition )
 		-- if the hero goes below the ground
 		-- (meaning fell through water or hole)
-		if instance.y > 2000 then
+		--if globalData.heroYPosition ~= nil then
+			--if instance.y > globalData.heroYPosition then
 			-- you have died
-			print( "dead" )
-			--instance:hurt()
-		end
+			--print( "dead" )
+				--instance:hurt()
+			--end
+		--end
+		
 
 		-- Turn around
 		instance.xScale = math.min( 1, math.max( instance.xScale + flip, -1 ) )
