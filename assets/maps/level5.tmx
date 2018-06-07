@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="637">
+ <tileset firstgid="1" name="objects" tilewidth="511" tileheight="464" tilecount="117" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="56" height="78" source="../../../FinalProjectTest/assets/sprites/blockyLand/coinFour.png"/>
+  </tile>
+  <tile id="1">
+   <image width="77" height="77" source="../../../FinalProjectTest/assets/sprites/blockyLand/coinOne.png"/>
+  </tile>
+  <tile id="2">
+   <image width="22" height="77" source="../../../FinalProjectTest/assets/sprites/blockyLand/coinThree.png"/>
+  </tile>
+  <tile id="3">
+   <image width="56" height="78" source="../../../FinalProjectTest/assets/sprites/blockyLand/coinTwo.png"/>
+  </tile>
+  <tile id="4">
+   <image width="110" height="110" source="../../../FinalProjectTest/assets/sprites/blockyLand/crate.png"/>
+  </tile>
+  <tile id="5">
+   <image width="188" height="238" source="../../../FinalProjectTest/assets/sprites/blockyLand/door.png"/>
+  </tile>
+  <tile id="6">
+   <image width="127" height="60" source="../../../FinalProjectTest/assets/sprites/blockyLand/movingPlatform.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="80" source="../../../FinalProjectTest/assets/sprites/blockyLand/spike.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileEight.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileEleven.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileFive.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileFour.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileNine.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileOne.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileSeven.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileSix.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileTen.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileThree.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileTwelve.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/blockyLand/tileTwo.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="126" source="../../../FinalProjectTest/assets/sprites/blockyLand/trampolineOne.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="100" source="../../../FinalProjectTest/assets/sprites/blockyLand/trampolineThree.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="114" source="../../../FinalProjectTest/assets/sprites/blockyLand/trampolineTwo.png"/>
+  </tile>
+  <tile id="23">
+   <image width="145" height="88" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Bush1.png"/>
+  </tile>
+  <tile id="24">
+   <image width="131" height="74" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Bush2.png"/>
+  </tile>
+  <tile id="25">
+   <image width="108" height="111" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Cactus1.png"/>
+  </tile>
+  <tile id="26">
+   <image width="70" height="45" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Cactus2.png"/>
+  </tile>
+  <tile id="27">
+   <image width="86" height="96" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Cactus3.png"/>
+  </tile>
+  <tile id="28">
+   <image width="101" height="101" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Crate.png"/>
+  </tile>
+  <tile id="29">
+   <image width="102" height="50" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Grass1.png"/>
+  </tile>
+  <tile id="30">
+   <image width="102" height="50" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Grass2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="85" height="88" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Sign.png"/>
+  </tile>
+  <tile id="32">
+   <image width="84" height="87" source="../../../FinalProjectTest/assets/sprites/desert/Objects/SignArrow.png"/>
+  </tile>
+  <tile id="33">
+   <image width="150" height="51" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Skeleton.png"/>
+  </tile>
+  <tile id="34">
+   <image width="124" height="73" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Stone.png"/>
+  </tile>
+  <tile id="35">
+   <image width="101" height="99" source="../../../FinalProjectTest/assets/sprites/desert/Objects/StoneBlock.png"/>
+  </tile>
+  <tile id="36">
+   <image width="313" height="260" source="../../../FinalProjectTest/assets/sprites/desert/Objects/Tree.png"/>
+  </tile>
+  <tile id="37">
+   <image width="86" height="87" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/ArrowSign.png"/>
+  </tile>
+  <tile id="38">
+   <image width="182" height="90" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/Bush1.png"/>
+  </tile>
+  <tile id="39">
+   <image width="100" height="64" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/Bush2.png"/>
+  </tile>
+  <tile id="40">
+   <image width="106" height="106" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/Crate.png"/>
+  </tile>
+  <tile id="41">
+   <image width="132" height="74" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/DeadBush.png"/>
+  </tile>
+  <tile id="42">
+   <image width="91" height="93" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/Sign.png"/>
+  </tile>
+  <tile id="43">
+   <image width="102" height="50" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/Skeleton.png"/>
+  </tile>
+  <tile id="44">
+   <image width="54" height="55" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/TombStone1.png"/>
+  </tile>
+  <tile id="45">
+   <image width="53" height="76" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/TombStone2.png"/>
+  </tile>
+  <tile id="46">
+   <image width="286" height="239" source="../../../FinalProjectTest/assets/sprites/graveyard/Objects/Tree.png"/>
+  </tile>
+  <tile id="47">
+   <image width="211" height="215" source="../../../FinalProjectTest/assets/sprites/items/bubble.png"/>
+  </tile>
+  <tile id="48">
+   <image width="78" height="70" source="../../../FinalProjectTest/assets/sprites/items/carrot.png"/>
+  </tile>
+  <tile id="49">
+   <image width="78" height="70" source="../../../FinalProjectTest/assets/sprites/items/carrot_gold.png"/>
+  </tile>
+  <tile id="50">
+   <image width="160" height="32" source="../../../FinalProjectTest/assets/sprites/items/Kunai.png"/>
+  </tile>
+  <tile id="51">
+   <image width="58" height="41" source="../../../FinalProjectTest/assets/sprites/items/particle_beige.png"/>
+  </tile>
+  <tile id="52">
+   <image width="51" height="49" source="../../../FinalProjectTest/assets/sprites/items/particle_blue.png"/>
+  </tile>
+  <tile id="53">
+   <image width="44" height="48" source="../../../FinalProjectTest/assets/sprites/items/particle_brown.png"/>
+  </tile>
+  <tile id="54">
+   <image width="54" height="43" source="../../../FinalProjectTest/assets/sprites/items/particle_darkBrown.png"/>
+  </tile>
+  <tile id="55">
+   <image width="51" height="43" source="../../../FinalProjectTest/assets/sprites/items/particle_darkGrey.png"/>
+  </tile>
+  <tile id="56">
+   <image width="48" height="46" source="../../../FinalProjectTest/assets/sprites/items/particle_green.png"/>
+  </tile>
+  <tile id="57">
+   <image width="38" height="41" source="../../../FinalProjectTest/assets/sprites/items/particle_grey.png"/>
+  </tile>
+  <tile id="58">
+   <image width="53" height="46" source="../../../FinalProjectTest/assets/sprites/items/particle_pink.png"/>
+  </tile>
+  <tile id="59">
+   <image width="20" height="20" source="../../../FinalProjectTest/assets/sprites/items/portal_orangeParticle.png"/>
+  </tile>
+  <tile id="60">
+   <image width="20" height="20" source="../../../FinalProjectTest/assets/sprites/items/portal_yellowParticle.png"/>
+  </tile>
+  <tile id="61">
+   <image width="71" height="70" source="../../../FinalProjectTest/assets/sprites/items/powerup_bubble.png"/>
+  </tile>
+  <tile id="62">
+   <image width="71" height="70" source="../../../FinalProjectTest/assets/sprites/items/powerup_bunny.png"/>
+  </tile>
+  <tile id="63">
+   <image width="71" height="70" source="../../../FinalProjectTest/assets/sprites/items/powerup_empty.png"/>
+  </tile>
+  <tile id="64">
+   <image width="71" height="70" source="../../../FinalProjectTest/assets/sprites/items/powerup_jetpack.png"/>
+  </tile>
+  <tile id="65">
+   <image width="71" height="70" source="../../../FinalProjectTest/assets/sprites/items/powerup_wings.png"/>
+  </tile>
+  <tile id="66">
+   <image width="128" height="32" source="../../../FinalProjectTest/assets/sprites/items/trap.png"/>
+  </tile>
+  <tile id="67">
+   <image width="177" height="238" source="../../../FinalProjectTest/assets/sprites/space/Objects/Barrel1.png"/>
+  </tile>
+  <tile id="68">
+   <image width="177" height="238" source="../../../FinalProjectTest/assets/sprites/space/Objects/Barrel2.png"/>
+  </tile>
+  <tile id="69">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Objects/Box.png"/>
+  </tile>
+  <tile id="70">
+   <image width="280" height="464" source="../../../FinalProjectTest/assets/sprites/space/Objects/DoorLocked.png"/>
+  </tile>
+  <tile id="71">
+   <image width="280" height="464" source="../../../FinalProjectTest/assets/sprites/space/Objects/DoorOpen.png"/>
+  </tile>
+  <tile id="72">
+   <image width="281" height="464" source="../../../FinalProjectTest/assets/sprites/space/Objects/DoorUnlocked.png"/>
+  </tile>
+  <tile id="73">
+   <image width="357" height="361" source="../../../FinalProjectTest/assets/sprites/space/Objects/Saw.png"/>
+  </tile>
+  <tile id="74">
+   <image width="72" height="257" source="../../../FinalProjectTest/assets/sprites/space/Objects/Switch1.png"/>
+  </tile>
+  <tile id="75">
+   <image width="72" height="257" source="../../../FinalProjectTest/assets/sprites/space/Objects/Switch2.png"/>
+  </tile>
+  <tile id="76">
+   <image width="133" height="65" source="../../../FinalProjectTest/assets/sprites/summer/objects/Bush1.png"/>
+  </tile>
+  <tile id="77">
+   <image width="133" height="65" source="../../../FinalProjectTest/assets/sprites/summer/objects/Bush2.png"/>
+  </tile>
+  <tile id="78">
+   <image width="73" height="47" source="../../../FinalProjectTest/assets/sprites/summer/objects/Bush3.png"/>
+  </tile>
+  <tile id="79">
+   <image width="73" height="46" source="../../../FinalProjectTest/assets/sprites/summer/objects/Bush4.png"/>
+  </tile>
+  <tile id="80">
+   <image width="77" height="77" source="../../../FinalProjectTest/assets/sprites/summer/objects/Crate.png"/>
+  </tile>
+  <tile id="81">
+   <image width="49" height="41" source="../../../FinalProjectTest/assets/sprites/summer/objects/Mushroom1.png"/>
+  </tile>
+  <tile id="82">
+   <image width="50" height="41" source="../../../FinalProjectTest/assets/sprites/summer/objects/Mushroom2.png"/>
+  </tile>
+  <tile id="83">
+   <image width="63" height="65" source="../../../FinalProjectTest/assets/sprites/summer/objects/Sign1.png"/>
+  </tile>
+  <tile id="84">
+   <image width="62" height="64" source="../../../FinalProjectTest/assets/sprites/summer/objects/Sign2.png"/>
+  </tile>
+  <tile id="85">
+   <image width="90" height="54" source="../../../FinalProjectTest/assets/sprites/summer/objects/Stone.png"/>
+  </tile>
+  <tile id="86">
+   <image width="116" height="44" source="../../../FinalProjectTest/assets/sprites/summer/objects/Tree1.png"/>
+  </tile>
+  <tile id="87">
+   <image width="282" height="301" source="../../../FinalProjectTest/assets/sprites/summer/objects/Tree2.png"/>
+  </tile>
+  <tile id="88">
+   <image width="282" height="275" source="../../../FinalProjectTest/assets/sprites/summer/objects/Tree3.png"/>
+  </tile>
+  <tile id="89">
+   <image width="101" height="101" source="../../../FinalProjectTest/assets/sprites/winter/Object/Crate.png"/>
+  </tile>
+  <tile id="90">
+   <image width="97" height="78" source="../../../FinalProjectTest/assets/sprites/winter/Object/Crystal.png"/>
+  </tile>
+  <tile id="91">
+   <image width="101" height="101" source="../../../FinalProjectTest/assets/sprites/winter/Object/IceBox.png"/>
+  </tile>
+  <tile id="92">
+   <image width="511" height="201" source="../../../FinalProjectTest/assets/sprites/winter/Object/Igloo.png"/>
+  </tile>
+  <tile id="93">
+   <image width="87" height="94" source="../../../FinalProjectTest/assets/sprites/winter/Object/Sign1.png"/>
+  </tile>
+  <tile id="94">
+   <image width="87" height="93" source="../../../FinalProjectTest/assets/sprites/winter/Object/Sign2.png"/>
+  </tile>
+  <tile id="95">
+   <image width="193" height="210" source="../../../FinalProjectTest/assets/sprites/winter/Object/SnowMan.png"/>
+  </tile>
+  <tile id="96">
+   <image width="124" height="78" source="../../../FinalProjectTest/assets/sprites/winter/Object/Stone.png"/>
+  </tile>
+  <tile id="97">
+   <image width="364" height="280" source="../../../FinalProjectTest/assets/sprites/winter/Object/Tree1.png"/>
+  </tile>
+  <tile id="98">
+   <image width="228" height="280" source="../../../FinalProjectTest/assets/sprites/winter/Object/Tree2.png"/>
+  </tile>
+  <tile id="99">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter1.png"/>
+  </tile>
+  <tile id="100">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter2.png"/>
+  </tile>
+  <tile id="101">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter3.png"/>
+  </tile>
+  <tile id="102">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter4.png"/>
+  </tile>
+  <tile id="103">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter5.png"/>
+  </tile>
+  <tile id="104">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter6.png"/>
+  </tile>
+  <tile id="105">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter7.png"/>
+  </tile>
+  <tile id="106">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter8.png"/>
+  </tile>
+  <tile id="107">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter9.png"/>
+  </tile>
+  <tile id="108">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter10.png"/>
+  </tile>
+  <tile id="109">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter11.png"/>
+  </tile>
+  <tile id="110">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter12.png"/>
+  </tile>
+  <tile id="111">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter13.png"/>
+  </tile>
+  <tile id="112">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter14.png"/>
+  </tile>
+  <tile id="113">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter15.png"/>
+  </tile>
+  <tile id="114">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter16.png"/>
+  </tile>
+  <tile id="115">
+   <image width="128" height="99" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter17.png"/>
+  </tile>
+  <tile id="116">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter18.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="118" name="background" tilewidth="1800" tileheight="893" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="326" height="101" source="../../../FinalProjectTest/assets/sprites/summer/background/sky.png"/>
+  </tile>
+  <tile id="1">
+   <image width="1024" height="768" source="../../../FinalProjectTest/assets/sprites/summer/background/summerBackground.png"/>
+  </tile>
+  <tile id="2">
+   <image width="1800" height="893" source="../../../FinalProjectTest/assets/sprites/winter/BG/winterBG.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="121" name="titles" tilewidth="380" tileheight="256" tilecount="135" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert6.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert7.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert8.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert9.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert10.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert11.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert12.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert13.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert14.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert15.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/desert/Tile/desert16.png"/>
+  </tile>
+  <tile id="16">
+   <image width="117" height="160" source="../../../FinalProjectTest/assets/sprites/environment/cactus.png"/>
+  </tile>
+  <tile id="17">
+   <image width="58" height="57" source="../../../FinalProjectTest/assets/sprites/environment/grass_brown1.png"/>
+  </tile>
+  <tile id="18">
+   <image width="82" height="70" source="../../../FinalProjectTest/assets/sprites/environment/grass_brown2.png"/>
+  </tile>
+  <tile id="19">
+   <image width="58" height="57" source="../../../FinalProjectTest/assets/sprites/environment/grass1.png"/>
+  </tile>
+  <tile id="20">
+   <image width="82" height="70" source="../../../FinalProjectTest/assets/sprites/environment/grass2.png"/>
+  </tile>
+  <tile id="21">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_cake.png"/>
+  </tile>
+  <tile id="22">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_cake_broken.png"/>
+  </tile>
+  <tile id="23">
+   <image width="201" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_cake_small.png"/>
+  </tile>
+  <tile id="24">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_cake_small_broken.png"/>
+  </tile>
+  <tile id="25">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_grass.png"/>
+  </tile>
+  <tile id="26">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_grass_broken.png"/>
+  </tile>
+  <tile id="27">
+   <image width="201" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_grass_small.png"/>
+  </tile>
+  <tile id="28">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_grass_small_broken.png"/>
+  </tile>
+  <tile id="29">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_sand.png"/>
+  </tile>
+  <tile id="30">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_sand_broken.png"/>
+  </tile>
+  <tile id="31">
+   <image width="201" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_sand_small.png"/>
+  </tile>
+  <tile id="32">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_sand_small_broken.png"/>
+  </tile>
+  <tile id="33">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_snow.png"/>
+  </tile>
+  <tile id="34">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_snow_broken.png"/>
+  </tile>
+  <tile id="35">
+   <image width="201" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_snow_small.png"/>
+  </tile>
+  <tile id="36">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_snow_small_broken.png"/>
+  </tile>
+  <tile id="37">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_stone.png"/>
+  </tile>
+  <tile id="38">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_stone_broken.png"/>
+  </tile>
+  <tile id="39">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_stone_small.png"/>
+  </tile>
+  <tile id="40">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_stone_small_broken.png"/>
+  </tile>
+  <tile id="41">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_wood.png"/>
+  </tile>
+  <tile id="42">
+   <image width="380" height="94" source="../../../FinalProjectTest/assets/sprites/environment/ground_wood_broken.png"/>
+  </tile>
+  <tile id="43">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_wood_small.png"/>
+  </tile>
+  <tile id="44">
+   <image width="200" height="100" source="../../../FinalProjectTest/assets/sprites/environment/ground_wood_small_broken.png"/>
+  </tile>
+  <tile id="45">
+   <image width="81" height="85" source="../../../FinalProjectTest/assets/sprites/environment/mushroom_brown.png"/>
+  </tile>
+  <tile id="46">
+   <image width="81" height="99" source="../../../FinalProjectTest/assets/sprites/environment/mushroom_red.png"/>
+  </tile>
+  <tile id="47">
+   <image width="51" height="87" source="../../../FinalProjectTest/assets/sprites/environment/spike_bottom.png"/>
+  </tile>
+  <tile id="48">
+   <image width="51" height="87" source="../../../FinalProjectTest/assets/sprites/environment/spike_top.png"/>
+  </tile>
+  <tile id="49">
+   <image width="95" height="53" source="../../../FinalProjectTest/assets/sprites/environment/spikes_bottom.png"/>
+  </tile>
+  <tile id="50">
+   <image width="95" height="53" source="../../../FinalProjectTest/assets/sprites/environment/spikes_top.png"/>
+  </tile>
+  <tile id="51">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Bone1.png"/>
+  </tile>
+  <tile id="52">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Bone2.png"/>
+  </tile>
+  <tile id="53">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Bone3.png"/>
+  </tile>
+  <tile id="54">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Bone4.png"/>
+  </tile>
+  <tile id="55">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile1.png"/>
+  </tile>
+  <tile id="56">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile2.png"/>
+  </tile>
+  <tile id="57">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile3.png"/>
+  </tile>
+  <tile id="58">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile4.png"/>
+  </tile>
+  <tile id="59">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile5.png"/>
+  </tile>
+  <tile id="60">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile6.png"/>
+  </tile>
+  <tile id="61">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile7.png"/>
+  </tile>
+  <tile id="62">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile8.png"/>
+  </tile>
+  <tile id="63">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile9.png"/>
+  </tile>
+  <tile id="64">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile10.png"/>
+  </tile>
+  <tile id="65">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile11.png"/>
+  </tile>
+  <tile id="66">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile12.png"/>
+  </tile>
+  <tile id="67">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile13.png"/>
+  </tile>
+  <tile id="68">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile14.png"/>
+  </tile>
+  <tile id="69">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile15.png"/>
+  </tile>
+  <tile id="70">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/graveyard/Tiles/Tile16.png"/>
+  </tile>
+  <tile id="71">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Acid1.png"/>
+  </tile>
+  <tile id="72">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Acid2.png"/>
+  </tile>
+  <tile id="73">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/BGTile1.png"/>
+  </tile>
+  <tile id="74">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/BGTile2.png"/>
+  </tile>
+  <tile id="75">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/BGTile3.png"/>
+  </tile>
+  <tile id="76">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/BGTile4.png"/>
+  </tile>
+  <tile id="77">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/BGTile5.png"/>
+  </tile>
+  <tile id="78">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/BGTile6.png"/>
+  </tile>
+  <tile id="79">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/BGTile7.png"/>
+  </tile>
+  <tile id="80">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Fence1.png"/>
+  </tile>
+  <tile id="81">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Fence2.png"/>
+  </tile>
+  <tile id="82">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Fence3.png"/>
+  </tile>
+  <tile id="83">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Spike.png"/>
+  </tile>
+  <tile id="84">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile1.png"/>
+  </tile>
+  <tile id="85">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile2.png"/>
+  </tile>
+  <tile id="86">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile3.png"/>
+  </tile>
+  <tile id="87">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile4.png"/>
+  </tile>
+  <tile id="88">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile5.png"/>
+  </tile>
+  <tile id="89">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile6.png"/>
+  </tile>
+  <tile id="90">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile7.png"/>
+  </tile>
+  <tile id="91">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile8.png"/>
+  </tile>
+  <tile id="92">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile9.png"/>
+  </tile>
+  <tile id="93">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile10.png"/>
+  </tile>
+  <tile id="94">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile11.png"/>
+  </tile>
+  <tile id="95">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile12.png"/>
+  </tile>
+  <tile id="96">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile13.png"/>
+  </tile>
+  <tile id="97">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile14.png"/>
+  </tile>
+  <tile id="98">
+   <image width="256" height="256" source="../../../FinalProjectTest/assets/sprites/space/Tiles/Tile15.png"/>
+  </tile>
+  <tile id="99">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block1.png"/>
+  </tile>
+  <tile id="100">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block2.png"/>
+  </tile>
+  <tile id="101">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block3.png"/>
+  </tile>
+  <tile id="102">
+   <image width="129" height="129" source="../../../FinalProjectTest/assets/sprites/summer/tile/block4.png"/>
+  </tile>
+  <tile id="103">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block6.png"/>
+  </tile>
+  <tile id="104">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block7.png"/>
+  </tile>
+  <tile id="105">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block8.png"/>
+  </tile>
+  <tile id="106">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block9.png"/>
+  </tile>
+  <tile id="107">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block10.png"/>
+  </tile>
+  <tile id="108">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block11.png"/>
+  </tile>
+  <tile id="109">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block12.png"/>
+  </tile>
+  <tile id="110">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block13.png"/>
+  </tile>
+  <tile id="111">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/block14.png"/>
+  </tile>
+  <tile id="112">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/summer/tile/ledge.png"/>
+  </tile>
+  <tile id="113">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/summer/tile/ledge1.png"/>
+  </tile>
+  <tile id="114">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/summer/tile/ledge2.png"/>
+  </tile>
+  <tile id="115">
+   <image width="128" height="99" source="../../../FinalProjectTest/assets/sprites/summer/tile/water.png"/>
+  </tile>
+  <tile id="116">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/summer/tile/water2.png"/>
+  </tile>
+  <tile id="117">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter1.png"/>
+  </tile>
+  <tile id="118">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter2.png"/>
+  </tile>
+  <tile id="119">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter3.png"/>
+  </tile>
+  <tile id="120">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter4.png"/>
+  </tile>
+  <tile id="121">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter5.png"/>
+  </tile>
+  <tile id="122">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter6.png"/>
+  </tile>
+  <tile id="123">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter7.png"/>
+  </tile>
+  <tile id="124">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter8.png"/>
+  </tile>
+  <tile id="125">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter9.png"/>
+  </tile>
+  <tile id="126">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter10.png"/>
+  </tile>
+  <tile id="127">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter11.png"/>
+  </tile>
+  <tile id="128">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter12.png"/>
+  </tile>
+  <tile id="129">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter13.png"/>
+  </tile>
+  <tile id="130">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter14.png"/>
+  </tile>
+  <tile id="131">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter15.png"/>
+  </tile>
+  <tile id="132">
+   <image width="128" height="93" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter16.png"/>
+  </tile>
+  <tile id="133">
+   <image width="128" height="99" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter17.png"/>
+  </tile>
+  <tile id="134">
+   <image width="128" height="128" source="../../../FinalProjectTest/assets/sprites/winter/Tiles/winter18.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="256" name="enemy" tilewidth="260" tileheight="207" tilecount="34" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="150" height="174" source="../../../FinalProjectTest/assets/sprites/enemy/bunny1_hurt.png"/>
+  </tile>
+  <tile id="1">
+   <image width="150" height="181" source="../../../FinalProjectTest/assets/sprites/enemy/bunny1_jump.png"/>
+  </tile>
+  <tile id="2">
+   <image width="120" height="191" source="../../../FinalProjectTest/assets/sprites/enemy/bunny1_ready.png"/>
+  </tile>
+  <tile id="3">
+   <image width="120" height="201" source="../../../FinalProjectTest/assets/sprites/enemy/bunny1_stand.png"/>
+  </tile>
+  <tile id="4">
+   <image width="120" height="201" source="../../../FinalProjectTest/assets/sprites/enemy/bunny1_walk1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="120" height="207" source="../../../FinalProjectTest/assets/sprites/enemy/bunny1_walk2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="150" height="174" source="../../../FinalProjectTest/assets/sprites/enemy/bunny2_hurt.png"/>
+  </tile>
+  <tile id="7">
+   <image width="150" height="181" source="../../../FinalProjectTest/assets/sprites/enemy/bunny2_jump.png"/>
+  </tile>
+  <tile id="8">
+   <image width="121" height="191" source="../../../FinalProjectTest/assets/sprites/enemy/bunny2_ready.png"/>
+  </tile>
+  <tile id="9">
+   <image width="121" height="201" source="../../../FinalProjectTest/assets/sprites/enemy/bunny2_stand.png"/>
+  </tile>
+  <tile id="10">
+   <image width="121" height="201" source="../../../FinalProjectTest/assets/sprites/enemy/bunny2_walk1.png"/>
+  </tile>
+  <tile id="11">
+   <image width="121" height="207" source="../../../FinalProjectTest/assets/sprites/enemy/bunny2_walk2.png"/>
+  </tile>
+  <tile id="12">
+   <image width="260" height="134" source="../../../FinalProjectTest/assets/sprites/enemy/cloud.png"/>
+  </tile>
+  <tile id="13">
+   <image width="122" height="139" source="../../../FinalProjectTest/assets/sprites/enemy/flyMan_fly.png"/>
+  </tile>
+  <tile id="14">
+   <image width="122" height="135" source="../../../FinalProjectTest/assets/sprites/enemy/flyMan_jump.png"/>
+  </tile>
+  <tile id="15">
+   <image width="122" height="139" source="../../../FinalProjectTest/assets/sprites/enemy/flyMan_stand.png"/>
+  </tile>
+  <tile id="16">
+   <image width="120" height="132" source="../../../FinalProjectTest/assets/sprites/enemy/flyMan_still_fly.png"/>
+  </tile>
+  <tile id="17">
+   <image width="120" height="128" source="../../../FinalProjectTest/assets/sprites/enemy/flyMan_still_jump.png"/>
+  </tile>
+  <tile id="18">
+   <image width="120" height="132" source="../../../FinalProjectTest/assets/sprites/enemy/flyMan_still_stand.png"/>
+  </tile>
+  <tile id="19">
+   <image width="148" height="141" source="../../../FinalProjectTest/assets/sprites/enemy/spikeBall_2.png"/>
+  </tile>
+  <tile id="20">
+   <image width="142" height="148" source="../../../FinalProjectTest/assets/sprites/enemy/spikeBall1.png"/>
+  </tile>
+  <tile id="21">
+   <image width="114" height="155" source="../../../FinalProjectTest/assets/sprites/enemy/spikeMan_jump.png"/>
+  </tile>
+  <tile id="22">
+   <image width="90" height="155" source="../../../FinalProjectTest/assets/sprites/enemy/spikeMan_stand.png"/>
+  </tile>
+  <tile id="23">
+   <image width="120" height="159" source="../../../FinalProjectTest/assets/sprites/enemy/spikeMan_walk1.png"/>
+  </tile>
+  <tile id="24">
+   <image width="90" height="155" source="../../../FinalProjectTest/assets/sprites/enemy/spikeMan_walk2.png"/>
+  </tile>
+  <tile id="25">
+   <image width="110" height="141" source="../../../FinalProjectTest/assets/sprites/enemy/springMan_hurt.png"/>
+  </tile>
+  <tile id="26">
+   <image width="110" height="141" source="../../../FinalProjectTest/assets/sprites/enemy/springMan_stand.png"/>
+  </tile>
+  <tile id="27">
+   <image width="142" height="148" source="../../../FinalProjectTest/assets/sprites/enemy/sun1.png"/>
+  </tile>
+  <tile id="28">
+   <image width="148" height="142" source="../../../FinalProjectTest/assets/sprites/enemy/sun2.png"/>
+  </tile>
+  <tile id="29">
+   <image width="174" height="126" source="../../../FinalProjectTest/assets/sprites/enemy/wingMan1.png"/>
+  </tile>
+  <tile id="30">
+   <image width="206" height="107" source="../../../FinalProjectTest/assets/sprites/enemy/wingMan2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="216" height="101" source="../../../FinalProjectTest/assets/sprites/enemy/wingMan3.png"/>
+  </tile>
+  <tile id="32">
+   <image width="216" height="101" source="../../../FinalProjectTest/assets/sprites/enemy/wingMan4.png"/>
+  </tile>
+  <tile id="33">
+   <image width="182" height="123" source="../../../FinalProjectTest/assets/sprites/enemy/wingMan5.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="parallax" visible="0" offsetx="80" offsety="-64">
+  <object id="330" gid="119" x="-6096.18" y="2049.13" width="3124.81" height="2085.46"/>
+  <object id="331" gid="119" x="-2981.49" y="2052.51" width="3124.81" height="2085.46"/>
+  <object id="332" gid="119" x="141.738" y="2047.75" width="3124.81" height="2085.46"/>
+  <object id="333" gid="119" x="3269.93" y="2037.63" width="3124.81" height="2085.46"/>
+  <object id="334" gid="119" x="12634.2" y="2034.26" width="3124.81" height="2085.46"/>
+  <object id="335" gid="119" x="15762.4" y="2024.13" width="3124.81" height="2085.46"/>
+  <object id="336" gid="119" x="6396.32" y="2035.64" width="3124.81" height="2085.46"/>
+  <object id="337" gid="119" x="9511.01" y="2039.01" width="3124.81" height="2085.46"/>
+ </objectgroup>
+ <objectgroup name="middleground" offsetx="-96" offsety="128">
+  <object id="360" gid="227" x="0" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="363" gid="227" x="128" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="364" gid="227" x="256" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="365" gid="227" x="384" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="366" gid="227" x="384" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="367" gid="227" x="128" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="368" gid="227" x="0" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="369" gid="227" x="256" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="370" gid="227" x="384" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="371" gid="227" x="128" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="372" gid="227" x="0" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="373" gid="227" x="256" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="374" gid="227" x="0" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="375" gid="227" x="128" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="376" gid="227" x="384" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="377" gid="227" x="256" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="378" gid="227" x="384" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="379" gid="227" x="128" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="380" gid="227" x="0" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="381" gid="227" x="256" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="394" gid="227" x="896" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="395" gid="227" x="768" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="396" gid="227" x="640" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="397" gid="227" x="512" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="398" gid="227" x="768" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="399" gid="227" x="512" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="400" gid="227" x="640" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="401" gid="227" x="896" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="402" gid="227" x="768" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="403" gid="227" x="512" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="404" gid="227" x="640" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="405" gid="227" x="896" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="406" gid="227" x="768" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="407" gid="227" x="896" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="408" gid="227" x="640" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="409" gid="227" x="512" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="410" gid="227" x="768" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="411" gid="227" x="512" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="412" gid="227" x="640" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="413" gid="227" x="896" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="414" gid="227" x="1536" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="415" gid="227" x="1664" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="416" gid="227" x="1792" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="417" gid="227" x="1920" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="418" gid="227" x="1408" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="419" gid="227" x="1280" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="420" gid="227" x="1152" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="421" gid="227" x="1024" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="422" gid="227" x="1920" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="423" gid="227" x="1664" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="424" gid="227" x="1536" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="425" gid="227" x="1792" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="426" gid="227" x="1280" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="427" gid="227" x="1024" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="428" gid="227" x="1152" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="429" gid="227" x="1408" y="1792" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="430" gid="227" x="1920" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="431" gid="227" x="1664" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="432" gid="227" x="1536" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="433" gid="227" x="1792" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="434" gid="227" x="1280" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="435" gid="227" x="1024" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="436" gid="227" x="1152" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="437" gid="227" x="1408" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="438" gid="227" x="1536" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="439" gid="227" x="1664" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="440" gid="227" x="1920" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="441" gid="227" x="1792" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="442" gid="227" x="1280" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="443" gid="227" x="1408" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="444" gid="227" x="1152" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="445" gid="227" x="1024" y="1536" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="446" gid="227" x="1920" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="447" gid="227" x="1664" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="448" gid="227" x="1536" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="449" gid="227" x="1792" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="450" gid="227" x="1280" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="451" gid="227" x="1024" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="452" gid="227" x="1152" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="453" gid="227" x="1408" y="1408" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="511" gid="221" x="1024" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="512" gid="221" x="1152" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="513" gid="221" x="1408" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="514" gid="221" x="1280" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="515" gid="221" x="1792" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="516" gid="221" x="1920" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="517" gid="221" x="1664" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="518" gid="221" x="1536" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="519" gid="221" x="2560" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="520" gid="221" x="2688" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="521" gid="221" x="2944" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="522" gid="221" x="2816" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="523" gid="221" x="2304" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="524" gid="221" x="2432" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="525" gid="221" x="2176" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="526" gid="221" x="2048" y="640" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="527" gid="221" x="1024" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="528" gid="221" x="1152" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="529" gid="221" x="1408" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="530" gid="221" x="1280" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="531" gid="221" x="1792" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="532" gid="221" x="1920" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="533" gid="221" x="1664" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="534" gid="221" x="1536" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="535" gid="221" x="512" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="536" gid="221" x="640" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="537" gid="221" x="896" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="538" gid="221" x="768" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="539" gid="221" x="256" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="540" gid="221" x="384" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="541" gid="221" x="128" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="542" gid="221" x="0" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="565" gid="237" x="2048" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="566" gid="237" x="2176" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="567" gid="237" x="2176" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="568" gid="237" x="2048" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="569" gid="237" x="2304" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="570" gid="237" x="2432" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="571" gid="237" x="2432" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="572" gid="237" x="2304" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="573" gid="237" x="2944" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="574" gid="237" x="2816" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="575" gid="237" x="2560" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="576" gid="237" x="2688" y="1792" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="577" gid="237" x="2816" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="578" gid="237" x="2944" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="579" gid="237" x="2688" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="580" gid="237" x="2560" y="1664" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="589" gid="237" x="2176" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="590" gid="237" x="2048" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="591" gid="237" x="2304" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="592" gid="237" x="2432" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="593" gid="237" x="2944" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="594" gid="237" x="2816" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="595" gid="237" x="2560" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="596" gid="237" x="2688" y="1536" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="597" gid="237" x="2688" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="598" gid="237" x="2560" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="599" gid="237" x="2816" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="600" gid="237" x="2944" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="601" gid="237" x="2432" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="602" gid="237" x="2304" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="603" gid="237" x="2048" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="604" gid="237" x="2176" y="1408" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="613" gid="227" x="2048" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="614" gid="227" x="2176" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="615" gid="227" x="2688" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="616" gid="227" x="2560" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="617" gid="227" x="2432" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="618" gid="227" x="2304" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="619" gid="227" x="2816" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="620" gid="227" x="2944" y="1920" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="621" gid="236" x="2048" y="1280" width="128" height="99"/>
+  <object id="622" gid="236" x="2176" y="1280" width="128" height="99"/>
+  <object id="624" gid="236" x="2304" y="1280" width="128" height="99"/>
+  <object id="625" gid="236" x="2432" y="1280" width="128" height="99"/>
+  <object id="626" gid="236" x="2560" y="1280" width="128" height="99"/>
+  <object id="627" gid="236" x="2688" y="1280" width="128" height="99"/>
+  <object id="628" gid="236" x="2816" y="1280" width="128" height="99"/>
+  <object id="629" gid="236" x="2944" y="1280" width="128" height="99"/>
+ </objectgroup>
+ <objectgroup name="forground" offsetx="-96.9697" offsety="127.273">
+  <object id="543" name="enemy" type="blob" gid="257" x="1280" y="1152" width="150" height="181"/>
+  <object id="544" name="hero" type="hero" gid="283" x="519.909" y="1043.7" width="142" height="148"/>
+  <object id="546" name="door" type="exit" gid="6" x="90.8485" y="1146.27" width="188" height="238"/>
+  <object id="547" name="enemy" type="enemy" gid="289" x="1739.3" y="1021.61" width="182" height="123"/>
+  <object id="631" name="spikes" type="spikes" gid="204" x="2304" y="1792" width="256" height="256"/>
+  <object id="634" name="spikes" type="spikes" gid="204" x="2560" y="1792" width="256" height="256"/>
+  <object id="635" name="spikes" type="spikes" gid="204" x="2816" y="1792" width="256" height="256"/>
+  <object id="636" name="spikes" type="spikes" gid="204" x="2048" y="1792" width="256" height="256"/>
+ </objectgroup>
+</map>

@@ -89,12 +89,12 @@ function scene:create( event )
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
-	physics.setDrawMode("hybrid")
+	--physics.setDrawMode("hybrid")
 
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level0.json"
+	local filename = "./assets/maps/level13.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -128,7 +128,7 @@ function scene:create( event )
 	shield.y = display.screenOriginY + shield.contentHeight / 2 + 16
 	hero.shield = shield
 
-	-- Touch the sheilds to go back to the main...
+	-- Touch the shields to go back to the main...
 	function shield:tap(event)
 		fx.fadeOut( function()
 				composer.gotoScene( "scene.levelSelectScene")
