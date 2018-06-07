@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="300" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#260e75" nextobjectid="1341">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="300" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#260e75" nextobjectid="1346">
  <tileset firstgid="1" name="level10" tilewidth="1800" tileheight="893" tilecount="32" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -1283,8 +1283,7 @@
   <object id="403" gid="17" x="2560" y="2688" width="128" height="99"/>
   <object id="405" gid="18" x="1532.97" y="3197.82" width="1155.27" height="509.818"/>
   <object id="414" gid="24" x="1408" y="2560" width="87" height="93"/>
-  <object id="474" name="hero" type="hero" gid="25" x="280" y="2437" width="193" height="210"/>
-  <object id="475" type="blob" gid="20" x="1200" y="2567" width="97" height="78"/>
+  <object id="474" name="hero" type="hero" gid="25" x="283.03" y="2433.97" width="193" height="210"/>
   <object id="476" type="exit" gid="28" x="2334" y="2092" width="228" height="280"/>
   <object id="1074" gid="27" x="512" y="2560" width="364" height="280"/>
   <object id="1075" gid="28" x="768" y="2560" width="228" height="280"/>
