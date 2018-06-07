@@ -214,13 +214,13 @@ function M.new( instance, options )
 		--print( globalData.heroYPosition )
 		-- if the hero goes below the ground
 		-- (meaning fell through water or hole)
-		if globalData.heroYPosition ~= nil then
-			if instance.y > globalData.heroYPosition then
+		--if globalData.heroYPosition ~= nil then
+			--if instance.y > globalData.heroYPosition then
 			-- you have died
 			--print( "dead" )
-				instance:hurt()
-			end
-		end
+				--instance:hurt()
+			--end
+		--end
 		
 
 		-- Turn around
