@@ -26,7 +26,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":5973.33333333333,
+                 "width":5973.33,
                  "x":8576,
                  "y":1920
                 }],
@@ -287,11 +287,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -307,11 +309,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -327,11 +331,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -347,11 +353,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -991,11 +999,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1011,11 +1021,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1031,11 +1043,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1051,11 +1065,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1071,11 +1087,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1091,11 +1109,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1111,11 +1131,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1131,11 +1153,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1151,11 +1175,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1171,11 +1197,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1191,11 +1219,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1211,11 +1241,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1231,11 +1263,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1635,11 +1669,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1655,11 +1691,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1675,11 +1713,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1695,11 +1735,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1715,11 +1757,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1735,11 +1779,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1755,11 +1801,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1775,11 +1823,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -1933,14 +1983,6 @@
                  "height":128,
                  "id":522,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -1953,14 +1995,6 @@
                  "height":128,
                  "id":523,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -1973,14 +2007,6 @@
                  "height":128,
                  "id":524,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2101,14 +2127,6 @@
                  "height":128,
                  "id":534,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2121,14 +2139,6 @@
                  "height":128,
                  "id":535,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2213,14 +2223,6 @@
                  "height":128,
                  "id":542,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2233,14 +2235,6 @@
                  "height":128,
                  "id":543,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2253,14 +2247,6 @@
                  "height":128,
                  "id":544,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2273,14 +2259,6 @@
                  "height":128,
                  "id":545,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2293,14 +2271,6 @@
                  "height":128,
                  "id":546,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2313,14 +2283,6 @@
                  "height":128,
                  "id":547,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2333,14 +2295,6 @@
                  "height":128,
                  "id":548,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2715,11 +2669,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2735,11 +2691,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2755,11 +2713,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2775,11 +2735,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2795,11 +2757,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2815,11 +2779,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2835,11 +2801,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2855,11 +2823,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -2873,14 +2843,6 @@
                  "height":128,
                  "id":590,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2893,14 +2855,6 @@
                  "height":128,
                  "id":591,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2913,14 +2867,6 @@
                  "height":128,
                  "id":596,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2933,14 +2879,6 @@
                  "height":128,
                  "id":597,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2953,14 +2891,6 @@
                  "height":128,
                  "id":598,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2973,14 +2903,6 @@
                  "height":128,
                  "id":599,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2993,14 +2915,6 @@
                  "height":128,
                  "id":600,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -3013,14 +2927,6 @@
                  "height":128,
                  "id":601,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -3419,11 +3325,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -3535,11 +3443,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -3651,11 +3561,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -3923,11 +3835,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -3943,11 +3857,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -3963,11 +3879,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -3983,11 +3901,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4003,11 +3923,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4119,11 +4041,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4139,11 +4063,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4255,11 +4181,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4275,11 +4203,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4326,7 +4256,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":728,
                  "name":"boarder",
                  "properties":
@@ -4353,11 +4283,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4529,11 +4461,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -4549,11 +4483,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -5209,11 +5145,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -5229,11 +5167,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -5481,11 +5421,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -5501,11 +5443,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -5765,11 +5709,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -5785,11 +5731,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6136,13 +6084,13 @@
                 }, 
                 {
                  "gid":36,
-                 "height":473.659574468086,
+                 "height":473.66,
                  "id":1019,
                  "name":"",
                  "rotation":0,
                  "type":"exit",
                  "visible":true,
-                 "width":374.151260504202,
+                 "width":374.151,
                  "x":11520,
                  "y":1152
                 }, 
@@ -6162,8 +6110,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":143.333333333333,
-                 "x":11338.6666666667,
+                 "width":143.333,
+                 "x":11338.7,
                  "y":1152
                 }, 
                 {
@@ -6172,7 +6120,7 @@
                  "id":1041,
                  "name":"",
                  "rotation":0,
-                 "type":"",
+                 "type":"spikes",
                  "visible":true,
                  "width":100,
                  "x":6912,
@@ -6184,7 +6132,7 @@
                  "id":1042,
                  "name":"",
                  "rotation":0,
-                 "type":"",
+                 "type":"spikes",
                  "visible":true,
                  "width":100,
                  "x":7040,
@@ -6196,7 +6144,7 @@
                  "id":1043,
                  "name":"",
                  "rotation":0,
-                 "type":"",
+                 "type":"spikes",
                  "visible":true,
                  "width":100,
                  "x":7552,
@@ -6208,11 +6156,35 @@
                  "id":1044,
                  "name":"",
                  "rotation":0,
-                 "type":"",
+                 "type":"spikes",
                  "visible":true,
                  "width":100,
                  "x":7680,
                  "y":1280
+                }, 
+                {
+                 "gid":3,
+                 "height":264,
+                 "id":1046,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":264,
+                 "x":7216,
+                 "y":1712
+                }, 
+                {
+                 "gid":4,
+                 "height":320,
+                 "id":1047,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":320,
+                 "x":7688,
+                 "y":1736
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6314,7 +6286,7 @@
                  "id":724,
                  "name":"",
                  "rotation":-540,
-                 "type":"",
+                 "type":"spikes",
                  "visible":true,
                  "width":660,
                  "x":8775.47,
@@ -6363,11 +6335,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6491,11 +6465,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6511,11 +6487,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6531,11 +6509,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6551,11 +6531,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6571,11 +6553,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6591,11 +6575,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6801,14 +6787,6 @@
                  "height":128,
                  "id":935,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -6821,14 +6799,6 @@
                  "height":128,
                  "id":936,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -6841,14 +6811,6 @@
                  "height":128,
                  "id":937,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -6861,14 +6823,6 @@
                  "height":128,
                  "id":938,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -6919,11 +6873,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6939,11 +6895,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6959,11 +6917,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6979,11 +6939,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -6999,11 +6961,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7067,11 +7031,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7087,11 +7053,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7107,11 +7075,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7127,11 +7097,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7147,11 +7119,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7167,11 +7141,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7185,14 +7161,6 @@
                  "height":128,
                  "id":968,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7343,11 +7311,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7631,11 +7601,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7691,11 +7663,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7709,14 +7683,6 @@
                  "height":128,
                  "id":1021,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7729,14 +7695,6 @@
                  "height":128,
                  "id":1022,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7749,14 +7707,6 @@
                  "height":128,
                  "id":1023,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7769,14 +7719,6 @@
                  "height":128,
                  "id":1024,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7789,14 +7731,6 @@
                  "height":128,
                  "id":1025,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7878,7 +7812,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":1032,
                  "name":"boarder",
                  "rotation":90,
@@ -7890,7 +7824,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":1033,
                  "name":"boarder",
                  "rotation":90,
@@ -7943,11 +7877,13 @@
                  "name":"",
                  "properties":
                     {
-                     "bodyType":"static"
+                     "bodyType":"static",
+                     "friction":1
                     },
                  "propertytypes":
                     {
-                     "bodyType":"string"
+                     "bodyType":"string",
+                     "friction":"float"
                     },
                  "rotation":0,
                  "type":"",
@@ -7962,7 +7898,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1045,
+ "nextobjectid":1048,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",
