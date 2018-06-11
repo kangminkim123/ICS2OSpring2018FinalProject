@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1422">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1425">
  <tileset firstgid="1" name="stickerKnight" tilewidth="1800" tileheight="893" tilecount="91" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -261,7 +261,7 @@
    <image width="101" height="101" source="../../../7-14/assets/sprites/winter/Object/Crate.png"/>
   </tile>
   <tile id="86">
-   <image width="97" height="78" source="../../../7-14/assets/sprites/winter/Object/Crystal.png"/>
+   <image width="97" height="78" source="../sprites/winter/Object/Crystal.png"/>
   </tile>
   <tile id="87">
    <image width="101" height="101" source="../sprites/winter/Object/IceBox.png"/>
@@ -562,7 +562,7 @@
   </tile>
  </tileset>
  <objectgroup name="parallax">
-  <object id="747" gid="91" x="-894" y="1664" width="2694" height="1661"/>
+  <object id="747" gid="91" x="-888" y="1662" width="2694" height="1661"/>
   <object id="771" gid="91" x="1792" y="1664" width="2694" height="1661"/>
   <object id="772" gid="91" x="4480" y="1664" width="2694" height="1661"/>
   <object id="975" gid="91" x="7168" y="1664" width="2694" height="1661"/>
@@ -2255,6 +2255,11 @@
   <object id="923" name="enemy" type="enemy" gid="4" x="3452.83" y="1535.09" width="129" height="332"/>
   <object id="447" name="enemy" type="enemy" gid="4" x="1664" y="1534.06" width="129" height="332"/>
   <object id="378" gid="8" x="644" y="2068.73" width="0.01" height="2740">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1424" gid="8" x="17280" y="2304" width="0.01" height="2740">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>

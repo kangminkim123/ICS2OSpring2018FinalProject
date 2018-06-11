@@ -15,8 +15,8 @@
                  "type":"",
                  "visible":true,
                  "width":2694,
-                 "x":-894,
-                 "y":1664
+                 "x":-888,
+                 "y":1662
                 }, 
                 {
                  "gid":91,
@@ -10831,6 +10831,26 @@
                  "width":0.01,
                  "x":644,
                  "y":2068.73
+                }, 
+                {
+                 "gid":8,
+                 "height":2740,
+                 "id":1424,
+                 "name":"",
+                 "properties":
+                    {
+                     "bodyType":"static"
+                    },
+                 "propertytypes":
+                    {
+                     "bodyType":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0.01,
+                 "x":17280,
+                 "y":2304
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -10838,7 +10858,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1422,
+ "nextobjectid":1425,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.2",
@@ -11372,7 +11392,7 @@
                 },
              "86":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Crystal.png",
+                 "image":"..\/sprites\/winter\/Object\/Crystal.png",
                  "imageheight":78,
                  "imagewidth":97
                 },
