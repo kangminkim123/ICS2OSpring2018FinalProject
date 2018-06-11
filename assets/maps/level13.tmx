@@ -964,7 +964,7 @@
  </objectgroup>
  <objectgroup name="forground">
   <object id="417" gid="21" x="128" y="1276" width="287.655" height="291"/>
-  <object id="725" name="block" gid="24" x="1152" y="1280" width="298" height="298">
+  <object id="725" name="block" type="spikes" gid="24" x="1152" y="1280" width="298" height="298">
    <properties>
     <property name="bodyType" value="dynamic"/>
     <property name="density" type="float" value="2"/>
