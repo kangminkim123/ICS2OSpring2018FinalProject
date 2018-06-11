@@ -77,7 +77,7 @@ end
 -- 'onRelease' event listener for level4
 local function onlevel4Release()
 	
-	-- go to level0.lua scene
+	-- go to level4.lua scene
 	composer.gotoScene( "scene.level4", { params = {} } )
 	
 	return true	-- indicates successful touch
