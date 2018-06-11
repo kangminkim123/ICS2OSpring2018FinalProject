@@ -1983,14 +1983,6 @@
                  "height":128,
                  "id":522,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2003,14 +1995,6 @@
                  "height":128,
                  "id":523,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2023,14 +2007,6 @@
                  "height":128,
                  "id":524,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2151,14 +2127,6 @@
                  "height":128,
                  "id":534,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2171,14 +2139,6 @@
                  "height":128,
                  "id":535,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2263,14 +2223,6 @@
                  "height":128,
                  "id":542,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2283,14 +2235,6 @@
                  "height":128,
                  "id":543,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2303,14 +2247,6 @@
                  "height":128,
                  "id":544,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2323,14 +2259,6 @@
                  "height":128,
                  "id":545,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2343,14 +2271,6 @@
                  "height":128,
                  "id":546,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2363,14 +2283,6 @@
                  "height":128,
                  "id":547,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2383,14 +2295,6 @@
                  "height":128,
                  "id":548,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2939,14 +2843,6 @@
                  "height":128,
                  "id":590,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2959,14 +2855,6 @@
                  "height":128,
                  "id":591,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2979,14 +2867,6 @@
                  "height":128,
                  "id":596,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -2999,14 +2879,6 @@
                  "height":128,
                  "id":597,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -3019,14 +2891,6 @@
                  "height":128,
                  "id":598,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -3039,14 +2903,6 @@
                  "height":128,
                  "id":599,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -3059,14 +2915,6 @@
                  "height":128,
                  "id":600,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -3079,14 +2927,6 @@
                  "height":128,
                  "id":601,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -6947,14 +6787,6 @@
                  "height":128,
                  "id":935,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -6967,14 +6799,6 @@
                  "height":128,
                  "id":936,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -6987,14 +6811,6 @@
                  "height":128,
                  "id":937,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7007,14 +6823,6 @@
                  "height":128,
                  "id":938,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7353,14 +7161,6 @@
                  "height":128,
                  "id":968,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7883,14 +7683,6 @@
                  "height":128,
                  "id":1021,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7903,14 +7695,6 @@
                  "height":128,
                  "id":1022,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7923,14 +7707,6 @@
                  "height":128,
                  "id":1023,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7943,14 +7719,6 @@
                  "height":128,
                  "id":1024,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,
@@ -7963,14 +7731,6 @@
                  "height":128,
                  "id":1025,
                  "name":"",
-                 "properties":
-                    {
-                     "bodyType":"static"
-                    },
-                 "propertytypes":
-                    {
-                     "bodyType":"string"
-                    },
                  "rotation":0,
                  "type":"spikes",
                  "visible":true,

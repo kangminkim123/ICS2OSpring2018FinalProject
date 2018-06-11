@@ -442,21 +442,9 @@
   <object id="519" gid="33" x="3328" y="1536" width="128" height="128"/>
   <object id="520" gid="33" x="3328" y="1664" width="128" height="128"/>
   <object id="521" gid="33" x="3328" y="1792" width="128" height="128"/>
-  <object id="522" type="spikes" gid="33" x="3328" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="523" type="spikes" gid="33" x="3456" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="524" type="spikes" gid="33" x="3584" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
+  <object id="522" type="spikes" gid="33" x="3328" y="1920" width="128" height="128"/>
+  <object id="523" type="spikes" gid="33" x="3456" y="1920" width="128" height="128"/>
+  <object id="524" type="spikes" gid="33" x="3584" y="1920" width="128" height="128"/>
   <object id="525" gid="33" x="3584" y="1792" width="128" height="128"/>
   <object id="526" gid="33" x="3456" y="1792" width="128" height="128"/>
   <object id="527" gid="33" x="3456" y="1664" width="128" height="128"/>
@@ -466,57 +454,21 @@
   <object id="531" gid="33" x="3712" y="1536" width="128" height="128"/>
   <object id="532" gid="33" x="3712" y="1664" width="128" height="128"/>
   <object id="533" gid="33" x="3712" y="1792" width="128" height="128"/>
-  <object id="534" type="spikes" gid="33" x="3712" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="535" type="spikes" gid="33" x="3840" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
+  <object id="534" type="spikes" gid="33" x="3712" y="1920" width="128" height="128"/>
+  <object id="535" type="spikes" gid="33" x="3840" y="1920" width="128" height="128"/>
   <object id="536" gid="33" x="3840" y="1792" width="128" height="128"/>
   <object id="537" gid="33" x="3840" y="1664" width="128" height="128"/>
   <object id="538" gid="33" x="3840" y="1536" width="128" height="128"/>
   <object id="539" gid="33" x="3968" y="1536" width="128" height="128"/>
   <object id="540" gid="33" x="3968" y="1664" width="128" height="128"/>
   <object id="541" gid="33" x="3968" y="1792" width="128" height="128"/>
-  <object id="542" type="spikes" gid="33" x="3968" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="543" type="spikes" gid="33" x="4736" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="544" type="spikes" gid="33" x="4608" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="545" type="spikes" gid="33" x="4480" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="546" type="spikes" gid="33" x="4352" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="547" type="spikes" gid="33" x="4224" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="548" type="spikes" gid="33" x="4096" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
+  <object id="542" type="spikes" gid="33" x="3968" y="1920" width="128" height="128"/>
+  <object id="543" type="spikes" gid="33" x="4736" y="1920" width="128" height="128"/>
+  <object id="544" type="spikes" gid="33" x="4608" y="1920" width="128" height="128"/>
+  <object id="545" type="spikes" gid="33" x="4480" y="1920" width="128" height="128"/>
+  <object id="546" type="spikes" gid="33" x="4352" y="1920" width="128" height="128"/>
+  <object id="547" type="spikes" gid="33" x="4224" y="1920" width="128" height="128"/>
+  <object id="548" type="spikes" gid="33" x="4096" y="1920" width="128" height="128"/>
   <object id="549" gid="33" x="4736" y="1792" width="128" height="128"/>
   <object id="550" gid="33" x="4608" y="1792" width="128" height="128"/>
   <object id="551" gid="33" x="4480" y="1792" width="128" height="128"/>
@@ -595,46 +547,14 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="590" type="spikes" gid="33" x="5632" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="591" type="spikes" gid="33" x="5760" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="596" type="spikes" gid="33" x="5504" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="597" type="spikes" gid="33" x="5376" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="598" type="spikes" gid="33" x="5248" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="599" type="spikes" gid="33" x="5120" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="600" type="spikes" gid="33" x="4992" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="601" type="spikes" gid="33" x="4864" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
+  <object id="590" type="spikes" gid="33" x="5632" y="1920" width="128" height="128"/>
+  <object id="591" type="spikes" gid="33" x="5760" y="1920" width="128" height="128"/>
+  <object id="596" type="spikes" gid="33" x="5504" y="1920" width="128" height="128"/>
+  <object id="597" type="spikes" gid="33" x="5376" y="1920" width="128" height="128"/>
+  <object id="598" type="spikes" gid="33" x="5248" y="1920" width="128" height="128"/>
+  <object id="599" type="spikes" gid="33" x="5120" y="1920" width="128" height="128"/>
+  <object id="600" type="spikes" gid="33" x="4992" y="1920" width="128" height="128"/>
+  <object id="601" type="spikes" gid="33" x="4864" y="1920" width="128" height="128"/>
   <object id="602" gid="33" x="5632" y="1792" width="128" height="128"/>
   <object id="604" gid="33" x="5760" y="1792" width="128" height="128"/>
   <object id="608" gid="33" x="5504" y="1792" width="128" height="128"/>
@@ -1136,26 +1056,10 @@
   <object id="932" gid="32" x="8960" y="1792" width="128" height="99"/>
   <object id="933" gid="32" x="9088" y="1792" width="128" height="99"/>
   <object id="934" gid="32" x="9216" y="1792" width="128" height="99"/>
-  <object id="935" type="spikes" gid="33" x="8832" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="936" type="spikes" gid="33" x="8960" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="937" type="spikes" gid="33" x="9088" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="938" type="spikes" gid="33" x="9216" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
+  <object id="935" type="spikes" gid="33" x="8832" y="1920" width="128" height="128"/>
+  <object id="936" type="spikes" gid="33" x="8960" y="1920" width="128" height="128"/>
+  <object id="937" type="spikes" gid="33" x="9088" y="1920" width="128" height="128"/>
+  <object id="938" type="spikes" gid="33" x="9216" y="1920" width="128" height="128"/>
   <object id="940" gid="9" x="8576" y="1408" width="128" height="128"/>
   <object id="942" gid="39" x="8448" y="1408" width="128" height="128"/>
   <object id="943" gid="39" x="8704" y="1408" width="128" height="128"/>
@@ -1229,11 +1133,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="968" type="spikes" gid="33" x="9344" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
+  <object id="968" type="spikes" gid="33" x="9344" y="1920" width="128" height="128"/>
   <object id="969" gid="32" x="9344" y="1792" width="128" height="99"/>
   <object id="970" gid="18" x="9472" y="1080" width="128" height="128">
    <properties>
@@ -1329,31 +1229,11 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1021" type="spikes" gid="33" x="11136" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="1022" type="spikes" gid="33" x="11008" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="1023" type="spikes" gid="33" x="10880" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="1024" type="spikes" gid="33" x="10752" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
-  <object id="1025" type="spikes" gid="33" x="10624" y="1920" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-   </properties>
-  </object>
+  <object id="1021" type="spikes" gid="33" x="11136" y="1920" width="128" height="128"/>
+  <object id="1022" type="spikes" gid="33" x="11008" y="1920" width="128" height="128"/>
+  <object id="1023" type="spikes" gid="33" x="10880" y="1920" width="128" height="128"/>
+  <object id="1024" type="spikes" gid="33" x="10752" y="1920" width="128" height="128"/>
+  <object id="1025" type="spikes" gid="33" x="10624" y="1920" width="128" height="128"/>
   <object id="1026" gid="32" x="11136" y="1792" width="128" height="99"/>
   <object id="1027" gid="32" x="11008" y="1792" width="128" height="99"/>
   <object id="1028" gid="32" x="10880" y="1792" width="128" height="99"/>
