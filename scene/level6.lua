@@ -7,18 +7,12 @@ local physics = require( "physics" )
 local json = require( "json" )
 local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
--- for global varaibles
-local globalData = require( "globalData" )
 
 -- Variables local to scene
 local map, hero, shield, parallax
 
 -- Create a new Composer scene
 local scene = composer.newScene()
-
--- set hero's position
--- global height variable
-globalData.heroYPosition = 2500
 
 -- This function is called when scene is created
 function scene:create( event )
@@ -76,7 +70,7 @@ function scene:create( event )
 		sword = audio.loadSound( sndDir .. "sword.mp3" ),
 		squish = audio.loadSound( sndDir .. "squish.mp3" ),
 		slime = audio.loadSound( sndDir .. "slime.mp3" ),
-		wind = audio.loadSound( sndDir .. "loops/DesertSound.mp3" ),
+		wind = audio.loadSound( sndDir .. "loops/spacewind.mp3" ),
 		door = audio.loadSound( sndDir .. "door.mp3" ),
 		hurt = {
 			audio.loadSound( sndDir .. "hurt1.mp3" ),
@@ -94,7 +88,7 @@ function scene:create( event )
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level13.json"
+	local filename = "./assets/maps/level6.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -128,7 +122,7 @@ function scene:create( event )
 	shield.y = display.screenOriginY + shield.contentHeight / 2 + 16
 	hero.shield = shield
 
-	-- Touch the shields to go back to the main...
+	-- Touch the sheilds to go back to the main...
 	function shield:tap(event)
 		fx.fadeOut( function()
 				composer.gotoScene( "scene.levelSelectScene")

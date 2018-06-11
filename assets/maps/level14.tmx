@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="30" height="120" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#244383" nextobjectid="385">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="30" height="120" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#234282" nextobjectid="1205">
  <tileset firstgid="1" name="winter" tilewidth="511" tileheight="280" tilecount="28" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -93,13 +93,139 @@
    <image width="1800" height="893" source="../sprites/winter/BG/winterBG.png"/>
   </tile>
  </tileset>
+ <tileset firstgid="30" name="backgrounds" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="1">
+   <image width="1024" height="768" source="../sprites/summer/background/summerBackground.png"/>
+  </tile>
+  <tile id="2">
+   <image width="326" height="101" source="../sprites/summer/background/sky.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="coins and enemys" tilewidth="260" tileheight="207" tilecount="37" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="51" height="49" source="../sprites/items/particle_blue.png"/>
+  </tile>
+  <tile id="1">
+   <image width="48" height="46" source="../sprites/items/particle_green.png"/>
+  </tile>
+  <tile id="2">
+   <image width="150" height="174" source="../sprites/enemy/bunny1_hurt.png"/>
+  </tile>
+  <tile id="3">
+   <image width="150" height="181" source="../sprites/enemy/bunny1_jump.png"/>
+  </tile>
+  <tile id="4">
+   <image width="120" height="191" source="../sprites/enemy/bunny1_ready.png"/>
+  </tile>
+  <tile id="5">
+   <image width="120" height="201" source="../sprites/enemy/bunny1_stand.png"/>
+  </tile>
+  <tile id="6">
+   <image width="120" height="201" source="../sprites/enemy/bunny1_walk1.png"/>
+  </tile>
+  <tile id="7">
+   <image width="120" height="207" source="../sprites/enemy/bunny1_walk2.png"/>
+  </tile>
+  <tile id="8">
+   <image width="150" height="174" source="../sprites/enemy/bunny2_hurt.png"/>
+  </tile>
+  <tile id="9">
+   <image width="150" height="181" source="../sprites/enemy/bunny2_jump.png"/>
+  </tile>
+  <tile id="10">
+   <image width="121" height="191" source="../sprites/enemy/bunny2_ready.png"/>
+  </tile>
+  <tile id="11">
+   <image width="121" height="201" source="../sprites/enemy/bunny2_stand.png"/>
+  </tile>
+  <tile id="12">
+   <image width="121" height="201" source="../sprites/enemy/bunny2_walk1.png"/>
+  </tile>
+  <tile id="13">
+   <image width="121" height="207" source="../sprites/enemy/bunny2_walk2.png"/>
+  </tile>
+  <tile id="14">
+   <image width="260" height="134" source="../sprites/enemy/cloud.png"/>
+  </tile>
+  <tile id="15">
+   <image width="122" height="139" source="../sprites/enemy/flyMan_fly.png"/>
+  </tile>
+  <tile id="16">
+   <image width="122" height="135" source="../sprites/enemy/flyMan_jump.png"/>
+  </tile>
+  <tile id="17">
+   <image width="122" height="139" source="../sprites/enemy/flyMan_stand.png"/>
+  </tile>
+  <tile id="18">
+   <image width="120" height="132" source="../sprites/enemy/flyMan_still_fly.png"/>
+  </tile>
+  <tile id="19">
+   <image width="120" height="128" source="../sprites/enemy/flyMan_still_jump.png"/>
+  </tile>
+  <tile id="20">
+   <image width="120" height="132" source="../sprites/enemy/flyMan_still_stand.png"/>
+  </tile>
+  <tile id="21">
+   <image width="148" height="141" source="../sprites/enemy/spikeBall_2.png"/>
+  </tile>
+  <tile id="22">
+   <image width="142" height="148" source="../sprites/enemy/spikeBall1.png"/>
+  </tile>
+  <tile id="23">
+   <image width="114" height="155" source="../sprites/enemy/spikeMan_jump.png"/>
+  </tile>
+  <tile id="24">
+   <image width="90" height="155" source="../sprites/enemy/spikeMan_stand.png"/>
+  </tile>
+  <tile id="25">
+   <image width="120" height="159" source="../sprites/enemy/spikeMan_walk1.png"/>
+  </tile>
+  <tile id="26">
+   <image width="90" height="155" source="../sprites/enemy/spikeMan_walk2.png"/>
+  </tile>
+  <tile id="27">
+   <image width="110" height="141" source="../sprites/enemy/springMan_hurt.png"/>
+  </tile>
+  <tile id="28">
+   <image width="110" height="141" source="../sprites/enemy/springMan_stand.png"/>
+  </tile>
+  <tile id="29">
+   <image width="142" height="148" source="../sprites/enemy/sun1.png"/>
+  </tile>
+  <tile id="30">
+   <image width="148" height="142" source="../sprites/enemy/sun2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="174" height="126" source="../sprites/enemy/wingMan1.png"/>
+  </tile>
+  <tile id="32">
+   <image width="206" height="107" source="../sprites/enemy/wingMan2.png"/>
+  </tile>
+  <tile id="33">
+   <image width="216" height="101" source="../sprites/enemy/wingMan3.png"/>
+  </tile>
+  <tile id="34">
+   <image width="216" height="101" source="../sprites/enemy/wingMan4.png"/>
+  </tile>
+  <tile id="35">
+   <image width="182" height="123" source="../sprites/enemy/wingMan5.png"/>
+  </tile>
+  <tile id="36">
+   <image width="95" height="53" source="../sprites/environment/spikes_top.png"/>
+  </tile>
+ </tileset>
  <objectgroup name="parallax">
-  <object id="330" gid="29" x="0" y="15360" width="3854.69" height="1912.35"/>
+  <object id="392" gid="29" x="2560" y="16768" width="2689.48" height="1334.28"/>
+  <object id="385" gid="29" x="-128" y="16768" width="2689.48" height="1334.28"/>
+  <object id="465" gid="29" x="-2816" y="16768" width="2689.48" height="1334.28"/>
  </objectgroup>
  <objectgroup name="middleground">
-  <object id="332" gid="12" x="0" y="15104" width="128" height="128">
+  <object id="332" gid="12" x="0" y="15104" width="127.939" height="127.939">
    <properties>
     <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
    </properties>
   </object>
   <object id="355" gid="27" x="1152" y="15104" width="128" height="99"/>
@@ -115,56 +241,2059 @@
   <object id="365" gid="27" x="2560" y="15104" width="128" height="99"/>
   <object id="366" gid="27" x="2432" y="15104" width="128" height="99"/>
   <object id="367" gid="27" x="2688" y="15104" width="128" height="99"/>
-  <object id="368" gid="27" x="2816" y="15104" width="128" height="99"/>
-  <object id="369" gid="27" x="2944" y="15104" width="128" height="99"/>
-  <object id="370" gid="27" x="3072" y="15104" width="128" height="99"/>
-  <object id="371" gid="27" x="3200" y="15104" width="128" height="99"/>
-  <object id="372" gid="27" x="3328" y="15104" width="128" height="99"/>
-  <object id="373" gid="27" x="3456" y="15104" width="128" height="99"/>
-  <object id="374" gid="27" x="3584" y="15104" width="128" height="99"/>
-  <object id="375" gid="27" x="3712" y="15104" width="128" height="99"/>
-  <object id="377" gid="12" x="128" y="15104" width="128" height="128">
+  <object id="393" gid="15" x="0" y="15232" width="128" height="128"/>
+  <object id="394" gid="15" x="0" y="15360" width="128" height="128"/>
+  <object id="395" gid="15" x="128" y="15360" width="128" height="128"/>
+  <object id="396" gid="15" x="128" y="15232" width="128" height="128"/>
+  <object id="397" gid="15" x="256" y="15232" width="128" height="128"/>
+  <object id="398" gid="15" x="256" y="15360" width="128" height="128"/>
+  <object id="399" gid="15" x="384" y="15360" width="128" height="128"/>
+  <object id="400" gid="15" x="384" y="15232" width="128" height="128"/>
+  <object id="401" gid="15" x="512" y="15232" width="128" height="128"/>
+  <object id="402" gid="15" x="512" y="15360" width="128" height="128"/>
+  <object id="403" gid="15" x="640" y="15360" width="128" height="128"/>
+  <object id="404" gid="15" x="640" y="15232" width="128" height="128"/>
+  <object id="405" gid="15" x="768" y="15232" width="128" height="128"/>
+  <object id="406" gid="15" x="768" y="15360" width="128" height="128"/>
+  <object id="407" gid="15" x="896" y="15360" width="128" height="128"/>
+  <object id="408" gid="15" x="896" y="15232" width="128" height="128"/>
+  <object id="413" gid="28" x="1152" y="15232" width="128" height="128"/>
+  <object id="414" gid="28" x="1152" y="15360" width="128" height="128"/>
+  <object id="415" gid="28" x="1280" y="15360" width="128" height="128"/>
+  <object id="416" gid="28" x="1280" y="15232" width="128" height="128"/>
+  <object id="417" gid="28" x="1408" y="15232" width="128" height="128"/>
+  <object id="418" gid="28" x="1408" y="15360" width="128" height="128"/>
+  <object id="419" gid="28" x="1536" y="15360" width="128" height="128"/>
+  <object id="420" gid="28" x="1536" y="15232" width="128" height="128"/>
+  <object id="421" gid="28" x="1664" y="15360" width="128" height="128"/>
+  <object id="422" gid="28" x="1664" y="15232" width="128" height="128"/>
+  <object id="423" gid="28" x="1792" y="15232" width="128" height="128"/>
+  <object id="424" gid="28" x="1792" y="15360" width="128" height="128"/>
+  <object id="425" gid="28" x="1920" y="15360" width="128" height="128"/>
+  <object id="426" gid="28" x="1920" y="15232" width="128" height="128"/>
+  <object id="427" gid="28" x="2048" y="15232" width="128" height="128"/>
+  <object id="428" gid="28" x="2176" y="15360" width="128" height="128"/>
+  <object id="429" gid="28" x="2048" y="15360" width="128" height="128"/>
+  <object id="430" gid="28" x="2176" y="15232" width="128" height="128"/>
+  <object id="431" gid="28" x="2432" y="15232" width="128" height="128"/>
+  <object id="432" gid="28" x="2304" y="15232" width="128" height="128"/>
+  <object id="433" gid="28" x="2304" y="15360" width="128" height="128"/>
+  <object id="434" gid="28" x="2432" y="15360" width="128" height="128"/>
+  <object id="435" gid="28" x="2560" y="15232" width="128" height="128"/>
+  <object id="436" gid="28" x="2560" y="15360" width="128" height="128"/>
+  <object id="437" gid="28" x="2688" y="15232" width="128" height="128"/>
+  <object id="438" gid="28" x="2688" y="15360" width="128" height="128"/>
+  <object id="459" gid="25" x="1664" y="14592" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="460" gid="25" x="1792" y="14592" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="467" gid="15" x="0" y="15488" width="128" height="128"/>
+  <object id="468" gid="15" x="128" y="15488" width="128" height="128"/>
+  <object id="469" gid="15" x="256" y="15488" width="128" height="128"/>
+  <object id="470" gid="15" x="384" y="15488" width="128" height="128"/>
+  <object id="471" gid="15" x="512" y="15488" width="128" height="128"/>
+  <object id="472" gid="15" x="640" y="15488" width="128" height="128"/>
+  <object id="473" gid="15" x="896" y="15488" width="128" height="128"/>
+  <object id="474" gid="15" x="768" y="15488" width="128" height="128"/>
+  <object id="476" gid="15" x="0" y="15616" width="128" height="128"/>
+  <object id="477" gid="15" x="128" y="15616" width="128" height="128"/>
+  <object id="478" gid="15" x="256" y="15616" width="128" height="128"/>
+  <object id="479" gid="15" x="384" y="15616" width="128" height="128"/>
+  <object id="480" gid="15" x="640" y="15616" width="128" height="128"/>
+  <object id="481" gid="15" x="512" y="15616" width="128" height="128"/>
+  <object id="482" gid="15" x="768" y="15616" width="128" height="128"/>
+  <object id="483" gid="15" x="896" y="15616" width="128" height="128"/>
+  <object id="485" gid="28" x="1152" y="15488" width="128" height="128"/>
+  <object id="486" gid="28" x="1152" y="15616" width="128" height="128"/>
+  <object id="487" gid="28" x="1280" y="15616" width="128" height="128"/>
+  <object id="488" gid="28" x="1280" y="15488" width="128" height="128"/>
+  <object id="489" gid="28" x="1408" y="15488" width="128" height="128"/>
+  <object id="490" gid="28" x="1408" y="15616" width="128" height="128"/>
+  <object id="491" gid="28" x="1536" y="15616" width="128" height="128"/>
+  <object id="492" gid="28" x="1536" y="15488" width="128" height="128"/>
+  <object id="493" gid="28" x="1664" y="15488" width="128" height="128"/>
+  <object id="494" gid="28" x="1664" y="15616" width="128" height="128"/>
+  <object id="495" gid="28" x="1792" y="15616" width="128" height="128"/>
+  <object id="496" gid="28" x="1792" y="15488" width="128" height="128"/>
+  <object id="497" gid="28" x="1920" y="15488" width="128" height="128"/>
+  <object id="498" gid="28" x="1920" y="15616" width="128" height="128"/>
+  <object id="499" gid="28" x="2048" y="15616" width="128" height="128"/>
+  <object id="500" gid="28" x="2048" y="15488" width="128" height="128"/>
+  <object id="501" gid="28" x="2176" y="15488" width="128" height="128"/>
+  <object id="502" gid="28" x="2176" y="15616" width="128" height="128"/>
+  <object id="503" gid="28" x="2304" y="15488" width="128" height="128"/>
+  <object id="504" gid="28" x="2304" y="15616" width="128" height="128"/>
+  <object id="505" gid="28" x="2432" y="15616" width="128" height="128"/>
+  <object id="506" gid="28" x="2432" y="15488" width="128" height="128"/>
+  <object id="507" gid="28" x="2560" y="15488" width="128" height="128"/>
+  <object id="508" gid="28" x="2560" y="15616" width="128" height="128"/>
+  <object id="509" gid="28" x="2688" y="15616" width="128" height="128"/>
+  <object id="510" gid="28" x="2688" y="15488" width="128" height="128"/>
+  <object id="529" gid="12" x="-128" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="378" gid="12" x="256" y="15104" width="128" height="128">
+  <object id="530" gid="12" x="-256" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="379" gid="12" x="384" y="15104" width="128" height="128">
+  <object id="531" gid="12" x="-384" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="380" gid="12" x="512" y="15104" width="128" height="128">
+  <object id="532" gid="12" x="-512" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="381" gid="12" x="640" y="15104" width="128" height="128">
+  <object id="533" gid="12" x="-640" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="382" gid="12" x="768" y="15104" width="128" height="128">
+  <object id="534" gid="12" x="-768" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="383" gid="12" x="896" y="15104" width="128" height="128">
+  <object id="539" gid="15" x="-128" y="15232" width="128" height="128"/>
+  <object id="540" gid="15" x="-128" y="15488" width="128" height="128"/>
+  <object id="541" gid="15" x="-128" y="15360" width="128" height="128"/>
+  <object id="542" gid="15" x="-128" y="15616" width="128" height="128"/>
+  <object id="543" gid="15" x="-256" y="15616" width="128" height="128"/>
+  <object id="544" gid="15" x="-256" y="15488" width="128" height="128"/>
+  <object id="545" gid="15" x="-256" y="15360" width="128" height="128"/>
+  <object id="546" gid="15" x="-256" y="15232" width="128" height="128"/>
+  <object id="547" gid="15" x="-384" y="15232" width="128" height="128"/>
+  <object id="548" gid="15" x="-384" y="15360" width="128" height="128"/>
+  <object id="549" gid="15" x="-384" y="15488" width="128" height="128"/>
+  <object id="550" gid="15" x="-384" y="15616" width="128" height="128"/>
+  <object id="551" gid="15" x="-512" y="15616" width="128" height="128"/>
+  <object id="552" gid="15" x="-512" y="15488" width="128" height="128"/>
+  <object id="553" gid="15" x="-512" y="15360" width="128" height="128"/>
+  <object id="554" gid="15" x="-512" y="15232" width="128" height="128"/>
+  <object id="555" gid="15" x="-640" y="15232" width="128" height="128"/>
+  <object id="556" gid="15" x="-640" y="15360" width="128" height="128"/>
+  <object id="557" gid="15" x="-640" y="15616" width="128" height="128"/>
+  <object id="558" gid="15" x="-640" y="15488" width="128" height="128"/>
+  <object id="559" gid="15" x="-768" y="15616" width="128" height="128"/>
+  <object id="560" gid="15" x="-768" y="15360" width="128" height="128"/>
+  <object id="561" gid="15" x="-768" y="15488" width="128" height="128"/>
+  <object id="562" gid="15" x="-768" y="15232" width="128" height="128"/>
+  <object id="564" name="boarder" gid="32" x="0" y="14976" height="15203">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="577" name="boarder" gid="32" x="3840" y="15616" height="15875">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="580" gid="15" x="-896" y="15232" width="128" height="128"/>
+  <object id="581" gid="15" x="-896" y="15360" width="128" height="128"/>
+  <object id="582" gid="15" x="-896" y="15488" width="128" height="128"/>
+  <object id="583" gid="15" x="-896" y="15616" width="128" height="128"/>
+  <object id="584" gid="15" x="-1024" y="15232" width="128" height="128"/>
+  <object id="585" gid="15" x="-1024" y="15360" width="128" height="128"/>
+  <object id="586" gid="15" x="-1024" y="15488" width="128" height="128"/>
+  <object id="587" gid="15" x="-1024" y="15616" width="128" height="128"/>
+  <object id="588" gid="15" x="-1152" y="15232" width="128" height="128"/>
+  <object id="589" gid="15" x="-1152" y="15488" width="128" height="128"/>
+  <object id="590" gid="15" x="-1152" y="15360" width="128" height="128"/>
+  <object id="591" gid="15" x="-1152" y="15616" width="128" height="128"/>
+  <object id="608" gid="12" x="-896" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="384" gid="12" x="1024" y="15104" width="128" height="128">
+  <object id="609" gid="12" x="-1024" y="15104" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="611" gid="12" x="-1152" y="15104" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="622" gid="15" x="3200" y="15616" width="128" height="128"/>
+  <object id="634" gid="15" x="3072" y="15616" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="635" gid="15" x="1024" y="15232" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="636" gid="15" x="1024" y="15360" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="637" gid="15" x="1024" y="15488" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="638" gid="15" x="1024" y="15616" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="643" gid="12" x="128" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="644" gid="12" x="256" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="645" gid="12" x="384" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="646" gid="12" x="513" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="647" gid="12" x="640" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="648" gid="12" x="768" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="649" gid="12" x="1024" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="650" gid="12" x="896" y="15104" width="127.939" height="127.939">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="655" gid="24" x="1536" y="14592" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="669" gid="15" x="3328" y="14720" width="128" height="128"/>
+  <object id="670" gid="15" x="3328" y="14592" width="128" height="128"/>
+  <object id="671" gid="15" x="3328" y="14848" width="128" height="128"/>
+  <object id="672" gid="15" x="3328" y="14976" width="128" height="128"/>
+  <object id="673" gid="15" x="3328" y="15104" width="128" height="128"/>
+  <object id="674" gid="15" x="3328" y="15232" width="128" height="128"/>
+  <object id="675" gid="15" x="3328" y="15360" width="128" height="128"/>
+  <object id="676" gid="15" x="3328" y="15488" width="128" height="128"/>
+  <object id="677" gid="15" x="3328" y="15616" width="128" height="128"/>
+  <object id="678" gid="15" x="3456" y="15616" width="128" height="128"/>
+  <object id="679" gid="15" x="3456" y="15488" width="128" height="128"/>
+  <object id="680" gid="15" x="3456" y="15360" width="128" height="128"/>
+  <object id="681" gid="15" x="3456" y="15232" width="128" height="128"/>
+  <object id="682" gid="15" x="3456" y="15104" width="128" height="128"/>
+  <object id="683" gid="15" x="3456" y="14976" width="128" height="128"/>
+  <object id="684" gid="15" x="3456" y="14848" width="128" height="128"/>
+  <object id="685" gid="15" x="3456" y="14720" width="128" height="128"/>
+  <object id="687" gid="15" x="3456" y="14592" width="128" height="128"/>
+  <object id="689" gid="15" x="3584" y="14720" width="128" height="128"/>
+  <object id="690" gid="15" x="3584" y="14592" width="128" height="128"/>
+  <object id="691" gid="15" x="3584" y="14848" width="128" height="128"/>
+  <object id="692" gid="15" x="3584" y="14976" width="128" height="128"/>
+  <object id="693" gid="15" x="3584" y="15104" width="128" height="128"/>
+  <object id="694" gid="15" x="3584" y="15232" width="128" height="128"/>
+  <object id="695" gid="15" x="3584" y="15488" width="128" height="128"/>
+  <object id="696" gid="15" x="3584" y="15616" width="128" height="128"/>
+  <object id="697" gid="15" x="3584" y="15360" width="128" height="128"/>
+  <object id="698" gid="15" x="3712" y="15616" width="128" height="128"/>
+  <object id="699" gid="15" x="3712" y="15360" width="128" height="128"/>
+  <object id="700" gid="15" x="3712" y="15488" width="128" height="128"/>
+  <object id="701" gid="15" x="3712" y="15232" width="128" height="128"/>
+  <object id="702" gid="15" x="3712" y="15104" width="128" height="128"/>
+  <object id="703" gid="15" x="3712" y="14976" width="128" height="128"/>
+  <object id="704" gid="15" x="3712" y="14848" width="128" height="128"/>
+  <object id="707" gid="15" x="3712" y="14720" width="128" height="128"/>
+  <object id="708" gid="15" x="3712" y="14592" width="128" height="128"/>
+  <object id="715" gid="12" x="3328" y="14464" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="716" gid="12" x="3456" y="14464" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="717" gid="12" x="3584" y="14464" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="718" gid="12" x="3712" y="14464" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="719" gid="15" x="2816" y="15488" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="720" gid="15" x="2944" y="15488" width="128" height="128"/>
+  <object id="721" gid="15" x="2816" y="15360" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="722" gid="15" x="2944" y="15360" width="128" height="128"/>
+  <object id="723" gid="15" x="2816" y="15232" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="724" gid="15" x="2944" y="15232" width="128" height="128"/>
+  <object id="725" gid="15" x="2944" y="15104" width="128" height="128"/>
+  <object id="726" gid="15" x="2816" y="15104" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="727" gid="15" x="2944" y="14976" width="128" height="128"/>
+  <object id="728" gid="14" x="2816" y="14976" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="729" gid="15" x="2944" y="14848" width="128" height="128"/>
+  <object id="730" gid="14" x="2816" y="14848" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="731" gid="15" x="2944" y="14720" width="128" height="128"/>
+  <object id="732" gid="14" x="2816" y="14720" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="733" gid="15" x="2944" y="14592" width="128" height="128"/>
+  <object id="734" gid="14" x="2816" y="14592" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="735" gid="20" x="2944" y="14464" width="128" height="128"/>
+  <object id="736" name="blob" gid="14" x="2816" y="14464" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="737" gid="13" x="2944" y="14336" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="738" gid="11" x="2816" y="14336" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="739" gid="15" x="3200" y="15488" width="128" height="128"/>
+  <object id="740" gid="15" x="3072" y="15488" width="128" height="128"/>
+  <object id="741" gid="15" x="3200" y="15360" width="128" height="128"/>
+  <object id="742" gid="15" x="3072" y="15360" width="128" height="128"/>
+  <object id="743" gid="15" x="3200" y="15232" width="128" height="128"/>
+  <object id="744" gid="15" x="3072" y="15232" width="128" height="128"/>
+  <object id="745" gid="15" x="3200" y="15104" width="128" height="128"/>
+  <object id="746" gid="15" x="3072" y="15104" width="128" height="128"/>
+  <object id="747" gid="15" x="3200" y="14976" width="128" height="128"/>
+  <object id="748" gid="15" x="3072" y="14976" width="128" height="128"/>
+  <object id="749" gid="15" x="3200" y="14848" width="128" height="128"/>
+  <object id="750" gid="15" x="3072" y="14848" width="128" height="128"/>
+  <object id="751" gid="15" x="3200" y="14720" width="128" height="128"/>
+  <object id="752" gid="15" x="3072" y="14720" width="128" height="128"/>
+  <object id="753" gid="15" x="3200" y="14592" width="128" height="128"/>
+  <object id="754" gid="15" x="3072" y="14592" width="128" height="128"/>
+  <object id="755" gid="12" x="3200" y="14464" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="756" gid="12" x="3072" y="14464" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="757" gid="15" x="2816" y="15616" width="128" height="128"/>
+  <object id="758" gid="15" x="2944" y="15616" width="128" height="128"/>
+  <object id="760" gid="25" x="1920" y="14592" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="761" gid="25" x="2048" y="14592" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="762" gid="25" x="2176" y="14592" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="765" gid="26" x="2304" y="14592" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="768" name="coin " type="coin" gid="33" x="1920" y="14208" width="92.6327" height="89"/>
+  <object id="769" name="blob" type="blob" gid="55" x="2304" y="14464" width="142" height="148"/>
+  <object id="770" name="blob" type="blob" gid="55" x="1792" y="14464" width="142" height="148"/>
+  <object id="771" gid="25" x="1920" y="13312" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="772" gid="25" x="1792" y="13312" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="773" gid="25" x="1664" y="13312" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="775" gid="25" x="1024" y="13568" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="777" gid="25" x="2304" y="13824" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="778" gid="25" x="2432" y="13824" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="779" gid="25" x="2560" y="13824" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="784" gid="15" x="256" y="13568" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="785" gid="15" x="128" y="13568" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="786" gid="15" x="128" y="13696" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="787" gid="15" x="0" y="13696" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="788" gid="15" x="0" y="13824" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="789" gid="15" x="0" y="13568" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="791" gid="15" x="0" y="13440" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="792" gid="15" x="256" y="13440" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="793" gid="15" x="384" y="13440" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="794" gid="15" x="128" y="13440" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="801" gid="12" x="384" y="13312" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="802" gid="12" x="256" y="13312" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="803" gid="12" x="128" y="13312" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="804" gid="12" x="0" y="13312" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="806" gid="23" x="512" y="13440" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="807" gid="23" x="384" y="13568" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="808" gid="23" x="256" y="13696" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="809" gid="23" x="128" y="13824" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="810" gid="23" x="0" y="13952" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="812" gid="13" x="512" y="13312" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="814" name="enemy" type="enemy" gid="64" x="3328" y="14208" width="174" height="126"/>
+  <object id="820" gid="9" x="0" y="13184" width="532" height="409.231"/>
+  <object id="823" gid="8" x="3200" y="14336" width="124" height="78"/>
+  <object id="826" gid="6" x="2048" y="14497.3" width="166.828" height="178.333"/>
+  <object id="828" name="coin " type="coin" gid="33" x="1792" y="13056" width="92.6327" height="89"/>
+  <object id="832" gid="12" x="3712" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="833" gid="12" x="3584" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="834" gid="12" x="3456" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="835" gid="12" x="3328" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="836" gid="12" x="3200" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="837" gid="12" x="3072" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="838" gid="12" x="2304" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="839" gid="12" x="2432" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="840" gid="12" x="2560" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="841" gid="12" x="2688" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="842" gid="12" x="2816" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="843" gid="12" x="2944" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="851" gid="12" x="1664" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="852" gid="12" x="1792" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="853" gid="12" x="1920" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="854" gid="12" x="2048" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="855" gid="12" x="2176" y="12288" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="857" gid="25" x="768" y="12800" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="858" gid="25" x="896" y="12800" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="859" gid="25" x="1024" y="12800" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="860" name="spike" type="spikes" gid="69" x="2816" y="12160" width="133.022" height="74.2121"/>
+  <object id="864" name="spike" type="spikes" gid="69" x="2944" y="12160" width="133.022" height="74.2121"/>
+  <object id="865" name="spike" type="spikes" gid="69" x="3072" y="12160" width="133.022" height="74.2121"/>
+  <object id="866" name="spike" type="spikes" gid="69" x="3200" y="12160" width="133.022" height="74.2121"/>
+  <object id="867" name="spike" type="spikes" gid="69" x="2176" y="12160" width="133.022" height="74.2121"/>
+  <object id="868" name="spike" type="spikes" gid="69" x="2304" y="12160" width="133.022" height="74.2121"/>
+  <object id="869" name="spike" type="spikes" gid="69" x="2688" y="12160" width="133.022" height="74.2121"/>
+  <object id="870" name="spike" type="spikes" gid="69" x="2560" y="12160" width="133.022" height="74.2121"/>
+  <object id="871" name="spike" type="spikes" gid="69" x="2432" y="12160" width="133.022" height="74.2121"/>
+  <object id="872" gid="4" x="3467.39" y="12163" width="356.922" height="140.394"/>
+  <object id="876" gid="25" x="1024" y="11776" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="877" gid="25" x="896" y="11776" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="878" gid="25" x="768" y="11776" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="881" gid="25" x="2048" y="11008" width="73.4545" height="53.3693">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="885" gid="25" x="2816" y="10240" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="886" gid="25" x="2688" y="10240" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="887" gid="25" x="2560" y="10240" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="891" gid="25" x="2176" y="9728" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="892" gid="25" x="2048" y="9728" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="893" gid="25" x="1920" y="9728" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="894" gid="25" x="1408" y="8576" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="895" gid="25" x="1280" y="8576" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="896" gid="25" x="1152" y="8576" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="900" gid="25" x="256" y="11392" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="901" gid="25" x="128" y="11392" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="902" gid="25" x="0" y="11392" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="903" gid="15" x="3712" y="11264" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="904" gid="15" x="3584" y="11264" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="906" gid="15" x="3456" y="11136" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="907" gid="15" x="3584" y="11136" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="908" gid="15" x="3712" y="11136" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="909" gid="15" x="3456" y="11008" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="910" gid="15" x="3584" y="11008" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="911" gid="15" x="3712" y="11008" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="912" gid="15" x="3584" y="10880" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="913" gid="15" x="3456" y="10880" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="914" gid="15" x="3712" y="10880" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="915" gid="15" x="3328" y="10880" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="916" gid="15" x="3328" y="11008" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="918" gid="15" x="3200" y="10880" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="926" gid="15" x="3712" y="11392" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="938" gid="14" x="3072" y="10880" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="939" gid="22" x="3072" y="11008" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="940" gid="22" x="3200" y="11136" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="941" gid="22" x="3328" y="11264" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="942" gid="22" x="3456" y="11392" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="943" gid="22" x="3584" y="11520" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="945" gid="22" x="3712" y="11648" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="946" gid="15" x="3712" y="11520" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="947" gid="15" x="3584" y="11392" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="948" gid="15" x="3456" y="11264" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="949" gid="15" x="3328" y="11136" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="950" gid="15" x="3200" y="11008" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="956" gid="11" x="3072" y="10752" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="957" gid="12" x="3200" y="10752" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="958" gid="12" x="3456" y="10752" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="959" gid="12" x="3328" y="10752" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="960" gid="12" x="3584" y="10752" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="961" gid="12" x="3712" y="10752" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="963" gid="1073741830" x="1956.39" y="11944" width="203" height="217" rotation="180"/>
+  <object id="965" name="spike" type="spikes" gid="69" x="2048" y="12160" width="133.022" height="74.2121"/>
+  <object id="966" name="spike" type="spikes" gid="69" x="1920" y="12160" width="133.022" height="74.2121"/>
+  <object id="967" name="blob" type="blob" gid="63" x="1024" y="13440" width="148" height="142"/>
+  <object id="972" gid="18" x="1536" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="973" gid="15" x="1664" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="974" gid="15" x="1792" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="975" gid="15" x="1920" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="976" gid="15" x="2176" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="977" gid="15" x="2048" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="990" gid="15" x="2688" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="991" gid="15" x="2816" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="992" gid="15" x="2560" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="993" gid="15" x="2432" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="994" gid="15" x="2304" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="995" gid="15" x="3328" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="996" gid="15" x="3456" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="997" gid="15" x="3200" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="998" gid="15" x="3072" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="999" gid="15" x="2944" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1000" gid="15" x="3712" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1001" gid="15" x="3584" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1008" gid="11" x="1536" y="12288" width="128" height="128"/>
+  <object id="1010" gid="11" x="1408" y="12416" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1011" gid="22" x="1408" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1012" gid="19" x="1536" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1013" gid="19" x="1664" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1014" gid="19" x="1792" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1015" gid="19" x="1920" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1016" gid="19" x="2048" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1017" gid="19" x="2176" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1018" gid="19" x="2944" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1019" gid="19" x="2816" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1020" gid="19" x="2688" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1021" gid="19" x="2560" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1022" gid="19" x="2432" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1023" gid="19" x="2304" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1024" gid="19" x="3712" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1025" gid="19" x="3584" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1026" gid="19" x="3456" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1027" gid="19" x="3328" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1028" gid="19" x="3200" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1029" gid="19" x="3072" y="12544" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1039" gid="24" x="896" y="13568" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1041" gid="26" x="1152" y="13568" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1043" name="coin " type="coin" gid="33" x="896" y="11520" width="92.6327" height="89"/>
+  <object id="1044" name="coin " type="coin" gid="33" x="3328" y="10496" width="92.6327" height="89"/>
+  <object id="1045" gid="10" x="3456" y="10624" width="351.899" height="424.421"/>
+  <object id="1046" gid="25" x="1152" y="9344" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1047" gid="25" x="1280" y="9344" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1048" gid="25" x="1408" y="9344" width="128" height="93">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1049" gid="1073741846" x="128" y="9856" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1050" gid="1073741839" x="128" y="9768.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1051" gid="1073741846" x="256" y="9768.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1052" gid="1073741839" x="256" y="9640.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1053" gid="1073741846" x="384" y="9640.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1054" gid="1073741839" x="128" y="9640.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1055" gid="1073741839" x="384" y="9512.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1056" gid="1073741846" x="512" y="9512.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1057" gid="1073741839" x="256" y="9512.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1058" gid="1073741839" x="128" y="9512.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1059" gid="1073741839" x="512" y="9384.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1060" gid="1073741846" x="640" y="9384.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1061" gid="1073741839" x="128" y="9384.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1062" gid="1073741839" x="256" y="9384.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1063" gid="1073741839" x="384" y="9384.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1064" gid="1073741839" x="640" y="9256.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1065" gid="1073741846" x="768" y="9256.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1066" gid="1073741839" x="512" y="9256.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1067" gid="1073741839" x="128" y="9256.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1068" gid="1073741839" x="256" y="9256.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1069" gid="1073741839" x="384" y="9256.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1070" gid="1073741838" x="768" y="9128.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1071" gid="1073741839" x="640" y="9128.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1072" gid="1073741839" x="512" y="9128.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1073" gid="1073741839" x="128" y="9128.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1074" gid="1073741839" x="384" y="9128.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1075" gid="1073741839" x="256" y="9128.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1076" gid="1073741836" x="128" y="9000.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1077" gid="1073741836" x="256" y="9000.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1078" gid="1073741836" x="512" y="9000.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1079" gid="1073741836" x="384" y="9000.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1080" gid="1073741836" x="640" y="9000.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1081" gid="1073741835" x="768" y="9000.42" width="128" height="128" rotation="180">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1085" gid="1" x="-2" y="9002" width="137" height="137"/>
+  <object id="1086" gid="1" x="135.5" y="9001.5" width="137" height="137"/>
+  <object id="1087" gid="1" x="67.5" y="8871.5" width="137" height="137"/>
+  <object id="1089" gid="5" x="378" y="9000" width="116.617" height="126"/>
+  <object id="1092" gid="25" x="1536" y="11008" width="73.4545" height="53.3693">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1093" gid="25" x="2560" y="11008" width="73.4545" height="53.3693">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1094" gid="25" x="1024" y="11008" width="73.4545" height="53.3693">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1096" gid="15" x="3712" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1097" gid="15" x="3456" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1098" gid="15" x="3584" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1099" gid="15" x="3328" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1100" gid="15" x="3072" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1101" gid="15" x="3200" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1102" gid="15" x="2816" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1103" gid="15" x="2944" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1104" gid="15" x="2688" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1105" gid="15" x="2560" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1106" gid="15" x="2560" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1107" gid="15" x="2688" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1108" gid="15" x="2816" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1109" gid="15" x="2944" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1110" gid="15" x="3200" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1111" gid="15" x="3200" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1112" gid="15" x="3328" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1115" gid="15" x="3072" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1116" gid="15" x="3456" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1117" gid="15" x="3584" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1118" gid="15" x="3712" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1119" gid="15" x="3712" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1120" gid="15" x="3584" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1121" gid="15" x="3456" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1124" gid="15" x="3328" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1125" gid="15" x="3200" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1126" gid="15" x="3072" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1127" gid="15" x="3456" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1128" gid="15" x="3584" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1129" gid="15" x="3712" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1130" gid="15" x="3328" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1131" gid="15" x="3712" y="9088" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1132" gid="15" x="3200" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1133" gid="15" x="3584" y="9088" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1134" gid="15" x="3712" y="9216" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1135" gid="15" x="3456" y="9088" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1136" gid="15" x="3584" y="9216" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1137" gid="15" x="3712" y="9344" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1138" gid="15" x="3328" y="9088" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1139" gid="15" x="3456" y="9216" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1140" gid="15" x="3584" y="9344" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1141" gid="15" x="3712" y="9472" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1142" gid="15" x="2944" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1147" gid="15" x="2432" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1148" gid="15" x="2432" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1149" gid="15" x="2304" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1150" gid="15" x="2304" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1151" gid="15" x="2176" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1152" gid="15" x="2176" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1153" gid="15" x="2816" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1154" gid="15" x="2688" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1158" gid="12" x="3712" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1159" gid="12" x="3456" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1160" gid="12" x="3584" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1161" gid="12" x="3328" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1162" gid="12" x="3200" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1163" gid="12" x="3072" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1164" gid="12" x="2944" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1165" gid="12" x="2816" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1166" gid="12" x="2688" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1167" gid="12" x="2560" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1168" gid="12" x="2432" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1169" gid="12" x="2304" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1170" gid="12" x="2176" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1171" gid="11" x="2048" y="8448" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1172" gid="14" x="2048" y="8576" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1173" gid="14" x="2048" y="8704" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1174" gid="22" x="2048" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1175" gid="19" x="2176" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1176" gid="19" x="2304" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1177" gid="19" x="2432" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1178" gid="19" x="2560" y="8832" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1179" gid="19" x="2688" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1180" gid="19" x="2944" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1181" gid="19" x="2816" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1192" gid="22" x="3200" y="9216" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1193" gid="22" x="3328" y="9344" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1194" gid="22" x="3456" y="9472" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1195" gid="22" x="3584" y="9600" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1196" gid="22" x="3712" y="9728" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1197" gid="15" x="3712" y="9600" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1198" gid="15" x="3584" y="9472" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1199" gid="15" x="3456" y="9344" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1200" gid="15" x="3328" y="9216" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1202" gid="15" x="3200" y="9088" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1203" gid="15" x="3072" y="8960" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1204" gid="22" x="3072" y="9088" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="forground">
-  <object id="325" name="hero" type="hero" gid="7" x="256" y="14976" width="317.99" height="346"/>
+  <object id="325" name="hero" type="hero" gid="7" x="128" y="14592" width="317.99" height="346"/>
  </objectgroup>
 </map>
