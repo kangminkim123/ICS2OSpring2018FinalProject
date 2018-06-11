@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1681">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1681">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -225,7 +225,7 @@
    <image width="182" height="123" source="../sprites/enemy/wingMan5.png"/>
   </tile>
  </tileset>
- <objectgroup name="parallax"/>
+ <objectgroup name="parallax" visible="0"/>
  <objectgroup name="middleground">
   <object id="326" gid="32" x="0" y="3200" width="128" height="128"/>
   <object id="327" gid="29" x="128" y="3200" width="128" height="128"/>
