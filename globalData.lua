@@ -5,6 +5,6 @@
 
 local M = {}
 
-	heroYPosition = 0
+	heroYPosition = nil
  
 return M

@@ -8,7 +8,7 @@ local json = require( "json" )
 local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
 -- for global varaibles
-local globalData = require( "globalData" )
+--local globalData = require( "globalData" )
 
 -- Variables local to scene
 local map, hero, shield, parallax
@@ -18,7 +18,7 @@ local scene = composer.newScene()
 
 -- set hero's position
 -- global height variable
-globalData.heroYPosition = 2500
+--globalData.heroYPosition = 2500
 
 -- This function is called when scene is created
 function scene:create( event )
