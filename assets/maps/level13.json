@@ -4271,7 +4271,7 @@
                     },
                  "rotation":-450,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":2937.64,
                  "x":101.49,
                  "y":1316.32
@@ -7817,7 +7817,7 @@
                  "name":"boarder",
                  "rotation":90,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":326,
                  "x":9488,
                  "y":1408
@@ -7829,7 +7829,7 @@
                  "name":"boarder",
                  "rotation":90,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":310,
                  "x":10512,
                  "y":1408
