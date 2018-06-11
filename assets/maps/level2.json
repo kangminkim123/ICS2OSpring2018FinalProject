@@ -15,8 +15,8 @@
                  "type":"",
                  "visible":true,
                  "width":2694,
-                 "x":-894,
-                 "y":1664
+                 "x":-888,
+                 "y":1662
                 }, 
                 {
                  "gid":91,
@@ -74,7 +74,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2694,
+                 "width":5178,
                  "x":12544,
                  "y":1664
                 }],
@@ -10831,6 +10831,26 @@
                  "width":0.01,
                  "x":644,
                  "y":2068.73
+                }, 
+                {
+                 "gid":8,
+                 "height":2740,
+                 "id":1424,
+                 "name":"",
+                 "properties":
+                    {
+                     "bodyType":"static"
+                    },
+                 "propertytypes":
+                    {
+                     "bodyType":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0.01,
+                 "x":17280,
+                 "y":2304
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -10838,7 +10858,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1422,
+ "nextobjectid":1425,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.2",
@@ -10856,8 +10876,8 @@
          "margin":0,
          "name":"stickerKnight",
          "spacing":0,
-         "tilecount":92,
-         "tileheight":1482,
+         "tilecount":91,
+         "tileheight":893,
          "tiles":
             {
              "0":
@@ -11222,7 +11242,7 @@
                 },
              "63":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter2.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter2.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11240,7 +11260,7 @@
                 },
              "66":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter5.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter5.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11258,7 +11278,7 @@
                 },
              "69":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter8.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter8.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11300,31 +11320,31 @@
                 },
              "75":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter14.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter14.png",
                  "imageheight":93,
                  "imagewidth":128
                 },
              "76":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter15.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter15.png",
                  "imageheight":93,
                  "imagewidth":128
                 },
              "77":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter16.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter16.png",
                  "imageheight":93,
                  "imagewidth":128
                 },
              "78":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter17.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter17.png",
                  "imageheight":99,
                  "imagewidth":128
                 },
              "79":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter18.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter18.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11342,25 +11362,25 @@
                 },
              "81":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/SnowMan.png",
+                 "image":"..\/sprites\/winter\/Object\/SnowMan.png",
                  "imageheight":210,
                  "imagewidth":193
                 },
              "82":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Stone.png",
+                 "image":"..\/sprites\/winter\/Object\/Stone.png",
                  "imageheight":78,
                  "imagewidth":124
                 },
              "83":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Tree1.png",
+                 "image":"..\/sprites\/winter\/Object\/Tree1.png",
                  "imageheight":280,
                  "imagewidth":364
                 },
              "84":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Tree2.png",
+                 "image":"..\/sprites\/winter\/Object\/Tree2.png",
                  "imageheight":280,
                  "imagewidth":228
                 },
@@ -11372,13 +11392,13 @@
                 },
              "86":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Crystal.png",
+                 "image":"..\/sprites\/winter\/Object\/Crystal.png",
                  "imageheight":78,
                  "imagewidth":97
                 },
              "87":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/IceBox.png",
+                 "image":"..\/sprites\/winter\/Object\/IceBox.png",
                  "imageheight":101,
                  "imagewidth":101
                 },
@@ -11402,15 +11422,9 @@
                 },
              "90":
                 {
-                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/BG\/winterBG.png",
+                 "image":"..\/sprites\/winter\/BG\/winterBG.png",
                  "imageheight":893,
                  "imagewidth":1800
-                },
-             "91":
-                {
-                 "image":"..\/..\/..\/7-14\/assets\/spritesheets\/ninjaBoy\/ninjaBoyDead.png",
-                 "imageheight":1482,
-                 "imagewidth":996
                 }
             },
          "tilewidth":1800
