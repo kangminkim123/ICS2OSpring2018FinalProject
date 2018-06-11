@@ -630,7 +630,7 @@
    <image width="182" height="123" source="../sprites/enemy/wingMan5.png"/>
   </tile>
  </tileset>
- <objectgroup name="parallax" visible="0">
+ <objectgroup name="parallax">
   <object id="326" gid="1" x="5.57576" y="2429.12" width="1024" height="768"/>
   <object id="327" gid="1" x="1027.97" y="2431.88" width="1024" height="768"/>
   <object id="328" gid="1" x="2052.38" y="2430.8" width="1024" height="768"/>
@@ -999,6 +999,5 @@
   <object id="555" type="spikes" gid="165" x="2482" y="2561.33" width="128" height="32"/>
   <object id="556" type="spikes" gid="165" x="2610" y="2561.33" width="128" height="32"/>
   <object id="557" type="spikes" gid="165" x="2738" y="2561.33" width="128" height="32"/>
-  <object id="558" type="blob" gid="194" x="2981" y="2170.5" width="114" height="155"/>
  </objectgroup>
 </map>
