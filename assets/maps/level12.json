@@ -3379,6 +3379,30 @@
                  "width":271.254,
                  "x":11614.8,
                  "y":2584.42
+                }, 
+                {
+                 "gid":48,
+                 "height":196,
+                 "id":632,
+                 "name":"",
+                 "rotation":0,
+                 "type":"coin2",
+                 "visible":true,
+                 "width":204,
+                 "x":3648,
+                 "y":216
+                }, 
+                {
+                 "gid":48,
+                 "height":196,
+                 "id":633,
+                 "name":"",
+                 "rotation":0,
+                 "type":"coin2",
+                 "visible":true,
+                 "width":204,
+                 "x":8698,
+                 "y":974
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3386,7 +3410,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":632,
+ "nextobjectid":634,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",
