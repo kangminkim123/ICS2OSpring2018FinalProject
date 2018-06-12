@@ -499,7 +499,7 @@
   <object id="577" gid="32" x="4480" y="1408" width="128" height="99"/>
   <object id="578" gid="32" x="4608" y="1408" width="128" height="99"/>
   <object id="579" gid="32" x="4736" y="1408" width="128" height="99"/>
-  <object id="580" gid="18" x="3456" y="1280" width="128" height="128">
+  <object id="580" gid="18" x="3584" y="1280" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -725,13 +725,7 @@
   <object id="717" gid="1" x="6016" y="1792" width="392" height="392"/>
   <object id="718" gid="3" x="6912" y="1792" width="264" height="264"/>
   <object id="719" gid="4" x="6528" y="1792" width="320" height="320"/>
-  <object id="728" name="boarder" gid="40" x="101.49" y="1316.32" width="2937.64" height="101" rotation="-450">
-   <properties>
-    <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="1"/>
-   </properties>
-  </object>
-  <object id="732" gid="19" x="3584" y="1280" width="128" height="128">
+  <object id="728" name="boarder" gid="40" x="101.49" y="1316.32" width="2937.64" height="101" rotation="-450" visible="0">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -960,21 +954,17 @@
   <object id="1015" gid="9" x="11392" y="1408" width="128" height="128"/>
   <object id="1016" gid="39" x="11264" y="1408" width="128" height="128"/>
   <object id="1019" type="exit" gid="36" x="11520" y="1152" width="374.151" height="473.66"/>
-  <object id="1020" gid="51" x="11338.7" y="1152" width="143.333" height="86">
+  <object id="1020" type="spikes" gid="51" x="11338.7" y="1152" width="143.333" height="86">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
   </object>
-  <object id="1041" type="spikes" gid="23" x="6912" y="1280" width="100" height="64"/>
-  <object id="1042" type="spikes" gid="23" x="7040" y="1280" width="100" height="64"/>
-  <object id="1043" type="spikes" gid="23" x="7552" y="1280" width="100" height="64"/>
-  <object id="1044" type="spikes" gid="23" x="7680" y="1280" width="100" height="64"/>
   <object id="1046" gid="3" x="7216" y="1712" width="264" height="264"/>
   <object id="1047" gid="4" x="7688" y="1736" width="320" height="320"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="417" gid="21" x="128" y="1276" width="287.655" height="291"/>
-  <object id="725" name="block" gid="24" x="1152" y="1280" width="298" height="298">
+  <object id="725" name="block" type="spikes" gid="24" x="1152" y="1280" width="298" height="298">
    <properties>
     <property name="bodyType" value="dynamic"/>
     <property name="density" type="float" value="2"/>
@@ -987,7 +977,7 @@
   <object id="723" gid="22" x="8192" y="282.467" width="534" height="264.066" rotation="-360"/>
   <object id="724" type="spikes" gid="25" x="8775.47" y="256" width="660" height="370" rotation="-540"/>
   <object id="726" type="coin" gid="34" x="4608" y="1152" width="125" height="125"/>
-  <object id="729" type="enemy" gid="1073741866" x="3840" y="784" width="294.4" height="368" rotation="180"/>
+  <object id="729" type="enemy" gid="1073741866" x="3984" y="780" width="294.4" height="368" rotation="180"/>
   <object id="734" type="spikes" gid="37" x="5296" y="1152" width="179.2" height="112"/>
   <object id="669" gid="6" x="6656" y="1408" width="128" height="128">
    <properties>
@@ -1240,8 +1230,8 @@
   <object id="1029" gid="32" x="10752" y="1792" width="128" height="99"/>
   <object id="1030" gid="32" x="10624" y="1792" width="128" height="99"/>
   <object id="1031" gid="1073741861" x="11136" y="1408" width="216" height="135" rotation="90"/>
-  <object id="1032" name="boarder" gid="40" x="9488" y="1408" width="326" height="101" rotation="90"/>
-  <object id="1033" name="boarder" gid="40" x="10512" y="1408" width="310" height="101" rotation="90"/>
+  <object id="1032" name="boarder" gid="40" x="9488" y="1408" width="326" height="101" rotation="90" visible="0"/>
+  <object id="1033" name="boarder" gid="40" x="10512" y="1408" width="310" height="101" rotation="90" visible="0"/>
   <object id="1036" type="blob" gid="44" x="9600" y="1536" width="142" height="148"/>
   <object id="1039" type="blob" gid="44" x="10368" y="1536" width="142" height="148"/>
   <object id="1040" type="spikes" gid="25" x="9984" y="1536" width="132" height="74"/>
@@ -1251,5 +1241,9 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
+  <object id="1041" type="spikes" gid="23" x="6912" y="1280" width="100" height="64"/>
+  <object id="1042" type="spikes" gid="23" x="7040" y="1280" width="100" height="64"/>
+  <object id="1043" type="spikes" gid="23" x="7552" y="1280" width="100" height="64"/>
+  <object id="1044" type="spikes" gid="23" x="7680" y="1280" width="100" height="64"/>
  </objectgroup>
 </map>

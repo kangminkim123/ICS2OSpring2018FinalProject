@@ -225,7 +225,17 @@
    <image width="182" height="123" source="../sprites/enemy/wingMan5.png"/>
   </tile>
  </tileset>
- <objectgroup name="parallax" visible="0"/>
+ <objectgroup name="parallax">
+  <object id="1682" gid="20" x="0" y="1920" width="2688" height="2016"/>
+  <object id="1681" gid="20" x="-8" y="1992" width="2688" height="2016"/>
+  <object id="1683" gid="20" x="2680" y="1992" width="2688" height="2016"/>
+  <object id="1685" gid="20" x="8056" y="1992" width="2688" height="2016"/>
+  <object id="1686" gid="20" x="5368" y="1992" width="2688" height="2016"/>
+  <object id="1687" gid="20" x="10744" y="1992" width="2688" height="2016"/>
+  <object id="1688" gid="20" x="13432" y="1992" width="2688" height="2016"/>
+  <object id="1689" gid="25" x="5316" y="2864" width="3556" height="872"/>
+  <object id="1690" gid="25" x="11712" y="2744" width="3657.45" height="756"/>
+ </objectgroup>
  <objectgroup name="middleground">
   <object id="326" gid="32" x="0" y="3200" width="128" height="128"/>
   <object id="327" gid="29" x="128" y="3200" width="128" height="128"/>
@@ -2184,6 +2194,12 @@
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1684" gid="25" x="8064" y="2176" width="128" height="128"/>
+  <object id="1691" name="Wall" gid="19" x="15312" y="-48" width="3340" height="0.1" rotation="90">
+   <properties>
+    <property name="bodyType" value="static"/>
    </properties>
   </object>
  </objectgroup>
