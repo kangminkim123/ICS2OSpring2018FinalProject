@@ -9,7 +9,7 @@ local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
 
 -- Variables local to scene
-local map, hero, shield, parallax
+local map, hero, shield, parallax, backgroundMusic
 
 -- Create a new Composer scene
 local scene = composer.newScene()
@@ -70,7 +70,7 @@ function scene:create( event )
 		sword = audio.loadSound( sndDir .. "sword.mp3" ),
 		squish = audio.loadSound( sndDir .. "squish.mp3" ),
 		slime = audio.loadSound( sndDir .. "slime.mp3" ),
-		wind = audio.loadSound( sndDir .. "loops/spacewind.mp3" ),
+		wind = audio.loadSound( sndDir .. "loops/freeWinterBackgroundMusic.mp3" ),
 		door = audio.loadSound( sndDir .. "door.mp3" ),
 		hurt = {
 			audio.loadSound( sndDir .. "hurt1.mp3" ),
@@ -79,6 +79,7 @@ function scene:create( event )
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
 	}
+	
 
 	-- Start physics before loading map
 	physics.start()
