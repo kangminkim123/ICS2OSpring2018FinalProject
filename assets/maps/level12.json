@@ -731,8 +731,8 @@
                  "type":"",
                  "visible":true,
                  "width":292.764,
-                 "x":-219.236,
-                 "y":1237.31
+                 "x":-215.236,
+                 "y":1241.31
                 }, 
                 {
                  "gid":18,
@@ -2219,6 +2219,28 @@
                  "width":292.764,
                  "x":-510.382,
                  "y":1237.62
+                }, 
+                {
+                 "gid":51,
+                 "height":1681.06,
+                 "id":634,
+                 "name":"boarder",
+                 "properties":
+                    {
+                     "bodyType":"static",
+                     "friction":1
+                    },
+                 "propertytypes":
+                    {
+                     "bodyType":"string",
+                     "friction":"float"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":12925,
+                 "y":1255.47
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3379,6 +3401,30 @@
                  "width":271.254,
                  "x":11614.8,
                  "y":2584.42
+                }, 
+                {
+                 "gid":48,
+                 "height":196,
+                 "id":632,
+                 "name":"",
+                 "rotation":0,
+                 "type":"coin2",
+                 "visible":true,
+                 "width":204,
+                 "x":3648,
+                 "y":216
+                }, 
+                {
+                 "gid":48,
+                 "height":196,
+                 "id":633,
+                 "name":"",
+                 "rotation":0,
+                 "type":"coin2",
+                 "visible":true,
+                 "width":204,
+                 "x":8698,
+                 "y":974
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3386,7 +3432,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":632,
+ "nextobjectid":635,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",
