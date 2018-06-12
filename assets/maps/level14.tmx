@@ -2364,7 +2364,7 @@
   </object>
   <object id="1240" name="blob" type="blob" gid="64" x="1792" y="9856" width="174" height="126"/>
   <object id="1241" name="blob" type="blob" gid="64" x="2048" y="9728" width="174" height="126"/>
-  <object id="1243" type="spikes" gid="25" x="2816" y="10880" width="134.061" height="89.7329">
+  <object id="1243" gid="25" x="2816" y="10880" width="134.061" height="89.7329">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>

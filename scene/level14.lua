@@ -77,7 +77,7 @@ function scene:create( event )
 			audio.loadSound( sndDir .. "hurt2.mp3" ),
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
-		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		coin = audio.loadSound( sndDir .. "CollectPoint.mp3" ),
 	}
 
 	-- Start physics before loading map
