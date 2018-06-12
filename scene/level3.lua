@@ -70,7 +70,7 @@ function scene:create( event )
 		sword = audio.loadSound( sndDir .. "sword.mp3" ),
 		squish = audio.loadSound( sndDir .. "squish.mp3" ),
 		slime = audio.loadSound( sndDir .. "slime.mp3" ),
-		wind = audio.loadSound( sndDir .. "loops/DesertSound.mp3" ),
+		wind = audio.loadSound( sndDir .. "loops/spacewind.mp3" ),
 		door = audio.loadSound( sndDir .. "door.mp3" ),
 		hurt = {
 			audio.loadSound( sndDir .. "hurt1.mp3" ),
@@ -78,7 +78,6 @@ function scene:create( event )
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
-		coin2 = audio.loadSound( sndDir .. "coin2.mp3" ),
 	}
 
 	-- Start physics before loading map
@@ -89,7 +88,7 @@ function scene:create( event )
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level12.json"
+	local filename = "./assets/maps/level3.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -102,7 +101,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes", "coin2" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
