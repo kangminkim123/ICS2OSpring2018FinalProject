@@ -3,34 +3,34 @@
  <tileset firstgid="1" name="level10" tilewidth="1800" tileheight="893" tilecount="32" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter1.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter1.png"/>
   </tile>
   <tile id="1">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter2.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter2.png"/>
   </tile>
   <tile id="2">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter3.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter3.png"/>
   </tile>
   <tile id="3">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter4.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter4.png"/>
   </tile>
   <tile id="4">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter5.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter5.png"/>
   </tile>
   <tile id="5">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter6.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter6.png"/>
   </tile>
   <tile id="6">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter7.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter7.png"/>
   </tile>
   <tile id="7">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter8.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter8.png"/>
   </tile>
   <tile id="8">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter9.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter9.png"/>
   </tile>
   <tile id="9">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter10.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter10.png"/>
   </tile>
   <tile id="10">
    <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter11.png"/>
@@ -48,88 +48,88 @@
    <image width="128" height="93" source="../../../Forking/assets/sprites/winter/Tiles/winter15.png"/>
   </tile>
   <tile id="15">
-   <image width="128" height="93" source="../../../Forking/assets/sprites/winter/Tiles/winter16.png"/>
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter16.png"/>
   </tile>
   <tile id="16">
-   <image width="128" height="99" source="../../../Forking/assets/sprites/winter/Tiles/winter17.png"/>
+   <image width="128" height="99" source="../sprites/winter/Tiles/winter17.png"/>
   </tile>
   <tile id="17">
    <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter18.png"/>
   </tile>
   <tile id="18">
-   <image width="101" height="101" source="../../../Forking/assets/sprites/winter/Object/Crate.png"/>
+   <image width="101" height="101" source="../sprites/winter/Object/Crate.png"/>
   </tile>
   <tile id="19">
-   <image width="97" height="78" source="../../../Forking/assets/sprites/winter/Object/Crystal.png"/>
+   <image width="97" height="78" source="../sprites/winter/Object/Crystal.png"/>
   </tile>
   <tile id="20">
-   <image width="101" height="101" source="../../../Forking/assets/sprites/winter/Object/IceBox.png"/>
+   <image width="101" height="101" source="../sprites/winter/Object/IceBox.png"/>
   </tile>
   <tile id="21">
-   <image width="511" height="201" source="../../../Forking/assets/sprites/winter/Object/Igloo.png"/>
+   <image width="511" height="201" source="../sprites/winter/Object/Igloo.png"/>
   </tile>
   <tile id="22">
-   <image width="87" height="94" source="../../../Forking/assets/sprites/winter/Object/Sign1.png"/>
+   <image width="87" height="94" source="../sprites/winter/Object/Sign1.png"/>
   </tile>
   <tile id="23">
-   <image width="87" height="93" source="../../../Forking/assets/sprites/winter/Object/Sign2.png"/>
+   <image width="87" height="93" source="../sprites/winter/Object/Sign2.png"/>
   </tile>
   <tile id="24">
-   <image width="193" height="210" source="../../../Forking/assets/sprites/winter/Object/SnowMan.png"/>
+   <image width="193" height="210" source="../sprites/winter/Object/SnowMan.png"/>
   </tile>
   <tile id="25">
-   <image width="124" height="78" source="../../../Forking/assets/sprites/winter/Object/Stone.png"/>
+   <image width="124" height="78" source="../sprites/winter/Object/Stone.png"/>
   </tile>
   <tile id="26">
-   <image width="364" height="280" source="../../../Forking/assets/sprites/winter/Object/Tree1.png"/>
+   <image width="364" height="280" source="../sprites/winter/Object/Tree1.png"/>
   </tile>
   <tile id="27">
-   <image width="228" height="280" source="../../../Forking/assets/sprites/winter/Object/Tree2.png"/>
+   <image width="228" height="280" source="../sprites/winter/Object/Tree2.png"/>
   </tile>
   <tile id="28">
-   <image width="1800" height="893" source="../../../Forking/assets/sprites/winter/BG/winterBG.png"/>
+   <image width="1800" height="893" source="../sprites/winter/BG/winterBG.png"/>
   </tile>
   <tile id="29">
-   <image width="77" height="77" source="../../../Forking/assets/sprites/blockyLand/coinOne.png"/>
+   <image width="77" height="77" source="../sprites/blockyLand/coinOne.png"/>
   </tile>
   <tile id="30">
-   <image width="128" height="126" source="../../../Forking/assets/sprites/blockyLand/trampolineOne.png"/>
+   <image width="128" height="126" source="../sprites/blockyLand/trampolineOne.png"/>
   </tile>
   <tile id="31">
-   <image width="128" height="80" source="../../../Forking/assets/sprites/blockyLand/spike.png"/>
+   <image width="128" height="80" source="../sprites/blockyLand/spike.png"/>
   </tile>
  </tileset>
  <tileset firstgid="33" name="level11" tilewidth="1800" tileheight="893" tilecount="34" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter1.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter1.png"/>
   </tile>
   <tile id="1">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter2.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter2.png"/>
   </tile>
   <tile id="2">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter3.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter3.png"/>
   </tile>
   <tile id="3">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter4.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter4.png"/>
   </tile>
   <tile id="4">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter5.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter5.png"/>
   </tile>
   <tile id="5">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter6.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter6.png"/>
   </tile>
   <tile id="6">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter7.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter7.png"/>
   </tile>
   <tile id="7">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter8.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter8.png"/>
   </tile>
   <tile id="8">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter9.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter9.png"/>
   </tile>
   <tile id="9">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter10.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter10.png"/>
   </tile>
   <tile id="10">
    <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter11.png"/>
@@ -147,61 +147,61 @@
    <image width="128" height="93" source="../../../Forking/assets/sprites/winter/Tiles/winter15.png"/>
   </tile>
   <tile id="15">
-   <image width="128" height="93" source="../../../Forking/assets/sprites/winter/Tiles/winter16.png"/>
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter16.png"/>
   </tile>
   <tile id="16">
-   <image width="128" height="99" source="../../../Forking/assets/sprites/winter/Tiles/winter17.png"/>
+   <image width="128" height="99" source="../sprites/winter/Tiles/winter17.png"/>
   </tile>
   <tile id="17">
-   <image width="128" height="128" source="../../../Forking/assets/sprites/winter/Tiles/winter18.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter18.png"/>
   </tile>
   <tile id="18">
-   <image width="101" height="101" source="../../../Forking/assets/sprites/winter/Object/Crate.png"/>
+   <image width="101" height="101" source="../sprites/winter/Object/Crate.png"/>
   </tile>
   <tile id="19">
-   <image width="97" height="78" source="../../../Forking/assets/sprites/winter/Object/Crystal.png"/>
+   <image width="97" height="78" source="../sprites/winter/Object/Crystal.png"/>
   </tile>
   <tile id="20">
-   <image width="101" height="101" source="../../../Forking/assets/sprites/winter/Object/IceBox.png"/>
+   <image width="101" height="101" source="../sprites/winter/Object/IceBox.png"/>
   </tile>
   <tile id="21">
-   <image width="511" height="201" source="../../../Forking/assets/sprites/winter/Object/Igloo.png"/>
+   <image width="511" height="201" source="../sprites/winter/Object/Igloo.png"/>
   </tile>
   <tile id="22">
-   <image width="87" height="94" source="../../../Forking/assets/sprites/winter/Object/Sign1.png"/>
+   <image width="87" height="94" source="../sprites/winter/Object/Sign1.png"/>
   </tile>
   <tile id="23">
-   <image width="87" height="93" source="../../../Forking/assets/sprites/winter/Object/Sign2.png"/>
+   <image width="87" height="93" source="../sprites/winter/Object/Sign2.png"/>
   </tile>
   <tile id="24">
-   <image width="193" height="210" source="../../../Forking/assets/sprites/winter/Object/SnowMan.png"/>
+   <image width="193" height="210" source="../sprites/winter/Object/SnowMan.png"/>
   </tile>
   <tile id="25">
-   <image width="124" height="78" source="../../../Forking/assets/sprites/winter/Object/Stone.png"/>
+   <image width="124" height="78" source="../sprites/winter/Object/Stone.png"/>
   </tile>
   <tile id="26">
-   <image width="364" height="280" source="../../../Forking/assets/sprites/winter/Object/Tree1.png"/>
+   <image width="364" height="280" source="../sprites/winter/Object/Tree1.png"/>
   </tile>
   <tile id="27">
-   <image width="228" height="280" source="../../../Forking/assets/sprites/winter/Object/Tree2.png"/>
+   <image width="228" height="280" source="../sprites/winter/Object/Tree2.png"/>
   </tile>
   <tile id="28">
-   <image width="1800" height="893" source="../../../Forking/assets/sprites/winter/BG/winterBG.png"/>
+   <image width="1800" height="893" source="../sprites/winter/BG/winterBG.png"/>
   </tile>
   <tile id="29">
-   <image width="128" height="80" source="../../../Forking/assets/sprites/blockyLand/spike.png"/>
+   <image width="128" height="80" source="../sprites/blockyLand/spike.png"/>
   </tile>
   <tile id="30">
-   <image width="357" height="361" source="../../../Forking/assets/sprites/Space/Objects/Saw.png"/>
+   <image width="357" height="361" source="../sprites/space/Objects/Saw.png"/>
   </tile>
   <tile id="31">
-   <image width="77" height="77" source="../../../Forking/assets/sprites/blockyLand/coinOne.png"/>
+   <image width="77" height="77" source="../sprites/blockyLand/coinOne.png"/>
   </tile>
   <tile id="32">
-   <image width="128" height="126" source="../../../Forking/assets/sprites/blockyLand/trampolineOne.png"/>
+   <image width="128" height="126" source="../sprites/blockyLand/trampolineOne.png"/>
   </tile>
   <tile id="33">
-   <image width="50" height="41" source="../../../Forking/assets/sprites/summer/objects/Mushroom2.png"/>
+   <image width="50" height="41" source="../sprites/summer/objects/Mushroom2.png"/>
   </tile>
  </tileset>
  <objectgroup name="parallax">
