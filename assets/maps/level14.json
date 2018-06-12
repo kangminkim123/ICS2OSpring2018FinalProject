@@ -9902,7 +9902,7 @@
                      "friction":"float"
                     },
                  "rotation":0,
-                 "type":"spikes",
+                 "type":"",
                  "visible":true,
                  "width":134.061,
                  "x":2816,
