@@ -21,14 +21,13 @@ settings = {
 	},
     
 	iphone =
-	{
-		plist =
-		{
-			UIStatusBarHidden = false,
-			--UIApplicationExitsOnSuspend = true,  -- Uncomment to quit app on suspend    
-			xcassets = "Images.xcassets",
-		},
-	},
+    {
+        xcassets = "Images.xcassets",
+        plist =
+        {
+            UILaunchStoryboardName = "LaunchScreen",
+        },
+    },
 
 	-- This setting can be used to turned on to disable debug symbol stripping altogether
 	build = {
