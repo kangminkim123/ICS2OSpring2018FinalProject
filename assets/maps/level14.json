@@ -9905,18 +9905,18 @@
                  "type":"coin",
                  "visible":true,
                  "width":92.6327,
-                 "x":1053.68365,
+                 "x":1053.68,
                  "y":14539.5
                 }, 
                 {
                  "gid":34,
                  "height":114,
                  "id":1245,
-                 "name":"coin2",
+                 "name":"crystal",
                  "rotation":0,
-                 "type":"coin2",
+                 "type":"crystal",
                  "visible":true,
-                 "width":118.95652173913,
+                 "width":118.957,
                  "x":2016,
                  "y":14203
                 }],
