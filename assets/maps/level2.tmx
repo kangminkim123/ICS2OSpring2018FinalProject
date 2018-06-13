@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1309">
- <tileset firstgid="1" name="stickerKnight" tilewidth="1800" tileheight="1482" tilecount="92" columns="0">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1425">
+ <tileset firstgid="1" name="stickerKnight" tilewidth="1800" tileheight="893" tilecount="91" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="160" height="192" source="../sprites/stickerKnight/alter.png"/>
@@ -189,10 +189,10 @@
    <image width="56" height="59" source="../sprites/stickerKnight/window3.png"/>
   </tile>
   <tile id="62">
-   <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter1.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter1.png"/>
   </tile>
   <tile id="63">
-   <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter2.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter2.png"/>
   </tile>
   <tile id="64">
    <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter3.png"/>
@@ -201,7 +201,7 @@
    <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter4.png"/>
   </tile>
   <tile id="66">
-   <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter5.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter5.png"/>
   </tile>
   <tile id="67">
    <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter6.png"/>
@@ -210,7 +210,7 @@
    <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter7.png"/>
   </tile>
   <tile id="69">
-   <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter8.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter8.png"/>
   </tile>
   <tile id="70">
    <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter9.png"/>
@@ -228,43 +228,43 @@
    <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter13.png"/>
   </tile>
   <tile id="75">
-   <image width="128" height="93" source="../../../7-14/assets/sprites/winter/Tiles/winter14.png"/>
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter14.png"/>
   </tile>
   <tile id="76">
-   <image width="128" height="93" source="../../../7-14/assets/sprites/winter/Tiles/winter15.png"/>
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter15.png"/>
   </tile>
   <tile id="77">
-   <image width="128" height="93" source="../../../7-14/assets/sprites/winter/Tiles/winter16.png"/>
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter16.png"/>
   </tile>
   <tile id="78">
-   <image width="128" height="99" source="../../../7-14/assets/sprites/winter/Tiles/winter17.png"/>
+   <image width="128" height="99" source="../sprites/winter/Tiles/winter17.png"/>
   </tile>
   <tile id="79">
-   <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter18.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter18.png"/>
   </tile>
   <tile id="80">
    <image width="87" height="93" source="../../../7-14/assets/sprites/winter/Object/Sign2.png"/>
   </tile>
   <tile id="81">
-   <image width="193" height="210" source="../../../7-14/assets/sprites/winter/Object/SnowMan.png"/>
+   <image width="193" height="210" source="../sprites/winter/Object/SnowMan.png"/>
   </tile>
   <tile id="82">
-   <image width="124" height="78" source="../../../7-14/assets/sprites/winter/Object/Stone.png"/>
+   <image width="124" height="78" source="../sprites/winter/Object/Stone.png"/>
   </tile>
   <tile id="83">
-   <image width="364" height="280" source="../../../7-14/assets/sprites/winter/Object/Tree1.png"/>
+   <image width="364" height="280" source="../sprites/winter/Object/Tree1.png"/>
   </tile>
   <tile id="84">
-   <image width="228" height="280" source="../../../7-14/assets/sprites/winter/Object/Tree2.png"/>
+   <image width="228" height="280" source="../sprites/winter/Object/Tree2.png"/>
   </tile>
   <tile id="85">
    <image width="101" height="101" source="../../../7-14/assets/sprites/winter/Object/Crate.png"/>
   </tile>
   <tile id="86">
-   <image width="97" height="78" source="../../../7-14/assets/sprites/winter/Object/Crystal.png"/>
+   <image width="97" height="78" source="../sprites/winter/Object/Crystal.png"/>
   </tile>
   <tile id="87">
-   <image width="101" height="101" source="../../../7-14/assets/sprites/winter/Object/IceBox.png"/>
+   <image width="101" height="101" source="../sprites/winter/Object/IceBox.png"/>
   </tile>
   <tile id="88">
    <image width="511" height="201" source="../../../7-14/assets/sprites/winter/Object/Igloo.png"/>
@@ -273,10 +273,7 @@
    <image width="87" height="94" source="../../../7-14/assets/sprites/winter/Object/Sign1.png"/>
   </tile>
   <tile id="90">
-   <image width="1800" height="893" source="../../../7-14/assets/sprites/winter/BG/winterBG.png"/>
-  </tile>
-  <tile id="91">
-   <image width="996" height="1482" source="../../../7-14/assets/spritesheets/ninjaBoy/ninjaBoyDead.png"/>
+   <image width="1800" height="893" source="../sprites/winter/BG/winterBG.png"/>
   </tile>
  </tileset>
  <tileset firstgid="93" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
@@ -565,12 +562,12 @@
   </tile>
  </tileset>
  <objectgroup name="parallax">
-  <object id="747" gid="91" x="-894" y="1664" width="2694" height="1661"/>
+  <object id="747" gid="91" x="-888" y="1662" width="2694" height="1661"/>
   <object id="771" gid="91" x="1792" y="1664" width="2694" height="1661"/>
   <object id="772" gid="91" x="4480" y="1664" width="2694" height="1661"/>
   <object id="975" gid="91" x="7168" y="1664" width="2694" height="1661"/>
   <object id="1125" gid="91" x="9856" y="1664" width="2694" height="1661"/>
-  <object id="1291" gid="91" x="12544" y="1664" width="2694" height="1661"/>
+  <object id="1291" gid="91" x="12544" y="1664" width="5178" height="1661"/>
  </objectgroup>
  <objectgroup name="middleground">
   <object id="329" gid="64" x="512" y="1662.06" width="128" height="128">
@@ -2014,6 +2011,242 @@
   </object>
   <object id="1304" type="coin" gid="88" x="14026" y="1334" width="101" height="101"/>
   <object id="1308" type="blob" gid="83" x="14206" y="1407" width="124" height="78"/>
+  <object id="1309" gid="76" x="12465.5" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1310" gid="77" x="12608.1" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1311" gid="77" x="12536.8" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1312" gid="78" x="12679.3" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1313" gid="76" x="11825.5" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1314" gid="77" x="11968" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1315" gid="77" x="11896.7" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1316" gid="78" x="12039.3" y="1432.11" width="71.2779" height="51.7879">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1317" type="blob" gid="87" x="12557.5" y="1380.11" width="97" height="78"/>
+  <object id="1318" type="enemy" gid="63" x="14888" y="1436" width="128" height="128"/>
+  <object id="1323" gid="64" x="16000" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1324" gid="67" x="16000" y="1792" width="128" height="128"/>
+  <object id="1325" gid="64" x="16128" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1326" gid="67" x="16128" y="1792" width="128" height="128"/>
+  <object id="1327" gid="64" x="16256" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1328" gid="67" x="16256" y="1792" width="128" height="128"/>
+  <object id="1329" gid="67" x="16128" y="1920" width="128" height="128"/>
+  <object id="1330" gid="67" x="16000" y="1920" width="128" height="128"/>
+  <object id="1331" gid="67" x="16256" y="1920" width="128" height="128"/>
+  <object id="1332" gid="67" x="16000" y="2043.94" width="128" height="128"/>
+  <object id="1333" gid="67" x="16128" y="2043.94" width="128" height="128"/>
+  <object id="1334" gid="67" x="16256" y="2043.94" width="128" height="128"/>
+  <object id="1335" gid="67" x="16000" y="2171.94" width="128" height="128"/>
+  <object id="1336" gid="67" x="16128" y="2171.94" width="128" height="128"/>
+  <object id="1337" gid="67" x="16256" y="2171.94" width="128" height="128"/>
+  <object id="1338" gid="67" x="15872" y="2171.94" width="128" height="128"/>
+  <object id="1339" gid="67" x="15872" y="2043.94" width="128" height="128"/>
+  <object id="1340" gid="67" x="15872" y="1920" width="128" height="128"/>
+  <object id="1341" gid="67" x="15872" y="1792" width="128" height="128"/>
+  <object id="1342" gid="64" x="15872" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1343" gid="64" x="15744" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1344" gid="67" x="15744" y="1920" width="128" height="128"/>
+  <object id="1345" gid="67" x="15744" y="1792" width="128" height="128"/>
+  <object id="1346" gid="67" x="15744" y="2043.94" width="128" height="128"/>
+  <object id="1347" gid="67" x="15744" y="2171.94" width="128" height="128"/>
+  <object id="1348" gid="67" x="15616" y="2171.94" width="128" height="128"/>
+  <object id="1349" gid="67" x="15616" y="2043.94" width="128" height="128"/>
+  <object id="1350" gid="67" x="15616" y="1920" width="128" height="128"/>
+  <object id="1351" gid="64" x="15616" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1352" gid="67" x="15616" y="1792" width="128" height="128"/>
+  <object id="1353" gid="67" x="15488" y="2171.94" width="128" height="128"/>
+  <object id="1354" gid="67" x="15488" y="2043.94" width="128" height="128"/>
+  <object id="1355" gid="67" x="15488" y="1920" width="128" height="128"/>
+  <object id="1356" gid="64" x="15488" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1357" gid="67" x="15488" y="1792" width="128" height="128"/>
+  <object id="1358" gid="64" x="16896" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1359" gid="67" x="16896" y="1792" width="128" height="128"/>
+  <object id="1360" gid="64" x="17024" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1361" gid="67" x="17024" y="1792" width="128" height="128"/>
+  <object id="1362" gid="64" x="17152" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1363" gid="67" x="17152" y="1792" width="128" height="128"/>
+  <object id="1364" gid="67" x="17024" y="1920" width="128" height="128"/>
+  <object id="1365" gid="67" x="16896" y="1920" width="128" height="128"/>
+  <object id="1366" gid="67" x="17152" y="1920" width="128" height="128"/>
+  <object id="1367" gid="67" x="16896" y="2043.94" width="128" height="128"/>
+  <object id="1368" gid="67" x="17024" y="2043.94" width="128" height="128"/>
+  <object id="1369" gid="67" x="17152" y="2043.94" width="128" height="128"/>
+  <object id="1370" gid="67" x="16896" y="2171.94" width="128" height="128"/>
+  <object id="1371" gid="67" x="17024" y="2171.94" width="128" height="128"/>
+  <object id="1372" gid="67" x="17152" y="2171.94" width="128" height="128"/>
+  <object id="1373" gid="67" x="16768" y="2171.94" width="128" height="128"/>
+  <object id="1374" gid="67" x="16768" y="2043.94" width="128" height="128"/>
+  <object id="1375" gid="67" x="16768" y="1920" width="128" height="128"/>
+  <object id="1376" gid="67" x="16768" y="1792" width="128" height="128"/>
+  <object id="1377" gid="64" x="16768" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1378" gid="64" x="16640" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1379" gid="67" x="16640" y="1920" width="128" height="128"/>
+  <object id="1380" gid="67" x="16640" y="1792" width="128" height="128"/>
+  <object id="1381" gid="67" x="16640" y="2043.94" width="128" height="128"/>
+  <object id="1382" gid="67" x="16640" y="2171.94" width="128" height="128"/>
+  <object id="1383" gid="67" x="16512" y="2171.94" width="128" height="128"/>
+  <object id="1384" gid="67" x="16512" y="2043.94" width="128" height="128"/>
+  <object id="1385" gid="67" x="16512" y="1920" width="128" height="128"/>
+  <object id="1386" gid="64" x="16512" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1387" gid="67" x="16512" y="1792" width="128" height="128"/>
+  <object id="1388" gid="67" x="16384" y="2171.94" width="128" height="128"/>
+  <object id="1389" gid="67" x="16384" y="2043.94" width="128" height="128"/>
+  <object id="1390" gid="67" x="16384" y="1920" width="128" height="128"/>
+  <object id="1391" gid="64" x="16384" y="1664" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1392" gid="67" x="16384" y="1792" width="128" height="128"/>
+  <object id="1393" gid="64" x="15488" y="1280" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1394" gid="67" x="15488" y="1408" width="128" height="128"/>
+  <object id="1395" gid="67" x="15488" y="1536" width="128" height="128"/>
+  <object id="1396" gid="64" x="15872" y="1152" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1397" gid="67" x="15872" y="1280" width="128" height="128"/>
+  <object id="1398" gid="67" x="15872" y="1408" width="128" height="128"/>
+  <object id="1399" gid="64" x="16256" y="1024" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1400" gid="67" x="16256" y="1152" width="128" height="128"/>
+  <object id="1401" gid="67" x="16250" y="1388" width="144" height="144"/>
+  <object id="1402" gid="64" x="16640" y="896" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="1403" gid="67" x="16640" y="1024" width="128" height="128"/>
+  <object id="1404" gid="67" x="16640" y="1152" width="128" height="128"/>
+  <object id="1406" gid="67" x="16640" y="1408" width="128" height="128"/>
+  <object id="1407" gid="67" x="16640" y="1536" width="128" height="128"/>
+  <object id="1408" gid="67" x="16640" y="1280" width="128" height="128"/>
+  <object id="1409" gid="67" x="16260" y="1256" width="128" height="128"/>
+  <object id="1410" gid="67" x="16250" y="1532" width="144" height="144"/>
+  <object id="1411" gid="67" x="15872" y="1536" width="128" height="128"/>
+  <object id="1412" type="spikes" gid="85" x="15646" y="1540" width="228" height="280"/>
+  <object id="1414" type="spikes" gid="85" x="16000" y="1536" width="228" height="280"/>
+  <object id="1415" type="spikes" gid="85" x="16384" y="1536" width="228" height="280"/>
+  <object id="1416" type="exit" gid="84" x="16970" y="1540" width="364" height="712"/>
+  <object id="1418" type="coin" gid="88" x="15488" y="1024" width="101" height="101"/>
+  <object id="1419" type="coin" gid="88" x="15872" y="896" width="101" height="101"/>
+  <object id="1420" type="coin" gid="88" x="16256" y="768" width="101" height="101"/>
+  <object id="1421" type="coin" gid="88" x="16640" y="640" width="101" height="101"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="326" name="hero" type="hero" gid="112" x="679.394" y="1534.06" width="282" height="301"/>
@@ -2022,6 +2255,11 @@
   <object id="923" name="enemy" type="enemy" gid="4" x="3452.83" y="1535.09" width="129" height="332"/>
   <object id="447" name="enemy" type="enemy" gid="4" x="1664" y="1534.06" width="129" height="332"/>
   <object id="378" gid="8" x="644" y="2068.73" width="0.01" height="2740">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1424" gid="8" x="17280" y="2304" width="0.01" height="2740">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
