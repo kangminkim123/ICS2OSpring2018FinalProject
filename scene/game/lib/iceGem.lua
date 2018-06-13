@@ -17,8 +17,8 @@ function M.new( instance )
 
 		local phase, other = event.phase, event.other
 		if phase == "began" and other.type == "hero" then
-			audio.play( sounds.crystal )
-			scene.score:add( 1000 )
+			audio.play( sounds.coin )
+			scene.score:add( 500 )
 			
 			display.remove( self )
 		end
