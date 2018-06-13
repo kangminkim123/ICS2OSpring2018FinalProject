@@ -21,33 +21,13 @@ settings = {
 	},
     
 	iphone =
-	{
-		plist =
-		{
-			UIStatusBarHidden = false,
-			--UIApplicationExitsOnSuspend = true,  -- Uncomment to quit app on suspend    
-			CFBundleIconFiles =
-			{
-				"Icon.png", 
-				"Icon@2x.png", 
-				"Icon-60.png",
-				"Icon-60@2x.png",
-				"Icon-60@3x.png",
-				"Icon-72.png", 
-				"Icon-72@2x.png",
-				"Icon-76.png",
-				"Icon-76@2x.png",
-				"Icon-167.png",
-				"Icon-Small.png", 
-				"Icon-Small@2x.png",
-				"Icon-Small@3x.png",
-				"Icon-Small-40.png",
-				"Icon-Small-40@2x.png",
-				"Icon-Small-50.png", 
-				"Icon-Small-50@2x.png",
-			},
-		},
-	},
+    {
+        xcassets = "Images.xcassets",
+        plist =
+        {
+            UILaunchStoryboardName = "LaunchScreen",
+        },
+    },
 
 	-- This setting can be used to turned on to disable debug symbol stripping altogether
 	build = {
