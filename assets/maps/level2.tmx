@@ -189,7 +189,7 @@
    <image width="56" height="59" source="../sprites/stickerKnight/window3.png"/>
   </tile>
   <tile id="62">
-   <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter1.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter1.png"/>
   </tile>
   <tile id="63">
    <image width="128" height="128" source="../sprites/winter/Tiles/winter2.png"/>
