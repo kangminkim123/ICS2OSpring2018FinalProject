@@ -16248,7 +16248,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":0,
+                 "width":128,
                  "x":768,
                  "y":2304
                 }, 
@@ -30172,7 +30172,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":0,
+                 "width":128,
                  "x":18432,
                  "y":2304
                 }, 
@@ -30671,6 +30671,18 @@
                  "width":260,
                  "x":14398,
                  "y":1539
+                }, 
+                {
+                 "gid":2,
+                 "height":106,
+                 "id":2668,
+                 "name":"coin2",
+                 "rotation":0,
+                 "type":"level4NewCoin",
+                 "visible":true,
+                 "width":106,
+                 "x":1627,
+                 "y":1981
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -30678,7 +30690,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2668,
+ "nextobjectid":2669,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.2",
