@@ -2370,7 +2370,7 @@
    </properties>
   </object>
   <object id="1244" name="coin " type="coin" gid="33" x="1053.68" y="14539.5" width="92.6327" height="89"/>
-  <object id="1245" name="coin2" type="coin2" gid="34" x="2016" y="14203" width="118.957" height="114"/>
+  <object id="1245" name="crystal" type="crystal" gid="34" x="2016" y="14203" width="118.957" height="114"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="325" name="hero" type="hero" gid="7" x="384" y="14896" width="317.99" height="346"/>
