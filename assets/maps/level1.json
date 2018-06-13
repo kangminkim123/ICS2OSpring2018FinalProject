@@ -8,87 +8,75 @@
          "objects":[
                 {
                  "gid":20,
-                 "height":2016,
-                 "id":1682,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":2688,
-                 "x":0,
-                 "y":1920
-                }, 
-                {
-                 "gid":20,
-                 "height":2096,
+                 "height":2256,
                  "id":1681,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2794.66666666667,
-                 "x":-328,
-                 "y":2072
+                 "width":3008,
+                 "x":2688,
+                 "y":2176
                 }, 
                 {
                  "gid":20,
-                 "height":2096,
+                 "height":2256,
                  "id":1683,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2794.66666666667,
-                 "x":2466.66666666667,
-                 "y":2072
+                 "width":3008,
+                 "x":5696,
+                 "y":2176
                 }, 
                 {
                  "gid":20,
-                 "height":2096,
+                 "height":2256,
                  "id":1685,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2794.66666666667,
-                 "x":8056,
-                 "y":2072
+                 "width":3008,
+                 "x":11712,
+                 "y":2176
                 }, 
                 {
                  "gid":20,
-                 "height":2096,
+                 "height":2256,
                  "id":1686,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2794.66666666667,
-                 "x":5261.33333333333,
-                 "y":2072
+                 "width":3008,
+                 "x":8704,
+                 "y":2176
                 }, 
                 {
                  "gid":20,
-                 "height":2096,
+                 "height":2256,
                  "id":1687,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2794.66666666667,
-                 "x":10850.6666666667,
-                 "y":2072
+                 "width":3008,
+                 "x":14720,
+                 "y":2176
                 }, 
                 {
                  "gid":20,
-                 "height":2096,
-                 "id":1688,
+                 "height":2256,
+                 "id":1837,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2794.66666666667,
-                 "x":13645.3333333333,
-                 "y":2072
+                 "width":3008,
+                 "x":-318,
+                 "y":2174
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1063,7 +1051,7 @@
                  "y":896
                 }, 
                 {
-                 "gid":83,
+                 "gid":84,
                  "height":148,
                  "id":411,
                  "name":"hero",
@@ -13691,7 +13679,7 @@
          "name":"forground",
          "objects":[
                 {
-                 "gid":64,
+                 "gid":65,
                  "height":191,
                  "id":474,
                  "name":"",
@@ -14075,7 +14063,7 @@
                  "y":470.442
                 }, 
                 {
-                 "gid":64,
+                 "gid":65,
                  "height":191,
                  "id":908,
                  "name":"",
@@ -14159,7 +14147,7 @@
                  "y":2693.52
                 }, 
                 {
-                 "gid":77,
+                 "gid":78,
                  "height":182.884,
                  "id":915,
                  "name":"",
@@ -14195,7 +14183,7 @@
                  "y":2691.7
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":917,
                  "name":"enemy",
@@ -14207,7 +14195,7 @@
                  "y":2695.09
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":962,
                  "name":"enemy",
@@ -14219,7 +14207,7 @@
                  "y":2688.92
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":1032,
                  "name":"enemy",
@@ -14651,7 +14639,7 @@
                  "y":1290.67
                 }, 
                 {
-                 "gid":70,
+                 "gid":71,
                  "height":125,
                  "id":1198,
                  "name":"",
@@ -14663,7 +14651,7 @@
                  "y":1290.83
                 }, 
                 {
-                 "gid":70,
+                 "gid":71,
                  "height":143.667,
                  "id":1199,
                  "name":"",
@@ -14765,7 +14753,7 @@
                  "y":838.47
                 }, 
                 {
-                 "gid":70,
+                 "gid":71,
                  "height":143.667,
                  "id":1207,
                  "name":"",
@@ -14843,7 +14831,7 @@
                  "y":1143.46
                 }, 
                 {
-                 "gid":70,
+                 "gid":71,
                  "height":143.667,
                  "id":1211,
                  "name":"",
@@ -14855,7 +14843,7 @@
                  "y":1052.26
                 }, 
                 {
-                 "gid":77,
+                 "gid":78,
                  "height":182.884,
                  "id":1349,
                  "name":"",
@@ -14879,7 +14867,7 @@
                  "y":2304.83
                 }, 
                 {
-                 "gid":77,
+                 "gid":78,
                  "height":182.884,
                  "id":1445,
                  "name":"",
@@ -14915,7 +14903,7 @@
                  "y":2688
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":1471,
                  "name":"enemy",
@@ -14927,7 +14915,7 @@
                  "y":2686.41
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":1472,
                  "name":"enemy",
@@ -15005,7 +14993,7 @@
                  "y":1261.04
                 }, 
                 {
-                 "gid":70,
+                 "gid":71,
                  "height":143.667,
                  "id":1643,
                  "name":"",
@@ -15083,7 +15071,7 @@
                  "y":1038.61
                 }, 
                 {
-                 "gid":70,
+                 "gid":71,
                  "height":143.667,
                  "id":1647,
                  "name":"",
@@ -15161,7 +15149,7 @@
                  "y":740.524
                 }, 
                 {
-                 "gid":70,
+                 "gid":71,
                  "height":143.667,
                  "id":1651,
                  "name":"",
@@ -15471,7 +15459,7 @@
                  "y":1361.09
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":1422,
                  "name":"enemy",
@@ -15483,7 +15471,7 @@
                  "y":1920
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":1680,
                  "name":"enemy",
@@ -15495,7 +15483,7 @@
                  "y":1272.23
                 }, 
                 {
-                 "gid":59,
+                 "gid":60,
                  "height":201,
                  "id":799,
                  "name":"enemy",
@@ -15505,6 +15493,18 @@
                  "width":120,
                  "x":4991,
                  "y":1921
+                }, 
+                {
+                 "gid":56,
+                 "height":172,
+                 "id":1836,
+                 "name":"",
+                 "rotation":0,
+                 "type":"gem",
+                 "visible":true,
+                 "width":172,
+                 "x":2000,
+                 "y":1664
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -15512,7 +15512,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1836,
+ "nextobjectid":1838,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",
@@ -15688,7 +15688,7 @@
          "margin":0,
          "name":"Objects",
          "spacing":0,
-         "tilecount":17,
+         "tilecount":18,
          "tileheight":301,
          "tiles":
             {
@@ -15746,6 +15746,12 @@
                  "imageheight":77,
                  "imagewidth":77
                 },
+             "17":
+                {
+                 "image":"..\/sprites\/stickerKnight\/gemRedStroked.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
              "2":
                 {
                  "image":"..\/sprites\/summer\/objects\/Bush3.png",
@@ -15799,7 +15805,7 @@
         }, 
         {
          "columns":0,
-         "firstgid":56,
+         "firstgid":57,
          "grid":
             {
              "height":1,
