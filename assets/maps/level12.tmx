@@ -234,7 +234,7 @@
   <object id="91" gid="20" x="73.5282" y="1822.83" width="292.764" height="292.764"/>
   <object id="92" gid="20" x="366.292" y="1822.83" width="292.764" height="292.764"/>
   <object id="93" gid="20" x="659.056" y="1822.83" width="292.764" height="292.764"/>
-  <object id="144" gid="17" x="-215.236" y="1241.31" width="292.764" height="292.764">
+  <object id="144" gid="17" x="-218.266" y="1243.25" width="292.764" height="292.764">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
@@ -548,7 +548,7 @@
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="634" name="boarder" gid="51" x="12925" y="1255.47" height="1681.06">
+  <object id="634" name="boarder" gid="51" x="13251" y="1255.47" height="1681.06">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
