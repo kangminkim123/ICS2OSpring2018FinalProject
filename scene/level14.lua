@@ -77,7 +77,8 @@ function scene:create( event )
 			audio.loadSound( sndDir .. "hurt2.mp3" ),
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
-		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		coin = audio.loadSound( sndDir .. "CollectPoint.mp3" ),
+		crystal = audio.loadSound( sndDir .. "Crystal.mp3" )
 	}
 
 	-- Start physics before loading map
@@ -88,7 +89,7 @@ function scene:create( event )
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level14.json"
+	local filename = "./assets/maps/level4.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -101,7 +102,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "crystal", "spikes" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
