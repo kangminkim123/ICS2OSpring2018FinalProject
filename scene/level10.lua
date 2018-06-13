@@ -9,7 +9,7 @@ local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
 
 -- Variables local to scene
-local map, hero, shield, parallax, backgroundMusic
+local map, hero, shield, parallax
 
 -- Create a new Composer scene
 local scene = composer.newScene()
@@ -78,10 +78,8 @@ function scene:create( event )
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
-		gem = audio.loadSound( sndDir .. "gem.mp3" ),
 	}
 
-	backgroundMusic = audio.loadStream( sndDir .. "loops/level1Music.mp3" )
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
@@ -90,7 +88,7 @@ function scene:create( event )
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level1.json"
+	local filename = "./assets/maps/level10.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -103,7 +101,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes", "gem" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
@@ -165,10 +163,10 @@ function scene:show( event )
 		fx.fadeIn()	-- Fade up from black
 		Runtime:addEventListener( "enterFrame", enterFrame )
 	elseif ( phase == "did" ) then
-		-- Start playing background music sound
+		-- Start playing wind sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:
 		-- https://docs.coronalabs.com/guide/media/audioSystem/index.html
-		audio.play( backgroundMusic )
+		audio.play( self.sounds.wind, { loops = -1, fadein = 750, channel = 15 } )
 	end
 
 end
