@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2668">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2669">
  <tileset firstgid="1" name="block" tilewidth="2000" tileheight="1143" tilecount="73" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -2722,7 +2722,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1599" gid="8" x="768" y="2304" height="2320">
+  <object id="1599" gid="8" x="768" y="2304" width="128" height="2320">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -4899,7 +4899,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="2654" gid="8" x="18432" y="2304" height="2312">
+  <object id="2654" gid="8" x="18432" y="2304" width="128" height="2312">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -4960,5 +4960,6 @@
   <object id="1612" type="blob" gid="37" x="4712" y="2288" width="120" height="201"/>
   <object id="2664" name="coin" type="coin" gid="32" x="6084" y="2016" width="104" height="94"/>
   <object id="2666" type="blob" gid="45" x="14398" y="1539" width="260" height="134"/>
+  <object id="2668" name="coin2" type="level4NewCoin" gid="2" x="1627" y="1981" width="106" height="106"/>
  </objectgroup>
 </map>
