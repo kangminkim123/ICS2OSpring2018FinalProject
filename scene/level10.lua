@@ -78,8 +78,9 @@ function scene:create( event )
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		backgroundMusic = audio.loadSound( sndDir .. "loops/spooky.mp3" )
 	}
-
+    backgroundMusic = audio.loadStream( sndDir .. "loops/spooky.mp3" )
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
