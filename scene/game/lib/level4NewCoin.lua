@@ -1,4 +1,3 @@
-
 -- Extends an object to act as a pickup
 
 -- Define module
@@ -17,8 +16,8 @@ function M.new( instance )
 
 		local phase, other = event.phase, event.other
 		if phase == "began" and other.type == "hero" then
-			audio.play( sounds.crystal )
-			scene.score:add( 1000 )
+			audio.play( sounds.level4NewCoin )
+			scene.score:add( 732 )
 			
 			display.remove( self )
 		end
