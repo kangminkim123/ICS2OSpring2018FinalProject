@@ -8716,7 +8716,7 @@
                  "visible":true,
                  "width":77,
                  "x":9088,
-                 "y":1536
+                 "y":1408
                 }, 
                 {
                  "gid":42,
@@ -8728,7 +8728,7 @@
                  "visible":true,
                  "width":77,
                  "x":9216,
-                 "y":1536
+                 "y":1408
                 }, 
                 {
                  "gid":42,
@@ -8740,7 +8740,7 @@
                  "visible":true,
                  "width":77,
                  "x":9216,
-                 "y":1536
+                 "y":1408
                 }, 
                 {
                  "gid":42,
@@ -10772,7 +10772,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":0,
+                 "width":0.01,
                  "x":1152,
                  "y":2560
                 }, 
@@ -11656,7 +11656,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":0,
+                 "width":0.01,
                  "x":39424,
                  "y":2688
                 }, 
@@ -20928,37 +20928,37 @@
                 }, 
                 {
                  "gid":47,
-                 "height":203.691029900332,
+                 "height":203.691,
                  "id":1810,
                  "name":"enemy",
                  "rotation":0,
                  "type":"enemy",
                  "visible":true,
-                 "width":129.039867109635,
+                 "width":129.04,
                  "x":37120,
                  "y":2560
                 }, 
                 {
                  "gid":49,
-                 "height":165.299003322259,
+                 "height":165.299,
                  "id":1811,
                  "name":"enemy",
                  "rotation":0,
                  "type":"enemy",
                  "visible":true,
-                 "width":95.9800664451827,
-                 "x":37666.0199335548,
+                 "width":95.9801,
+                 "x":37666,
                  "y":2560
                 }, 
                 {
                  "gid":47,
-                 "height":203.691029900332,
+                 "height":203.691,
                  "id":1812,
                  "name":"enemy",
                  "rotation":0,
                  "type":"enemy",
                  "visible":true,
-                 "width":129.039867109635,
+                 "width":129.04,
                  "x":36608,
                  "y":2560
                 }],
