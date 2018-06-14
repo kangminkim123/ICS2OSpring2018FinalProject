@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1155">
- <tileset firstgid="1" name="FinalProjecTiles" tilewidth="2000" tileheight="1143" tilecount="55" columns="0">
+ <tileset firstgid="1" name="FinalProjecTiles" tilewidth="2000" tileheight="1143" tilecount="56" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../sprites/graveyard/Tiles/Bone1.png"/>
@@ -166,6 +166,9 @@
   </tile>
   <tile id="54">
    <image width="127" height="60" source="../sprites/blockyLand/movingPlatform.png"/>
+  </tile>
+  <tile id="55">
+   <image width="54" height="43" source="../sprites/items/particle_darkBrown.png"/>
   </tile>
  </tileset>
  <objectgroup name="parallax">
@@ -1110,12 +1113,12 @@
     <property name="friction" type="float" value="0.45"/>
    </properties>
   </object>
-  <object id="517" type="coin" gid="34" x="2432" y="1152" width="125" height="125"/>
+  <object id="517" type="coin" gid="56" x="2432" y="1152" width="125" height="125"/>
   <object id="721" gid="28" x="6144" y="1280" width="130.145" height="132.556"/>
   <object id="720" gid="26" x="6400" y="1280" width="187" height="191.11"/>
   <object id="723" gid="22" x="8192" y="282.467" width="534" height="264.066" rotation="-360"/>
   <object id="724" type="spikes" gid="25" x="8775.47" y="256" width="660" height="370" rotation="-540"/>
-  <object id="726" type="coin" gid="34" x="4608" y="1152" width="125" height="125"/>
+  <object id="726" type="coin" gid="56" x="4608" y="1152" width="125" height="125"/>
   <object id="729" type="enemy" gid="1073741866" x="3984" y="780" width="294.4" height="368" rotation="180"/>
   <object id="734" type="spikes" gid="37" x="5296" y="1152" width="179.2" height="112"/>
   <object id="669" gid="6" x="6656" y="1408" width="128" height="128">
@@ -1318,8 +1321,8 @@
    </properties>
   </object>
   <object id="984" type="blob" gid="27" x="2688" y="1280" width="363.12" height="178"/>
-  <object id="985" type="coin" gid="34" x="9160" y="1336" width="125" height="125"/>
-  <object id="986" type="coin" gid="34" x="10824" y="1344" width="125" height="125"/>
+  <object id="985" type="coin" gid="56" x="9160" y="1336" width="125" height="125"/>
+  <object id="986" type="coin" gid="56" x="10824" y="1344" width="125" height="125"/>
   <object id="987" gid="9" x="11648" y="1920" width="128" height="128"/>
   <object id="988" gid="9" x="11392" y="1920" width="128" height="128"/>
   <object id="989" gid="9" x="11648" y="1792" width="128" height="128"/>
