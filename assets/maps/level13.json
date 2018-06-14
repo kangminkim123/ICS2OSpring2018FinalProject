@@ -5437,18 +5437,6 @@
                  "y":1408
                 }, 
                 {
-                 "gid":54,
-                 "height":404,
-                 "id":865,
-                 "name":"Old Sword",
-                 "rotation":180,
-                 "type":"coin",
-                 "visible":true,
-                 "width":336.667,
-                 "x":7552,
-                 "y":1024
-                }, 
-                {
                  "gid":9,
                  "height":128,
                  "id":866,
@@ -7214,7 +7202,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":1154,
                  "name":"",
                  "rotation":90,
@@ -7271,7 +7259,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":517,
                  "name":"",
@@ -7331,7 +7319,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":726,
                  "name":"",
@@ -8457,7 +8445,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":985,
                  "name":"",
@@ -8469,7 +8457,7 @@
                  "y":1336
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":986,
                  "name":"",
@@ -9313,6 +9301,18 @@
                  "width":128,
                  "x":12416,
                  "y":1280
+                }, 
+                {
+                 "gid":54,
+                 "height":404,
+                 "id":865,
+                 "name":"Old Sword",
+                 "rotation":180,
+                 "type":"coin2",
+                 "visible":true,
+                 "width":336.667,
+                 "x":7552,
+                 "y":1024
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9338,7 +9338,7 @@
          "margin":0,
          "name":"FinalProjecTiles",
          "spacing":0,
-         "tilecount":55,
+         "tilecount":56,
          "tileheight":1143,
          "tiles":
             {
@@ -9647,6 +9647,12 @@
                  "image":"..\/sprites\/blockyLand\/movingPlatform.png",
                  "imageheight":60,
                  "imagewidth":127
+                },
+             "55":
+                {
+                 "image":"..\/sprites\/items\/particle_darkBrown.png",
+                 "imageheight":43,
+                 "imagewidth":54
                 },
              "6":
                 {
