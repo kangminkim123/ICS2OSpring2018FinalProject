@@ -66,18 +66,19 @@ function scene:create( event )
 	-- Sounds
 	local sndDir = "scene/game/sfx/"
 	scene.sounds = {
-		thud = audio.loadSound( sndDir .. "thud.mp3" ),
-		sword = audio.loadSound( sndDir .. "sword.mp3" ),
-		squish = audio.loadSound( sndDir .. "squish.mp3" ),
-		slime = audio.loadSound( sndDir .. "slime.mp3" ),
-		wind = audio.loadSound( sndDir .. "loops/spacewind.mp3" ),
-		door = audio.loadSound( sndDir .. "door.mp3" ),
+		thud = audio.loadSound( sndDir .. "newthud.mp3" ),
+		sword = audio.loadSound( sndDir .. "sharpsword.mp3" ),
+		squish = audio.loadSound( sndDir .. "squash.mp3" ),
+		slime = audio.loadSound( sndDir .. "newslime.mp3" ),
+		wind = audio.loadSound( sndDir .. "loops/HeavyWind.mp3" ),
+		door = audio.loadSound( sndDir .. "portal.mp3" ),
 		hurt = {
-			audio.loadSound( sndDir .. "hurt1.mp3" ),
-			audio.loadSound( sndDir .. "hurt2.mp3" ),
+			audio.loadSound( sndDir .. "newhurt.mp3" ),
+			audio.loadSound( sndDir .. "newhurt2.mp3" ),
 		},
-		hit = audio.loadSound( sndDir .. "hit.mp3" ),
+		hit = audio.loadSound( sndDir .. "newhit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		goldendiamond = audio.loadSound( sndDir .. "goldendiamond.mp3" ),
 	}
 
 	-- Start physics before loading map
@@ -101,7 +102,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes", "goldendiamond" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
