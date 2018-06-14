@@ -7271,7 +7271,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":517,
                  "name":"",
@@ -7331,7 +7331,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":726,
                  "name":"",
@@ -8457,7 +8457,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":985,
                  "name":"",
@@ -8469,7 +8469,7 @@
                  "y":1336
                 }, 
                 {
-                 "gid":34,
+                 "gid":56,
                  "height":125,
                  "id":986,
                  "name":"",
@@ -9338,7 +9338,7 @@
          "margin":0,
          "name":"FinalProjecTiles",
          "spacing":0,
-         "tilecount":55,
+         "tilecount":56,
          "tileheight":1143,
          "tiles":
             {
@@ -9647,6 +9647,12 @@
                  "image":"..\/sprites\/blockyLand\/movingPlatform.png",
                  "imageheight":60,
                  "imagewidth":127
+                },
+             "55":
+                {
+                 "image":"..\/sprites\/items\/particle_darkBrown.png",
+                 "imageheight":43,
+                 "imagewidth":54
                 },
              "6":
                 {
