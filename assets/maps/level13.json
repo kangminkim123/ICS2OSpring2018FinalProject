@@ -5442,7 +5442,7 @@
                  "id":865,
                  "name":"Old Sword",
                  "rotation":180,
-                 "type":"coin",
+                 "type":"coin2",
                  "visible":true,
                  "width":336.667,
                  "x":7552,
@@ -7214,7 +7214,7 @@
                 }, 
                 {
                  "gid":40,
-                 "height":0,
+                 "height":101,
                  "id":1154,
                  "name":"",
                  "rotation":90,
