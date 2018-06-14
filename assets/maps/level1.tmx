@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1838">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1848">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -781,7 +781,6 @@
   <object id="725" gid="25" x="4480" y="2176" width="128" height="128"/>
   <object id="726" gid="25" x="4096" y="2176" width="128" height="128"/>
   <object id="727" gid="25" x="3968" y="2176" width="128" height="128"/>
-  <object id="728" gid="25" x="3840" y="2176" width="128" height="128"/>
   <object id="729" gid="22" x="4224" y="2048" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
@@ -807,12 +806,6 @@
    </properties>
   </object>
   <object id="733" gid="22" x="3968" y="2048" width="128" height="128">
-   <properties>
-    <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="1"/>
-   </properties>
-  </object>
-  <object id="734" gid="22" x="3840" y="2048" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -2196,8 +2189,14 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1684" gid="25" x="8064" y="2176" width="128" height="128"/>
   <object id="1691" name="Wall" gid="19" x="15312" y="-48" width="3340" height="0.1" rotation="90">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="1838" gid="30" x="3840" y="2048" width="128" height="128"/>
+  <object id="1839" gid="25" x="3840" y="2176" width="128" height="128"/>
+  <object id="1840" gid="23" x="3840" y="1920" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
@@ -2231,21 +2230,16 @@
   <object id="599" gid="38" x="3712" y="2432" width="128" height="128"/>
   <object id="897" type="spikes" gid="54" x="6016.24" y="1918.74" width="221" height="81"/>
   <object id="899" type="spikes" gid="54" x="6272.24" y="1918.74" width="221" height="81"/>
-  <object id="901" type="coin" gid="55" x="5969.33" y="2692.5" width="168.333" height="161.722"/>
   <object id="903" type="coin" gid="55" x="2794.83" y="1572.14" width="168.333" height="161.722"/>
-  <object id="904" type="coin" gid="55" x="3214.83" y="1232.14" width="168.333" height="161.722"/>
+  <object id="904" type="coin" gid="55" x="3116.83" y="1232.14" width="168.333" height="161.722"/>
   <object id="906" type="coin" gid="55" x="3632.83" y="854.139" width="168.333" height="161.722"/>
-  <object id="907" type="coin" gid="55" x="2956.77" y="470.442" width="168.333" height="161.722"/>
   <object id="908" type="blob" gid="65" x="3180.94" y="466.303" width="121" height="191"/>
-  <object id="909" type="coin" gid="55" x="4018.83" y="1918.14" width="168.333" height="161.722"/>
+  <object id="909" type="coin" gid="55" x="4224" y="1920" width="168.333" height="161.722"/>
   <object id="910" type="coin" gid="55" x="4578.83" y="1922.14" width="168.333" height="161.722"/>
-  <object id="911" type="coin" gid="55" x="6150.74" y="1789.21" width="168.333" height="161.722"/>
   <object id="912" type="coin" gid="55" x="6203.71" y="2693.76" width="168.333" height="161.722"/>
-  <object id="913" type="coin" gid="55" x="6403.83" y="2692.42" width="168.333" height="161.722"/>
-  <object id="914" type="coin" gid="55" x="6634.02" y="2693.52" width="168.333" height="161.722"/>
+  <object id="913" type="coin" gid="55" x="6423.83" y="2688.42" width="168.333" height="161.722"/>
   <object id="915" type="blob" gid="78" x="5776.82" y="2694.89" width="134.508" height="182.884"/>
   <object id="927" type="spikes" gid="54" x="7473.5" y="2693.03" width="221" height="81"/>
-  <object id="963" type="coin" gid="55" x="8413.89" y="2691.7" width="168.333" height="161.722"/>
   <object id="917" name="enemy" type="enemy" gid="60" x="7085.45" y="2695.09" width="120" height="201"/>
   <object id="962" name="enemy" type="enemy" gid="60" x="8137.45" y="2688.92" width="120" height="201"/>
   <object id="1032" name="enemy" type="enemy" gid="60" x="8012" y="1919.5" width="120" height="201"/>
@@ -2472,6 +2466,12 @@
   <object id="1422" name="enemy" type="enemy" gid="60" x="11392" y="1920" width="120" height="201"/>
   <object id="1680" name="enemy" type="enemy" gid="60" x="15109.7" y="1272.23" width="120" height="201"/>
   <object id="799" name="enemy" type="enemy" gid="60" x="4991" y="1921" width="120" height="201"/>
-  <object id="1836" type="gem" gid="56" x="2000" y="1664" width="172" height="172"/>
+  <object id="1836" type="gem" gid="56" x="2960.61" y="467.03" width="172" height="172"/>
+  <object id="1842" name="enemy" type="enemy" gid="60" x="3340" y="1237.5" width="120" height="201"/>
+  <object id="1843" type="gem" gid="56" x="6166" y="1782" width="172" height="172"/>
+  <object id="1844" type="gem" gid="56" x="5986" y="2690" width="172" height="172"/>
+  <object id="1845" type="gem" gid="56" x="6642" y="2686" width="172" height="172"/>
+  <object id="1846" type="gem" gid="56" x="8386.73" y="2689.76" width="172" height="172"/>
+  <object id="1847" type="strongSpikes" gid="54" x="2553.86" y="1918.77" width="221" height="81"/>
  </objectgroup>
 </map>
