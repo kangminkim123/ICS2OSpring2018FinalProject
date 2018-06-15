@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="47" height="49" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#788b8f" nextobjectid="2039">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="47" height="49" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#788b8f" nextobjectid="2045">
  <tileset firstgid="1" name="level10" tilewidth="2000" tileheight="1143" tilecount="47" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -144,8 +144,8 @@
    <image width="281" height="464" source="../sprites/space/Objects/DoorUnlocked.png"/>
   </tile>
  </tileset>
- <objectgroup name="parallax" visible="0">
-  <object id="531" gid="46" x="-4019.05" y="10001" width="14031.4" height="10943.7"/>
+ <objectgroup name="parallax">
+  <object id="531" gid="46" x="-2387.05" y="7473" width="11247.4" height="8863.7"/>
   <object id="1466" gid="39" x="991.667" y="3688.42" width="128.667" height="151.167"/>
   <object id="1467" gid="39" x="1021" y="3725.75" width="128.667" height="151.167"/>
  </objectgroup>
@@ -1227,7 +1227,7 @@
   </object>
   <object id="1660" gid="9" x="256" y="6144" width="128" height="128"/>
   <object id="1662" gid="13" x="128" y="6272" width="128" height="128"/>
-  <object id="1666" gid="9" x="6019.03" y="6299.64" height="1e+9">
+  <object id="1666" gid="9" x="6019.03" y="6299.64" width="0.01" height="1e+9">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
@@ -2142,6 +2142,42 @@
    </properties>
   </object>
   <object id="2036" gid="6" x="5760" y="4224" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2039" gid="9" x="-660.611" y="-4.99994e+8" width="0.01" height="1e+9">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2040" gid="9" x="-84.8535" y="-4.99995e+8" width="0.01" height="1e+9">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2041" gid="9" x="-84.8535" y="-4.99995e+8" width="0.01" height="1e+9">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2042" gid="9" x="-78.7929" y="-4.99995e+8" width="0.01" height="1e+9">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2043" gid="9" x="69.692" y="-4.99995e+8" width="0.01" height="1e+9">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2044" gid="6" x="-3.0303" y="6270.67" width="0.01" height="1e+9">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
