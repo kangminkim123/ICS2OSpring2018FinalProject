@@ -7218,7 +7218,7 @@
                  "id":865,
                  "name":"Old Sword",
                  "rotation":180,
-                 "type":"coin2",
+                 "type":"swordCoin",
                  "visible":true,
                  "width":336.667,
                  "x":7552,
