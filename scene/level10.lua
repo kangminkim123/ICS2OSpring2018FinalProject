@@ -66,21 +66,21 @@ function scene:create( event )
 	-- Sounds
 	local sndDir = "scene/game/sfx/"
 	scene.sounds = {
-		thud = audio.loadSound( sndDir .. "thud.mp3" ),
+		thud = audio.loadSound( sndDir .. "death.mp3" ),
 		sword = audio.loadSound( sndDir .. "sword.mp3" ),
 		squish = audio.loadSound( sndDir .. "squish.mp3" ),
 		slime = audio.loadSound( sndDir .. "slime.mp3" ),
-		wind = audio.loadSound( sndDir .. "loops/spacewind.mp3" ),
-		door = audio.loadSound( sndDir .. "door.mp3" ),
+		wind = audio.loadSound( sndDir .. "loops/spooky.mp3" ),
+		door = audio.loadSound( sndDir .. "door2.mp3" ),
 		hurt = {
 			audio.loadSound( sndDir .. "hurt1.mp3" ),
 			audio.loadSound( sndDir .. "hurt2.mp3" ),
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
-		coin = audio.loadSound( sndDir .. "coin.mp3" ),
-		backgroundMusic = audio.loadSound( sndDir .. "loops/spooky.mp3" )
+		coin = audio.loadSound( sndDir .. "coin2.mp3" ),	
 	}
-    backgroundMusic = audio.loadStream( sndDir .. "loops/spooky.mp3" )
+
+
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
