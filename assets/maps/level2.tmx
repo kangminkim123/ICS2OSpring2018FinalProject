@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1425">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1426">
  <tileset firstgid="1" name="stickerKnight" tilewidth="1800" tileheight="893" tilecount="91" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -568,6 +568,7 @@
   <object id="975" gid="91" x="7168" y="1664" width="2694" height="1661"/>
   <object id="1125" gid="91" x="9856" y="1664" width="2694" height="1661"/>
   <object id="1291" gid="91" x="12544" y="1664" width="5178" height="1661"/>
+  <object id="1425" gid="91" x="17664" y="1664" width="5178" height="1661"/>
  </objectgroup>
  <objectgroup name="middleground">
   <object id="329" gid="64" x="512" y="1662.06" width="128" height="128">
