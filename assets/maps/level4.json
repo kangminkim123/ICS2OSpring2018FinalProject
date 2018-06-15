@@ -1,4 +1,4 @@
-{ "backgroundcolor":"#d6f7ff",
+{ "backgroundcolor":"#1a1e1f",
  "height":20,
  "infinite":false,
  "layers":[
@@ -16232,7 +16232,7 @@
                 }, 
                 {
                  "gid":8,
-                 "height":2320,
+                 "height":2336,
                  "id":1599,
                  "name":"",
                  "properties":
@@ -16248,7 +16248,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":128,
+                 "width":0,
                  "x":768,
                  "y":2304
                 }, 
@@ -30172,7 +30172,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":128,
+                 "width":0,
                  "x":18432,
                  "y":2304
                 }, 
@@ -30333,7 +30333,7 @@
                  "type":"hero",
                  "visible":true,
                  "width":178,
-                 "x":768,
+                 "x":1152,
                  "y":2304
                 }, 
                 {
@@ -30662,27 +30662,87 @@
                 }, 
                 {
                  "gid":45,
-                 "height":134,
+                 "height":103.697,
                  "id":2666,
                  "name":"",
                  "rotation":0,
                  "type":"blob",
                  "visible":true,
-                 "width":260,
-                 "x":14398,
-                 "y":1539
+                 "width":150.909,
+                 "x":14455.6,
+                 "y":1542.03
                 }, 
                 {
-                 "gid":2,
-                 "height":106,
-                 "id":2668,
-                 "name":"coin2",
+                 "gid":74,
+                 "height":109,
+                 "id":2669,
+                 "name":"diamond",
                  "rotation":0,
                  "type":"level4NewCoin",
                  "visible":true,
-                 "width":106,
-                 "x":1627,
-                 "y":1981
+                 "width":113,
+                 "x":1584,
+                 "y":2088
+                }, 
+                {
+                 "gid":74,
+                 "height":109,
+                 "id":2671,
+                 "name":"diamond",
+                 "rotation":0,
+                 "type":"level4NewCoin",
+                 "visible":true,
+                 "width":113,
+                 "x":1936,
+                 "y":1984
+                }, 
+                {
+                 "gid":74,
+                 "height":109,
+                 "id":2672,
+                 "name":"diamond",
+                 "rotation":0,
+                 "type":"level4NewCoin",
+                 "visible":true,
+                 "width":113,
+                 "x":2304,
+                 "y":1836
+                }, 
+                {
+                 "gid":74,
+                 "height":109,
+                 "id":2674,
+                 "name":"diamond",
+                 "rotation":0,
+                 "type":"level4NewCoin",
+                 "visible":true,
+                 "width":113,
+                 "x":16132,
+                 "y":1852
+                }, 
+                {
+                 "gid":74,
+                 "height":109,
+                 "id":2675,
+                 "name":"diamond",
+                 "rotation":0,
+                 "type":"level4NewCoin",
+                 "visible":true,
+                 "width":113,
+                 "x":16648,
+                 "y":1732
+                }, 
+                {
+                 "gid":74,
+                 "height":109,
+                 "id":2676,
+                 "name":"diamond",
+                 "rotation":0,
+                 "type":"level4NewCoin",
+                 "visible":true,
+                 "width":113,
+                 "x":17276,
+                 "y":1608
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -30690,7 +30750,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2669,
+ "nextobjectid":2677,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.2",
@@ -30708,7 +30768,7 @@
          "margin":0,
          "name":"block",
          "spacing":0,
-         "tilecount":73,
+         "tilecount":74,
          "tileheight":1143,
          "tiles":
             {
@@ -31137,6 +31197,12 @@
                  "image":"..\/sprites\/space\/Objects\/DoorOpen.png",
                  "imageheight":464,
                  "imagewidth":280
+                },
+             "73":
+                {
+                 "image":"..\/sprites\/blockyLand\/diamond.png",
+                 "imageheight":417,
+                 "imagewidth":417
                 },
              "8":
                 {
