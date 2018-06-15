@@ -77,7 +77,8 @@ function scene:create( event )
 			audio.loadSound( sndDir .. "hurt2.mp3" ),
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
-		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		coin = audio.loadSound( sndDir .. "CollectPoint.mp3" ),
+		crystal = audio.loadSound( sndDir .. "Crystal.mp3" )
 	}
 
 	-- Start physics before loading map
@@ -101,7 +102,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "crystal", "spikes" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )

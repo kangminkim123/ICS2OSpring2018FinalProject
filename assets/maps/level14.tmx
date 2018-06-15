@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="30" height="120" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#234282" nextobjectid="1244">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="30" height="120" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#234282" nextobjectid="1246">
  <tileset firstgid="1" name="winter" tilewidth="511" tileheight="280" tilecount="28" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -690,7 +690,6 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="768" name="coin " type="coin" gid="33" x="1920" y="14208" width="92.6327" height="89"/>
   <object id="769" name="blob" type="blob" gid="55" x="2304" y="14464" width="142" height="148"/>
   <object id="770" name="blob" type="blob" gid="55" x="1792" y="14464" width="142" height="148"/>
   <object id="771" gid="25" x="1920" y="13312" width="128" height="93">
@@ -989,7 +988,7 @@
   <object id="869" name="spike" type="spikes" gid="69" x="2688" y="12160" width="133.022" height="74.2121"/>
   <object id="870" name="spike" type="spikes" gid="69" x="2560" y="12160" width="133.022" height="74.2121"/>
   <object id="871" name="spike" type="spikes" gid="69" x="2432" y="12160" width="133.022" height="74.2121"/>
-  <object id="872" gid="4" x="3467.39" y="12163" width="356.922" height="140.394"/>
+  <object id="872" gid="4" x="3372" y="12156" width="460.922" height="181.302"/>
   <object id="876" gid="25" x="1152" y="11904" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2364,12 +2363,8 @@
   </object>
   <object id="1240" name="blob" type="blob" gid="64" x="1792" y="9856" width="174" height="126"/>
   <object id="1241" name="blob" type="blob" gid="64" x="2048" y="9728" width="174" height="126"/>
-  <object id="1243" type="spikes" gid="25" x="2816" y="10880" width="134.061" height="89.7329">
-   <properties>
-    <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="1"/>
-   </properties>
-  </object>
+  <object id="1244" name="coin " type="coin" gid="33" x="1053.68" y="14539.5" width="92.6327" height="89"/>
+  <object id="1245" name="crystal" type="crystal" gid="34" x="2016" y="14203" width="118.957" height="114"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="325" name="hero" type="hero" gid="7" x="384" y="14896" width="317.99" height="346"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1425">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#264586" nextobjectid="1426">
  <tileset firstgid="1" name="stickerKnight" tilewidth="1800" tileheight="893" tilecount="91" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -189,7 +189,7 @@
    <image width="56" height="59" source="../sprites/stickerKnight/window3.png"/>
   </tile>
   <tile id="62">
-   <image width="128" height="128" source="../../../7-14/assets/sprites/winter/Tiles/winter1.png"/>
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter1.png"/>
   </tile>
   <tile id="63">
    <image width="128" height="128" source="../sprites/winter/Tiles/winter2.png"/>
@@ -276,7 +276,7 @@
    <image width="1800" height="893" source="../sprites/winter/BG/winterBG.png"/>
   </tile>
  </tileset>
- <tileset firstgid="93" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
+ <tileset firstgid="92" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../sprites/summer/tile/water2.png"/>
@@ -372,7 +372,7 @@
    <image width="133" height="65" source="../sprites/summer/objects/Bush1.png"/>
   </tile>
  </tileset>
- <tileset firstgid="124" name="stickerKnight" tilewidth="384" tileheight="332" tilecount="62" columns="0">
+ <tileset firstgid="123" name="stickerKnight" tilewidth="384" tileheight="332" tilecount="62" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="160" height="192" source="../sprites/stickerKnight/alter.png"/>
@@ -568,6 +568,7 @@
   <object id="975" gid="91" x="7168" y="1664" width="2694" height="1661"/>
   <object id="1125" gid="91" x="9856" y="1664" width="2694" height="1661"/>
   <object id="1291" gid="91" x="12544" y="1664" width="5178" height="1661"/>
+  <object id="1425" gid="91" x="17664" y="1664" width="5178" height="1661"/>
  </objectgroup>
  <objectgroup name="middleground">
   <object id="329" gid="64" x="512" y="1662.06" width="128" height="128">
@@ -1306,9 +1307,9 @@
   <object id="798" gid="67" x="516" y="2030.67" width="128" height="128"/>
   <object id="799" gid="67" x="644" y="2030.67" width="128" height="128"/>
   <object id="800" gid="67" x="772" y="2030.67" width="128" height="128"/>
-  <object id="920" type="spikes" gid="179" x="5700" y="1280" width="128" height="32"/>
-  <object id="921" type="spikes" gid="179" x="5888" y="1280" width="128" height="32"/>
-  <object id="922" type="spikes" gid="179" x="5949.33" y="1281.33" width="128" height="32"/>
+  <object id="920" type="spikes" gid="178" x="5700" y="1280" width="128" height="32"/>
+  <object id="921" type="spikes" gid="178" x="5888" y="1280" width="128" height="32"/>
+  <object id="922" type="spikes" gid="178" x="5949.33" y="1281.33" width="128" height="32"/>
   <object id="955" gid="64" x="7936" y="1664" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
@@ -1484,11 +1485,10 @@
   <object id="1081" gid="67" x="9472" y="2048" width="128" height="128"/>
   <object id="1082" gid="67" x="9600" y="2048" width="128" height="128"/>
   <object id="1083" gid="67" x="9728" y="2048" width="128" height="128"/>
-  <object id="1086" type="coin" gid="88" x="2383.33" y="1204.55" width="101" height="101"/>
-  <object id="1088" type="coin" gid="88" x="5701.02" y="961.621" width="101" height="101"/>
-  <object id="1089" type="coin" gid="88" x="5843.44" y="952.53" width="101" height="101"/>
-  <object id="1090" type="coin" gid="88" x="5979.8" y="955.561" width="101" height="101"/>
-  <object id="1093" type="coin" gid="88" x="7040" y="1280" width="101" height="101"/>
+  <object id="1088" type="iceGem" gid="88" x="5701.02" y="961.621" width="101" height="101"/>
+  <object id="1089" type="iceGem" gid="88" x="5843.44" y="952.53" width="101" height="101"/>
+  <object id="1090" type="iceGem" gid="88" x="5979.8" y="955.561" width="101" height="101"/>
+  <object id="1093" type="iceGem" gid="88" x="7040" y="1280" width="101" height="101"/>
   <object id="1094" gid="67" x="8298.79" y="2176" width="155.394" height="149.212"/>
   <object id="1096" gid="67" x="8576" y="2048" width="134.182" height="128"/>
   <object id="1097" gid="67" x="8704" y="2048" width="134.182" height="128"/>
@@ -2009,7 +2009,7 @@
     <property name="friction" type="float" value="-3"/>
    </properties>
   </object>
-  <object id="1304" type="coin" gid="88" x="14026" y="1334" width="101" height="101"/>
+  <object id="1304" type="iceGem" gid="88" x="14026" y="1334" width="101" height="101"/>
   <object id="1308" type="blob" gid="83" x="14206" y="1407" width="124" height="78"/>
   <object id="1309" gid="76" x="12465.5" y="1432.11" width="71.2779" height="51.7879">
    <properties>
@@ -2243,13 +2243,13 @@
   <object id="1414" type="spikes" gid="85" x="16000" y="1536" width="228" height="280"/>
   <object id="1415" type="spikes" gid="85" x="16384" y="1536" width="228" height="280"/>
   <object id="1416" type="exit" gid="84" x="16970" y="1540" width="364" height="712"/>
-  <object id="1418" type="coin" gid="88" x="15488" y="1024" width="101" height="101"/>
-  <object id="1419" type="coin" gid="88" x="15872" y="896" width="101" height="101"/>
-  <object id="1420" type="coin" gid="88" x="16256" y="768" width="101" height="101"/>
-  <object id="1421" type="coin" gid="88" x="16640" y="640" width="101" height="101"/>
+  <object id="1418" type="iceGem" gid="88" x="15488" y="1024" width="101" height="101"/>
+  <object id="1419" type="iceGem" gid="88" x="15872" y="896" width="101" height="101"/>
+  <object id="1420" type="iceGem" gid="88" x="16256" y="768" width="101" height="101"/>
+  <object id="1421" type="iceGem" gid="88" x="16640" y="640" width="101" height="101"/>
  </objectgroup>
  <objectgroup name="forground">
-  <object id="326" name="hero" type="hero" gid="112" x="679.394" y="1534.06" width="282" height="301"/>
+  <object id="326" name="hero" type="hero" gid="111" x="679.394" y="1534.06" width="282" height="301"/>
   <object id="689" type="blob" gid="82" x="5783.64" y="1285.24" width="193" height="210"/>
   <object id="688" type="blob" gid="82" x="4352" y="1534.06" width="193" height="210"/>
   <object id="923" name="enemy" type="enemy" gid="4" x="3452.83" y="1535.09" width="129" height="332"/>
@@ -2264,5 +2264,6 @@
     <property name="bodyType" value="static"/>
    </properties>
   </object>
+  <object id="1086" type="iceGem" gid="88" x="2383.33" y="1204.55" width="101" height="101"/>
  </objectgroup>
 </map>

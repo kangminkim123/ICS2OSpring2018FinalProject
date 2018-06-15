@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2350">
- <tileset firstgid="1" name="block" tilewidth="2000" tileheight="1143" tilecount="71" columns="0">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#1a1e1f" nextobjectid="2677">
+ <tileset firstgid="1" name="block" tilewidth="2000" tileheight="1143" tilecount="74" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="2000" height="1143" source="../sprites/graveyard/graveyardBG.png"/>
@@ -215,6 +215,15 @@
   <tile id="70">
    <image width="188" height="238" source="../sprites/blockyLand/door.png"/>
   </tile>
+  <tile id="71">
+   <image width="280" height="464" source="../sprites/space/Objects/DoorLocked.png"/>
+  </tile>
+  <tile id="72">
+   <image width="280" height="464" source="../sprites/space/Objects/DoorOpen.png"/>
+  </tile>
+  <tile id="73">
+   <image width="417" height="417" source="../sprites/blockyLand/diamond.png"/>
+  </tile>
  </tileset>
  <objectgroup name="parallax" locked="1">
   <object id="331" gid="1" x="8440" y="2560" width="4432" height="2575"/>
@@ -222,6 +231,7 @@
   <object id="329" gid="1" x="-784" y="2604" width="4888" height="2603"/>
   <object id="335" gid="1" x="12800" y="2560" width="4448" height="2553.37"/>
   <object id="2143" gid="1" x="17152" y="2568" width="4152" height="2575"/>
+  <object id="2651" gid="1" x="21248" y="2688" width="3712" height="2695"/>
  </objectgroup>
  <objectgroup name="middleground" locked="1" opacity="0.97">
   <object id="353" gid="8" x="256" y="2432" width="128" height="128">
@@ -2715,7 +2725,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1599" gid="8" x="640" y="2304" height="2304">
+  <object id="1599" gid="8" x="768" y="2304" height="2336">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -2739,9 +2749,6 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1611" type="enemy" gid="42" x="5376" y="2304" width="121" height="201"/>
-  <object id="1612" type="enemy" gid="37" x="5888" y="2304" width="120" height="201"/>
-  <object id="1613" type="enemy" gid="56" x="4864" y="2304" width="120" height="159"/>
   <object id="1617" gid="20" x="6656" y="2176" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
@@ -4291,9 +4298,643 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
+  <object id="2350" gid="14" x="23168" y="2944" width="128" height="128"/>
+  <object id="2351" gid="14" x="23040" y="2944" width="128" height="128"/>
+  <object id="2352" gid="14" x="22912" y="2944" width="128" height="128"/>
+  <object id="2353" gid="14" x="21760" y="2944" width="128" height="128"/>
+  <object id="2354" gid="14" x="21888" y="2944" width="128" height="128"/>
+  <object id="2355" gid="14" x="22016" y="2944" width="128" height="128"/>
+  <object id="2356" gid="14" x="22144" y="2944" width="128" height="128"/>
+  <object id="2357" gid="14" x="22272" y="2944" width="128" height="128"/>
+  <object id="2358" gid="14" x="22400" y="2944" width="128" height="128"/>
+  <object id="2359" gid="14" x="22528" y="2944" width="128" height="128"/>
+  <object id="2360" gid="14" x="22656" y="2944" width="128" height="128"/>
+  <object id="2361" gid="14" x="22784" y="2944" width="128" height="128"/>
+  <object id="2362" gid="14" x="22784" y="2944" width="128" height="128"/>
+  <object id="2363" gid="14" x="22656" y="2944" width="128" height="128"/>
+  <object id="2364" gid="14" x="22528" y="2944" width="128" height="128"/>
+  <object id="2365" gid="14" x="22400" y="2944" width="128" height="128"/>
+  <object id="2366" gid="14" x="22272" y="2944" width="128" height="128"/>
+  <object id="2367" gid="14" x="22144" y="2944" width="128" height="128"/>
+  <object id="2368" gid="14" x="22016" y="2944" width="128" height="128"/>
+  <object id="2369" gid="14" x="21888" y="2944" width="128" height="128"/>
+  <object id="2370" gid="14" x="21760" y="2944" width="128" height="128"/>
+  <object id="2371" gid="14" x="22912" y="2944" width="128" height="128"/>
+  <object id="2372" gid="14" x="23040" y="2944" width="128" height="128"/>
+  <object id="2373" gid="14" x="23168" y="2944" width="128" height="128"/>
+  <object id="2374" gid="14" x="21632" y="2944" width="128" height="128"/>
+  <object id="2375" gid="14" x="21504" y="2944" width="128" height="128"/>
+  <object id="2376" gid="14" x="21376" y="2944" width="128" height="128"/>
+  <object id="2377" gid="14" x="21248" y="2944" width="128" height="128"/>
+  <object id="2378" gid="14" x="21248" y="2944" width="128" height="128"/>
+  <object id="2379" gid="14" x="21376" y="2944" width="128" height="128"/>
+  <object id="2380" gid="14" x="21504" y="2944" width="128" height="128"/>
+  <object id="2381" gid="14" x="21632" y="2944" width="128" height="128"/>
+  <object id="2382" gid="14" x="19584" y="2944" width="128" height="128"/>
+  <object id="2383" gid="14" x="19584" y="2944" width="128" height="128"/>
+  <object id="2384" gid="14" x="21120" y="2944" width="128" height="128"/>
+  <object id="2385" gid="14" x="20992" y="2944" width="128" height="128"/>
+  <object id="2386" gid="14" x="20864" y="2944" width="128" height="128"/>
+  <object id="2387" gid="14" x="19712" y="2944" width="128" height="128"/>
+  <object id="2388" gid="14" x="19840" y="2944" width="128" height="128"/>
+  <object id="2389" gid="14" x="19968" y="2944" width="128" height="128"/>
+  <object id="2390" gid="14" x="20096" y="2944" width="128" height="128"/>
+  <object id="2391" gid="14" x="20224" y="2944" width="128" height="128"/>
+  <object id="2392" gid="14" x="20352" y="2944" width="128" height="128"/>
+  <object id="2393" gid="14" x="20480" y="2944" width="128" height="128"/>
+  <object id="2394" gid="14" x="20608" y="2944" width="128" height="128"/>
+  <object id="2395" gid="14" x="20736" y="2944" width="128" height="128"/>
+  <object id="2396" gid="14" x="20736" y="2944" width="128" height="128"/>
+  <object id="2397" gid="14" x="20608" y="2944" width="128" height="128"/>
+  <object id="2398" gid="14" x="20480" y="2944" width="128" height="128"/>
+  <object id="2399" gid="14" x="20352" y="2944" width="128" height="128"/>
+  <object id="2400" gid="14" x="20224" y="2944" width="128" height="128"/>
+  <object id="2401" gid="14" x="20096" y="2944" width="128" height="128"/>
+  <object id="2402" gid="14" x="19968" y="2944" width="128" height="128"/>
+  <object id="2403" gid="14" x="19840" y="2944" width="128" height="128"/>
+  <object id="2404" gid="14" x="19712" y="2944" width="128" height="128"/>
+  <object id="2405" gid="14" x="20864" y="2944" width="128" height="128"/>
+  <object id="2406" gid="14" x="20992" y="2944" width="128" height="128"/>
+  <object id="2407" gid="14" x="21120" y="2944" width="128" height="128"/>
+  <object id="2408" gid="14" x="23168" y="2816" width="128" height="128"/>
+  <object id="2409" gid="14" x="23040" y="2816" width="128" height="128"/>
+  <object id="2410" gid="14" x="22912" y="2816" width="128" height="128"/>
+  <object id="2411" gid="14" x="21760" y="2816" width="128" height="128"/>
+  <object id="2412" gid="14" x="21888" y="2816" width="128" height="128"/>
+  <object id="2413" gid="14" x="22016" y="2816" width="128" height="128"/>
+  <object id="2414" gid="14" x="22144" y="2816" width="128" height="128"/>
+  <object id="2415" gid="14" x="22272" y="2816" width="128" height="128"/>
+  <object id="2416" gid="14" x="22400" y="2816" width="128" height="128"/>
+  <object id="2417" gid="14" x="22528" y="2816" width="128" height="128"/>
+  <object id="2418" gid="14" x="22656" y="2816" width="128" height="128"/>
+  <object id="2419" gid="14" x="22784" y="2816" width="128" height="128"/>
+  <object id="2420" gid="14" x="22784" y="2816" width="128" height="128"/>
+  <object id="2421" gid="14" x="22656" y="2816" width="128" height="128"/>
+  <object id="2422" gid="14" x="22528" y="2816" width="128" height="128"/>
+  <object id="2423" gid="14" x="22400" y="2816" width="128" height="128"/>
+  <object id="2424" gid="14" x="22272" y="2816" width="128" height="128"/>
+  <object id="2425" gid="14" x="22144" y="2816" width="128" height="128"/>
+  <object id="2426" gid="14" x="22016" y="2816" width="128" height="128"/>
+  <object id="2427" gid="14" x="21888" y="2816" width="128" height="128"/>
+  <object id="2428" gid="14" x="21760" y="2816" width="128" height="128"/>
+  <object id="2429" gid="14" x="22912" y="2816" width="128" height="128"/>
+  <object id="2430" gid="14" x="23040" y="2816" width="128" height="128"/>
+  <object id="2431" gid="14" x="23168" y="2816" width="128" height="128"/>
+  <object id="2432" gid="14" x="21632" y="2816" width="128" height="128"/>
+  <object id="2433" gid="14" x="21504" y="2816" width="128" height="128"/>
+  <object id="2434" gid="14" x="21376" y="2816" width="128" height="128"/>
+  <object id="2435" gid="14" x="21248" y="2816" width="128" height="128"/>
+  <object id="2436" gid="14" x="21248" y="2816" width="128" height="128"/>
+  <object id="2437" gid="14" x="21376" y="2816" width="128" height="128"/>
+  <object id="2438" gid="14" x="21504" y="2816" width="128" height="128"/>
+  <object id="2439" gid="14" x="21632" y="2816" width="128" height="128"/>
+  <object id="2440" gid="14" x="19584" y="2816" width="128" height="128"/>
+  <object id="2441" gid="14" x="19584" y="2816" width="128" height="128"/>
+  <object id="2442" gid="14" x="21120" y="2816" width="128" height="128"/>
+  <object id="2443" gid="14" x="20992" y="2816" width="128" height="128"/>
+  <object id="2444" gid="14" x="20864" y="2816" width="128" height="128"/>
+  <object id="2445" gid="14" x="19712" y="2816" width="128" height="128"/>
+  <object id="2446" gid="14" x="19840" y="2816" width="128" height="128"/>
+  <object id="2447" gid="14" x="19968" y="2816" width="128" height="128"/>
+  <object id="2448" gid="14" x="20096" y="2816" width="128" height="128"/>
+  <object id="2449" gid="14" x="20224" y="2816" width="128" height="128"/>
+  <object id="2450" gid="14" x="20352" y="2816" width="128" height="128"/>
+  <object id="2451" gid="14" x="20480" y="2816" width="128" height="128"/>
+  <object id="2452" gid="14" x="20608" y="2816" width="128" height="128"/>
+  <object id="2453" gid="14" x="20736" y="2816" width="128" height="128"/>
+  <object id="2454" gid="14" x="20736" y="2816" width="128" height="128"/>
+  <object id="2455" gid="14" x="20608" y="2816" width="128" height="128"/>
+  <object id="2456" gid="14" x="20480" y="2816" width="128" height="128"/>
+  <object id="2457" gid="14" x="20352" y="2816" width="128" height="128"/>
+  <object id="2458" gid="14" x="20224" y="2816" width="128" height="128"/>
+  <object id="2459" gid="14" x="20096" y="2816" width="128" height="128"/>
+  <object id="2460" gid="14" x="19968" y="2816" width="128" height="128"/>
+  <object id="2461" gid="14" x="19840" y="2816" width="128" height="128"/>
+  <object id="2462" gid="14" x="19712" y="2816" width="128" height="128"/>
+  <object id="2463" gid="14" x="20864" y="2816" width="128" height="128"/>
+  <object id="2464" gid="14" x="20992" y="2816" width="128" height="128"/>
+  <object id="2465" gid="14" x="21120" y="2816" width="128" height="128"/>
+  <object id="2466" gid="14" x="23168" y="2688" width="128" height="128"/>
+  <object id="2467" gid="14" x="23040" y="2688" width="128" height="128"/>
+  <object id="2468" gid="14" x="22912" y="2688" width="128" height="128"/>
+  <object id="2469" gid="14" x="21760" y="2688" width="128" height="128"/>
+  <object id="2470" gid="14" x="21888" y="2688" width="128" height="128"/>
+  <object id="2471" gid="14" x="22016" y="2688" width="128" height="128"/>
+  <object id="2472" gid="14" x="22144" y="2688" width="128" height="128"/>
+  <object id="2473" gid="14" x="22272" y="2688" width="128" height="128"/>
+  <object id="2474" gid="14" x="22400" y="2688" width="128" height="128"/>
+  <object id="2475" gid="14" x="22528" y="2688" width="128" height="128"/>
+  <object id="2476" gid="14" x="22656" y="2688" width="128" height="128"/>
+  <object id="2477" gid="14" x="22784" y="2688" width="128" height="128"/>
+  <object id="2478" gid="14" x="22784" y="2688" width="128" height="128"/>
+  <object id="2479" gid="14" x="22656" y="2688" width="128" height="128"/>
+  <object id="2480" gid="14" x="22528" y="2688" width="128" height="128"/>
+  <object id="2481" gid="14" x="22400" y="2688" width="128" height="128"/>
+  <object id="2482" gid="14" x="22272" y="2688" width="128" height="128"/>
+  <object id="2483" gid="14" x="22144" y="2688" width="128" height="128"/>
+  <object id="2484" gid="14" x="22016" y="2688" width="128" height="128"/>
+  <object id="2485" gid="14" x="21888" y="2688" width="128" height="128"/>
+  <object id="2486" gid="14" x="21760" y="2688" width="128" height="128"/>
+  <object id="2487" gid="14" x="22912" y="2688" width="128" height="128"/>
+  <object id="2488" gid="14" x="23040" y="2688" width="128" height="128"/>
+  <object id="2489" gid="14" x="23168" y="2688" width="128" height="128"/>
+  <object id="2490" gid="14" x="21632" y="2688" width="128" height="128"/>
+  <object id="2491" gid="14" x="21504" y="2688" width="128" height="128"/>
+  <object id="2492" gid="14" x="21376" y="2688" width="128" height="128"/>
+  <object id="2493" gid="14" x="21248" y="2688" width="128" height="128"/>
+  <object id="2494" gid="14" x="21248" y="2688" width="128" height="128"/>
+  <object id="2495" gid="14" x="21376" y="2688" width="128" height="128"/>
+  <object id="2496" gid="14" x="21504" y="2688" width="128" height="128"/>
+  <object id="2497" gid="14" x="21632" y="2688" width="128" height="128"/>
+  <object id="2498" gid="14" x="19584" y="2688" width="128" height="128"/>
+  <object id="2499" gid="14" x="19584" y="2688" width="128" height="128"/>
+  <object id="2500" gid="14" x="21120" y="2688" width="128" height="128"/>
+  <object id="2501" gid="14" x="20992" y="2688" width="128" height="128"/>
+  <object id="2502" gid="14" x="20864" y="2688" width="128" height="128"/>
+  <object id="2503" gid="14" x="19712" y="2688" width="128" height="128"/>
+  <object id="2504" gid="14" x="19840" y="2688" width="128" height="128"/>
+  <object id="2505" gid="14" x="19968" y="2688" width="128" height="128"/>
+  <object id="2506" gid="14" x="20096" y="2688" width="128" height="128"/>
+  <object id="2507" gid="14" x="20224" y="2688" width="128" height="128"/>
+  <object id="2508" gid="14" x="20352" y="2688" width="128" height="128"/>
+  <object id="2509" gid="14" x="20480" y="2688" width="128" height="128"/>
+  <object id="2510" gid="14" x="20608" y="2688" width="128" height="128"/>
+  <object id="2511" gid="14" x="20736" y="2688" width="128" height="128"/>
+  <object id="2512" gid="14" x="20736" y="2688" width="128" height="128"/>
+  <object id="2513" gid="14" x="20608" y="2688" width="128" height="128"/>
+  <object id="2514" gid="14" x="20480" y="2688" width="128" height="128"/>
+  <object id="2515" gid="14" x="20352" y="2688" width="128" height="128"/>
+  <object id="2516" gid="14" x="20224" y="2688" width="128" height="128"/>
+  <object id="2517" gid="14" x="20096" y="2688" width="128" height="128"/>
+  <object id="2518" gid="14" x="19968" y="2688" width="128" height="128"/>
+  <object id="2519" gid="14" x="19840" y="2688" width="128" height="128"/>
+  <object id="2520" gid="14" x="19712" y="2688" width="128" height="128"/>
+  <object id="2521" gid="14" x="20864" y="2688" width="128" height="128"/>
+  <object id="2522" gid="14" x="20992" y="2688" width="128" height="128"/>
+  <object id="2523" gid="14" x="21120" y="2688" width="128" height="128"/>
+  <object id="2524" gid="14" x="23168" y="2560" width="128" height="128"/>
+  <object id="2525" gid="14" x="23040" y="2560" width="128" height="128"/>
+  <object id="2526" gid="14" x="22912" y="2560" width="128" height="128"/>
+  <object id="2527" gid="14" x="21760" y="2560" width="128" height="128"/>
+  <object id="2528" gid="14" x="21888" y="2560" width="128" height="128"/>
+  <object id="2529" gid="14" x="22016" y="2560" width="128" height="128"/>
+  <object id="2530" gid="14" x="22144" y="2560" width="128" height="128"/>
+  <object id="2531" gid="14" x="22272" y="2560" width="128" height="128"/>
+  <object id="2532" gid="14" x="22400" y="2560" width="128" height="128"/>
+  <object id="2533" gid="14" x="22528" y="2560" width="128" height="128"/>
+  <object id="2534" gid="14" x="22656" y="2560" width="128" height="128"/>
+  <object id="2535" gid="14" x="22784" y="2560" width="128" height="128"/>
+  <object id="2536" gid="14" x="22784" y="2560" width="128" height="128"/>
+  <object id="2537" gid="14" x="22656" y="2560" width="128" height="128"/>
+  <object id="2538" gid="14" x="22528" y="2560" width="128" height="128"/>
+  <object id="2539" gid="14" x="22400" y="2560" width="128" height="128"/>
+  <object id="2540" gid="14" x="22272" y="2560" width="128" height="128"/>
+  <object id="2541" gid="14" x="22144" y="2560" width="128" height="128"/>
+  <object id="2542" gid="14" x="22016" y="2560" width="128" height="128"/>
+  <object id="2543" gid="14" x="21888" y="2560" width="128" height="128"/>
+  <object id="2544" gid="14" x="21760" y="2560" width="128" height="128"/>
+  <object id="2545" gid="14" x="22912" y="2560" width="128" height="128"/>
+  <object id="2546" gid="14" x="23040" y="2560" width="128" height="128"/>
+  <object id="2547" gid="14" x="23168" y="2560" width="128" height="128"/>
+  <object id="2548" gid="14" x="21632" y="2560" width="128" height="128"/>
+  <object id="2549" gid="14" x="21504" y="2560" width="128" height="128"/>
+  <object id="2550" gid="14" x="21376" y="2560" width="128" height="128"/>
+  <object id="2551" gid="14" x="21248" y="2560" width="128" height="128"/>
+  <object id="2552" gid="14" x="21248" y="2560" width="128" height="128"/>
+  <object id="2553" gid="14" x="21376" y="2560" width="128" height="128"/>
+  <object id="2554" gid="14" x="21504" y="2560" width="128" height="128"/>
+  <object id="2555" gid="14" x="21632" y="2560" width="128" height="128"/>
+  <object id="2556" gid="14" x="19584" y="2560" width="128" height="128"/>
+  <object id="2557" gid="14" x="19584" y="2560" width="128" height="128"/>
+  <object id="2558" gid="14" x="21120" y="2560" width="128" height="128"/>
+  <object id="2559" gid="14" x="20992" y="2560" width="128" height="128"/>
+  <object id="2560" gid="14" x="20864" y="2560" width="128" height="128"/>
+  <object id="2561" gid="14" x="19712" y="2560" width="128" height="128"/>
+  <object id="2562" gid="14" x="19840" y="2560" width="128" height="128"/>
+  <object id="2563" gid="14" x="19968" y="2560" width="128" height="128"/>
+  <object id="2564" gid="14" x="20096" y="2560" width="128" height="128"/>
+  <object id="2565" gid="14" x="20224" y="2560" width="128" height="128"/>
+  <object id="2566" gid="14" x="20352" y="2560" width="128" height="128"/>
+  <object id="2567" gid="14" x="20480" y="2560" width="128" height="128"/>
+  <object id="2568" gid="14" x="20608" y="2560" width="128" height="128"/>
+  <object id="2569" gid="14" x="20736" y="2560" width="128" height="128"/>
+  <object id="2570" gid="14" x="20736" y="2560" width="128" height="128"/>
+  <object id="2571" gid="14" x="20608" y="2560" width="128" height="128"/>
+  <object id="2572" gid="14" x="20480" y="2560" width="128" height="128"/>
+  <object id="2573" gid="14" x="20352" y="2560" width="128" height="128"/>
+  <object id="2574" gid="14" x="20224" y="2560" width="128" height="128"/>
+  <object id="2575" gid="14" x="20096" y="2560" width="128" height="128"/>
+  <object id="2576" gid="14" x="19968" y="2560" width="128" height="128"/>
+  <object id="2577" gid="14" x="19840" y="2560" width="128" height="128"/>
+  <object id="2578" gid="14" x="19712" y="2560" width="128" height="128"/>
+  <object id="2579" gid="14" x="20864" y="2560" width="128" height="128"/>
+  <object id="2580" gid="14" x="20992" y="2560" width="128" height="128"/>
+  <object id="2581" gid="14" x="21120" y="2560" width="128" height="128"/>
+  <object id="2582" gid="8" x="23168" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2583" gid="8" x="23040" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2584" gid="8" x="22912" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2585" gid="8" x="22656" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2586" gid="8" x="22528" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2587" gid="8" x="22784" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2588" gid="8" x="22400" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2589" gid="8" x="22272" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2590" gid="8" x="22400" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2591" gid="8" x="22144" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2592" gid="8" x="22016" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2593" gid="8" x="21888" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2594" gid="8" x="21760" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2595" gid="8" x="21760" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2596" gid="8" x="21888" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2597" gid="8" x="22016" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2598" gid="8" x="22144" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2599" gid="8" x="22400" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2600" gid="8" x="22272" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2601" gid="8" x="22400" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2602" gid="8" x="22784" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2603" gid="8" x="22528" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2604" gid="8" x="22656" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2605" gid="8" x="22912" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2606" gid="8" x="23040" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2607" gid="8" x="23168" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2608" gid="8" x="21632" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2609" gid="8" x="21504" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2610" gid="8" x="21376" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2611" gid="8" x="21248" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2612" gid="8" x="21248" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2613" gid="8" x="21376" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2614" gid="8" x="21504" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2615" gid="8" x="21632" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2616" gid="8" x="19584" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2617" gid="8" x="19584" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2618" gid="8" x="21120" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2619" gid="8" x="20992" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2620" gid="8" x="20864" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2621" gid="8" x="20608" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2622" gid="8" x="20480" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2623" gid="8" x="20736" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2624" gid="8" x="20352" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2625" gid="8" x="20224" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2626" gid="8" x="20352" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2627" gid="8" x="20096" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2628" gid="8" x="19968" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2629" gid="8" x="19840" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2630" gid="8" x="19712" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2631" gid="8" x="19712" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2632" gid="8" x="19840" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2633" gid="8" x="19968" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2634" gid="8" x="20096" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2635" gid="8" x="20352" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2636" gid="8" x="20224" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2637" gid="8" x="20352" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2638" gid="8" x="20736" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2639" gid="8" x="20480" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2640" gid="8" x="20608" y="2432" width="131.03" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2641" gid="8" x="20864" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2642" gid="8" x="20992" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2643" gid="8" x="21120" y="2432" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2654" gid="8" x="18432" y="2304" height="2312">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="2655" name="spikes" type="spikes" gid="67" x="6144" y="2304" width="128" height="80"/>
+  <object id="2656" name="spikes" type="spikes" gid="67" x="6016" y="2304" width="128" height="80"/>
+  <object id="2657" name="spikes" type="spikes" gid="67" x="5888" y="2304" width="128" height="80"/>
+  <object id="2658" name="spikes" type="spikes" gid="67" x="5760" y="2304" width="128" height="80"/>
+  <object id="2659" name="spikes" type="spikes" gid="67" x="5632" y="2304" width="128" height="80"/>
+  <object id="2660" name="spikes" type="spikes" gid="67" x="5504" y="2304" width="128" height="80"/>
+  <object id="2661" gid="22" x="5888" y="2176" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2662" gid="8" x="5760" y="2176" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="2663" gid="20" x="5632" y="2176" width="128" height="128">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="forground">
-  <object id="337" name="hero" type="hero" gid="2" x="768" y="2304" width="178" height="142"/>
+  <object id="337" name="hero" type="hero" gid="2" x="1152" y="2304" width="178" height="142"/>
   <object id="953" name="coin" type="coin" gid="32" x="3188" y="1608" width="104" height="94"/>
   <object id="1044" name="coin" type="coin" gid="32" x="3380" y="1728" width="104" height="94"/>
   <object id="1045" name="coin" type="coin" gid="32" x="3544" y="1880" width="104" height="94"/>
@@ -4308,14 +4949,25 @@
   <object id="2137" name="coin" type="coin" gid="32" x="14208" y="1792" width="104" height="94"/>
   <object id="2139" name="coin" type="coin" gid="32" x="14720" y="1664" width="104" height="94"/>
   <object id="2140" name="coin" type="coin" gid="32" x="15104" y="1920" width="104" height="94"/>
-  <object id="2141" name="blob" type="blob" gid="45" x="14430" y="1555" width="204" height="62"/>
   <object id="2132" type="spikes" gid="67" x="14336" y="2304" width="128" height="80"/>
   <object id="2136" type="spikes" gid="67" x="14976" y="2304" width="128" height="80"/>
   <object id="2134" type="spikes" gid="67" x="14848" y="2304" width="128" height="80"/>
   <object id="2133" type="spikes" gid="67" x="14592" y="2304" width="128" height="80"/>
-  <object id="2146" type="enemy" gid="46" x="15872" y="2304" width="122" height="139"/>
+  <object id="2146" type="blob" gid="46" x="15872" y="2304" width="122" height="139"/>
   <object id="2183" type="spikes" gid="70" x="16256" y="2304" width="357" height="361"/>
   <object id="2184" type="spikes" gid="70" x="16862" y="2188" width="357" height="361"/>
-  <object id="2349" gid="71" x="18304" y="2320" width="348" height="470"/>
+  <object id="2644" gid="73" x="768" y="2304" width="280" height="464"/>
+  <object id="2647" name="exist" type="exit" gid="72" x="18176" y="2304" width="280" height="464"/>
+  <object id="1613" type="blob" gid="56" x="3264" y="2296" width="120" height="159"/>
+  <object id="1611" type="enemy" gid="42" x="3696" y="2288" width="121" height="201"/>
+  <object id="1612" type="blob" gid="37" x="4712" y="2288" width="120" height="201"/>
+  <object id="2664" name="coin" type="coin" gid="32" x="6084" y="2016" width="104" height="94"/>
+  <object id="2666" type="blob" gid="45" x="14455.6" y="1542.03" width="150.909" height="103.697"/>
+  <object id="2669" name="diamond" type="level4NewCoin" gid="74" x="1584" y="2088" width="113" height="109"/>
+  <object id="2671" name="diamond" type="level4NewCoin" gid="74" x="1936" y="1984" width="113" height="109"/>
+  <object id="2672" name="diamond" type="level4NewCoin" gid="74" x="2304" y="1836" width="113" height="109"/>
+  <object id="2674" name="diamond" type="level4NewCoin" gid="74" x="16132" y="1852" width="113" height="109"/>
+  <object id="2675" name="diamond" type="level4NewCoin" gid="74" x="16648" y="1732" width="113" height="109"/>
+  <object id="2676" name="diamond" type="level4NewCoin" gid="74" x="17276" y="1608" width="113" height="109"/>
  </objectgroup>
 </map>

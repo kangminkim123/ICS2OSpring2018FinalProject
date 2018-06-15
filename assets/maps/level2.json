@@ -77,6 +77,18 @@
                  "width":5178,
                  "x":12544,
                  "y":1664
+                }, 
+                {
+                 "gid":91,
+                 "height":1661,
+                 "id":1425,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":5178,
+                 "x":17664,
+                 "y":1664
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3971,7 +3983,7 @@
                  "y":2030.67
                 }, 
                 {
-                 "gid":179,
+                 "gid":178,
                  "height":32,
                  "id":920,
                  "name":"",
@@ -3983,7 +3995,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":179,
+                 "gid":178,
                  "height":32,
                  "id":921,
                  "name":"",
@@ -3995,7 +4007,7 @@
                  "y":1280
                 }, 
                 {
-                 "gid":179,
+                 "gid":178,
                  "height":32,
                  "id":922,
                  "name":"",
@@ -4226,7 +4238,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":121.454878787879,
+                 "width":121.455,
                  "x":8190.67,
                  "y":2170.67
                 }, 
@@ -4494,7 +4506,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":134.181818181818,
+                 "width":134.182,
                  "x":8317.33,
                  "y":2046.67
                 }, 
@@ -4729,8 +4741,8 @@
                  "type":"blob",
                  "visible":true,
                  "width":101,
-                 "x":9262.66666666667,
-                 "y":1510.66666666667
+                 "x":9262.67,
+                 "y":1510.67
                 }, 
                 {
                  "gid":67,
@@ -5019,26 +5031,14 @@
                 {
                  "gid":88,
                  "height":101,
-                 "id":1086,
-                 "name":"",
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":101,
-                 "x":2383.33333333333,
-                 "y":1204.54545454545
-                }, 
-                {
-                 "gid":88,
-                 "height":101,
                  "id":1088,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
-                 "x":5701.01515151515,
-                 "y":961.621212121212
+                 "x":5701.02,
+                 "y":961.621
                 }, 
                 {
                  "gid":88,
@@ -5046,11 +5046,11 @@
                  "id":1089,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
-                 "x":5843.43939393939,
-                 "y":952.530303030303
+                 "x":5843.44,
+                 "y":952.53
                 }, 
                 {
                  "gid":88,
@@ -5058,11 +5058,11 @@
                  "id":1090,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
-                 "x":5979.80303030303,
-                 "y":955.560606060606
+                 "x":5979.8,
+                 "y":955.561
                 }, 
                 {
                  "gid":88,
@@ -5070,7 +5070,7 @@
                  "id":1093,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
                  "x":7040,
@@ -5078,14 +5078,14 @@
                 }, 
                 {
                  "gid":67,
-                 "height":149.212121212121,
+                 "height":149.212,
                  "id":1094,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":155.394121212122,
-                 "x":8298.78787878788,
+                 "width":155.394,
+                 "x":8298.79,
                  "y":2176
                 }, 
                 {
@@ -5264,8 +5264,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":252.363818181818,
-                 "x":9993.81818181818,
+                 "width":252.364,
+                 "x":9993.82,
                  "y":2176
                 }, 
                 {
@@ -5289,8 +5289,8 @@
                  "type":"",
                  "visible":true,
                  "width":134.182,
-                 "x":9960.18172727273,
-                 "y":2154.18181818182
+                 "x":9960.18,
+                 "y":2154.18
                 }, 
                 {
                  "gid":67,
@@ -6888,8 +6888,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":71.2779326588464,
-                 "x":9813.83062380986,
+                 "width":71.2779,
+                 "x":9813.83,
                  "y":1408
                 }, 
                 {
@@ -6910,8 +6910,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":71.2779326588464,
-                 "x":9671.27446993156,
+                 "width":71.2779,
+                 "x":9671.27,
                  "y":1408
                 }, 
                 {
@@ -6932,8 +6932,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":71.2779326588464,
-                 "x":9742.5561538783,
+                 "width":71.2779,
+                 "x":9742.56,
                  "y":1408
                 }, 
                 {
@@ -6954,7 +6954,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":71.2779326588464,
+                 "width":71.2779,
                  "x":9600,
                  "y":1408
                 }, 
@@ -6977,7 +6977,7 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":10453.83,
+                 "x":10453.8,
                  "y":1408
                 }, 
                 {
@@ -6999,7 +6999,7 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":10311.27,
+                 "x":10311.3,
                  "y":1408
                 }, 
                 {
@@ -7021,7 +7021,7 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":10382.56,
+                 "x":10382.6,
                  "y":1408
                 }, 
                 {
@@ -9192,7 +9192,7 @@
                  "id":1304,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
                  "x":14026,
@@ -9229,8 +9229,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":12465.46105,
-                 "y":1432.10605
+                 "x":12465.5,
+                 "y":1432.11
                 }, 
                 {
                  "gid":77,
@@ -9251,8 +9251,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":12608.06105,
-                 "y":1432.10605
+                 "x":12608.1,
+                 "y":1432.11
                 }, 
                 {
                  "gid":77,
@@ -9273,8 +9273,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":12536.76105,
-                 "y":1432.10605
+                 "x":12536.8,
+                 "y":1432.11
                 }, 
                 {
                  "gid":78,
@@ -9295,8 +9295,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":12679.26105,
-                 "y":1432.10605
+                 "x":12679.3,
+                 "y":1432.11
                 }, 
                 {
                  "gid":76,
@@ -9317,8 +9317,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":11825.46105,
-                 "y":1432.10605
+                 "x":11825.5,
+                 "y":1432.11
                 }, 
                 {
                  "gid":77,
@@ -9339,8 +9339,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":11968.02105,
-                 "y":1432.10605
+                 "x":11968,
+                 "y":1432.11
                 }, 
                 {
                  "gid":77,
@@ -9361,8 +9361,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":11896.73105,
-                 "y":1432.10605
+                 "x":11896.7,
+                 "y":1432.11
                 }, 
                 {
                  "gid":78,
@@ -9383,8 +9383,8 @@
                  "type":"",
                  "visible":true,
                  "width":71.2779,
-                 "x":12039.29105,
-                 "y":1432.10605
+                 "x":12039.3,
+                 "y":1432.11
                 }, 
                 {
                  "gid":87,
@@ -9395,8 +9395,8 @@
                  "type":"blob",
                  "visible":true,
                  "width":97,
-                 "x":12557.46105,
-                 "y":1380.10605
+                 "x":12557.5,
+                 "y":1380.11
                 }, 
                 {
                  "gid":63,
@@ -10700,7 +10700,7 @@
                  "id":1418,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
                  "x":15488,
@@ -10712,7 +10712,7 @@
                  "id":1419,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
                  "x":15872,
@@ -10724,7 +10724,7 @@
                  "id":1420,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
                  "x":16256,
@@ -10736,7 +10736,7 @@
                  "id":1421,
                  "name":"",
                  "rotation":0,
-                 "type":"coin",
+                 "type":"iceGem",
                  "visible":true,
                  "width":101,
                  "x":16640,
@@ -10753,7 +10753,7 @@
          "name":"forground",
          "objects":[
                 {
-                 "gid":112,
+                 "gid":111,
                  "height":301,
                  "id":326,
                  "name":"hero",
@@ -10851,6 +10851,18 @@
                  "width":0.01,
                  "x":17280,
                  "y":2304
+                }, 
+                {
+                 "gid":88,
+                 "height":101,
+                 "id":1086,
+                 "name":"",
+                 "rotation":0,
+                 "type":"iceGem",
+                 "visible":true,
+                 "width":101,
+                 "x":2383.33,
+                 "y":1204.55
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -10858,7 +10870,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1425,
+ "nextobjectid":1426,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.2",
@@ -11236,7 +11248,7 @@
                 },
              "62":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter1.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter1.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11248,13 +11260,13 @@
                 },
              "64":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter3.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter3.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "65":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter4.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter4.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11266,13 +11278,13 @@
                 },
              "67":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter6.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter6.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "68":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter7.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter7.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11290,31 +11302,31 @@
                 },
              "70":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter9.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter9.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "71":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter10.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter10.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "72":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter11.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter11.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "73":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter12.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter12.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "74":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Tiles\/winter13.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Tiles\/winter13.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -11356,7 +11368,7 @@
                 },
              "80":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Object\/Sign2.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Sign2.png",
                  "imageheight":93,
                  "imagewidth":87
                 },
@@ -11386,7 +11398,7 @@
                 },
              "85":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Object\/Crate.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Crate.png",
                  "imageheight":101,
                  "imagewidth":101
                 },
@@ -11404,13 +11416,13 @@
                 },
              "88":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Object\/Igloo.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Igloo.png",
                  "imageheight":201,
                  "imagewidth":511
                 },
              "89":
                 {
-                 "image":"..\/..\/..\/ICS2OSpring2018FinalProject\/assets\/sprites\/winter\/Object\/Sign1.png",
+                 "image":"..\/..\/..\/7-14\/assets\/sprites\/winter\/Object\/Sign1.png",
                  "imageheight":94,
                  "imagewidth":87
                 },
@@ -11431,7 +11443,7 @@
         }, 
         {
          "columns":0,
-         "firstgid":93,
+         "firstgid":92,
          "grid":
             {
              "height":1,
@@ -11636,7 +11648,7 @@
         }, 
         {
          "columns":0,
-         "firstgid":124,
+         "firstgid":123,
          "grid":
             {
              "height":1,
