@@ -9,7 +9,7 @@ local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
 
 -- Variables local to scene
-local map, hero, shield, parallax
+local map, hero, shield, parallax, backgroundMusic
 
 -- Create a new Composer scene
 local scene = composer.newScene()
@@ -80,7 +80,7 @@ function scene:create( event )
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
 		goldendiamond = audio.loadSound( sndDir .. "goldendiamond.mp3" ),
 	}
-
+    backgroundMusic = audio.loadStream( sndDir .. "loops/ultrainstinct.mp3" )
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
@@ -167,7 +167,7 @@ function scene:show( event )
 		-- Start playing wind sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:
 		-- https://docs.coronalabs.com/guide/media/audioSystem/index.html
-		audio.play( self.sounds.wind, { loops = -1, fadein = 750, channel = 15 } )
+		audio.play( backgroundMusic )
 	end
 
 end
