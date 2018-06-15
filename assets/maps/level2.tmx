@@ -851,8 +851,6 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="461" gid="20" x="3840.24" y="1408.18" width="832.667" height="182.667" rotation="90"/>
-  <object id="465" gid="20" x="4095.03" y="2272.85" width="836" height="188" rotation="-90"/>
   <object id="466" gid="64" x="4096" y="1662.06" width="128.909" height="200.727">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2265,5 +2263,6 @@
    </properties>
   </object>
   <object id="1086" type="iceGem" gid="88" x="2383.33" y="1204.55" width="101" height="101"/>
+  <object id="461" type="enterSubLevel2" gid="20" x="4136.09" y="1459" width="328.667" height="1026.67" rotation="-180"/>
  </objectgroup>
 </map>
