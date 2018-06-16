@@ -11,6 +11,9 @@ local heartBar = require( "scene.game.lib.heartBar" )
 -- Variables local to scene
 local map, hero, shield, parallax, backgroundMusic
 
+-- To Check if from sublevel
+local prevScene = composer.getSceneName( "previous" )
+
 -- Create a new Composer scene
 local scene = composer.newScene()
 
@@ -164,10 +167,9 @@ function scene:show( event )
 	if ( phase == "will" ) then
 		fx.fadeIn()	-- Fade up from black
 		Runtime:addEventListener( "enterFrame", enterFrame )
-		if hero.isDead == true then
-			transition.to( hero, { time = 1, x = 8500, y = 290 } )
-			hero.isDead = false
-		end	
+		if prevScene == "scene.level1Sub" then 
+			transition.to( hero, { time = 10, x = 8500, y = 290 } )
+		end
 	elseif ( phase == "did" ) then
 		-- Start playing background music sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:
