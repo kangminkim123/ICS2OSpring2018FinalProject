@@ -106,7 +106,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes", "gem", "strongSpikes", "enterLevel1Sub" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes", "gem", "strongSpikes", "strongBlob", "enemyCowboy", "enterLevel1Sub" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )

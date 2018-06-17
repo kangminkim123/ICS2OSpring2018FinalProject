@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1875">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1905">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -2262,7 +2262,7 @@
   </object>
  </objectgroup>
  <objectgroup name="forground">
-  <object id="474" type="blob" gid="65" x="2242.03" y="1919.39" width="121" height="191"/>
+  <object id="474" type="blob" gid="65" x="2217.79" y="1913.33" width="121" height="191"/>
   <object id="588" type="strongSpikes" gid="38" x="3072" y="2432" width="128" height="128"/>
   <object id="897" type="spikes" gid="54" x="6016.24" y="1918.74" width="221" height="81"/>
   <object id="899" type="spikes" gid="54" x="6272.24" y="1918.74" width="221" height="81"/>
@@ -2279,24 +2279,17 @@
   <object id="917" name="enemy" type="enemy" gid="60" x="7085.45" y="2695.09" width="120" height="201"/>
   <object id="962" name="enemy" type="enemy" gid="60" x="7713.45" y="2686.92" width="120" height="201"/>
   <object id="1032" name="enemy" type="enemy" gid="60" x="8012" y="1919.5" width="120" height="201"/>
-  <object id="1033" type="spikes" gid="37" x="9728" y="2048" width="128" height="99"/>
-  <object id="1034" type="spikes" gid="37" x="9856" y="2048" width="128" height="99"/>
-  <object id="1035" type="spikes" gid="37" x="9984" y="2048" width="128" height="99"/>
-  <object id="1036" type="spikes" gid="37" x="10112" y="2048" width="128" height="99"/>
-  <object id="1037" type="spikes" gid="37" x="10240" y="2048" width="128" height="99"/>
-  <object id="1038" type="spikes" gid="37" x="10368" y="2048" width="128" height="99"/>
-  <object id="1039" type="spikes" gid="38" x="9728" y="2176" width="128" height="128"/>
-  <object id="1040" type="spikes" gid="38" x="9856" y="2176" width="128" height="128"/>
-  <object id="1041" type="spikes" gid="38" x="9984" y="2176" width="128" height="128"/>
-  <object id="1042" type="spikes" gid="38" x="10112" y="2176" width="128" height="128"/>
-  <object id="1043" type="spikes" gid="38" x="10240" y="2176" width="128" height="128"/>
-  <object id="1044" type="spikes" gid="38" x="10368" y="2176" width="128" height="128"/>
-  <object id="1045" type="spikes" gid="38" x="9728" y="2304" width="128" height="128"/>
-  <object id="1046" type="spikes" gid="38" x="9856" y="2304" width="128" height="128"/>
-  <object id="1047" type="spikes" gid="38" x="10112" y="2304" width="128" height="128"/>
-  <object id="1048" type="spikes" gid="38" x="9984" y="2304" width="128" height="128"/>
-  <object id="1049" type="spikes" gid="38" x="10240" y="2304" width="128" height="128"/>
-  <object id="1050" type="spikes" gid="38" x="10368" y="2304" width="128" height="128"/>
+  <object id="1033" gid="37" x="9728" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1039" gid="38" x="9728" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1045" type="strongSpikes" gid="38" x="9728" y="2304" width="128" height="128"/>
   <object id="1051" gid="38" x="9728" y="2432" width="128" height="128"/>
   <object id="1052" gid="38" x="9856" y="2432" width="128" height="128"/>
   <object id="1053" gid="38" x="9984" y="2432" width="128" height="128"/>
@@ -2305,19 +2298,12 @@
   <object id="1056" gid="38" x="10368" y="2432" width="128" height="128"/>
   <object id="1139" gid="38" x="10624" y="2432" width="128" height="128"/>
   <object id="1140" gid="38" x="10496" y="2432" width="128" height="128"/>
-  <object id="1141" type="spikes" gid="38" x="10624" y="2304" width="128" height="128"/>
-  <object id="1142" type="spikes" gid="38" x="10496" y="2304" width="128" height="128"/>
-  <object id="1143" type="spikes" gid="38" x="10624" y="2176" width="128" height="128"/>
-  <object id="1144" type="spikes" gid="38" x="10496" y="2176" width="128" height="128"/>
-  <object id="1145" type="spikes" gid="37" x="10624" y="2048" width="128" height="99"/>
-  <object id="1146" type="spikes" gid="37" x="10496" y="2048" width="128" height="99"/>
   <object id="1178" type="coin" gid="55" x="10371.8" y="1781.84" width="168.333" height="161.722"/>
   <object id="1179" type="coin" gid="55" x="10607.8" y="1773.84" width="168.333" height="161.722"/>
   <object id="1197" type="spikes" gid="54" x="9577.35" y="1290.67" width="170.07" height="62.3333"/>
   <object id="1198" type="blob" gid="71" x="9815.85" y="1290.83" width="112.963" height="125"/>
-  <object id="1199" type="blob" gid="71" x="8538.19" y="290.833" width="136.963" height="143.667"/>
-  <object id="1202" type="spikes" gid="54" x="8791.57" y="539.742" width="170.07" height="62.3333"/>
-  <object id="1203" type="spikes" gid="54" x="9118.9" y="539.076" width="170.07" height="62.3333"/>
+  <object id="1202" type="spikes" gid="54" x="8791.57" y="539.742" width="147.403" height="53"/>
+  <object id="1203" type="spikes" gid="54" x="9138.9" y="539.076" width="150.07" height="54.3333"/>
   <object id="1204" gid="36" x="9859.27" y="838.47" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2336,7 +2322,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1207" type="blob" gid="71" x="9729.46" y="753.333" width="136.963" height="143.667"/>
+  <object id="1207" type="blob" gid="71" x="9714.31" y="744.242" width="136.963" height="143.667"/>
   <object id="1208" gid="36" x="9171.64" y="1143.46" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2381,7 +2367,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1643" type="blob" gid="71" x="13534.8" y="1169.84" width="136.963" height="143.667"/>
+  <object id="1643" type="strongBlob" gid="71" x="13534.8" y="1169.84" width="136.963" height="143.667"/>
   <object id="1644" gid="36" x="14250.4" y="1038.61" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2400,7 +2386,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1647" type="blob" gid="71" x="14102.4" y="956.511" width="136.963" height="143.667"/>
+  <object id="1647" type="strongBlob" gid="71" x="14102.4" y="956.511" width="136.963" height="143.667"/>
   <object id="1648" gid="34" x="13444.8" y="740.524" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2419,7 +2405,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1651" type="blob" gid="71" x="13552.9" y="658.424" width="136.963" height="143.667"/>
+  <object id="1651" type="strongBlob" gid="71" x="13552.9" y="658.424" width="136.963" height="143.667"/>
   <object id="1666" gid="34" x="12422" y="696" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2521,5 +2507,83 @@
   <object id="1872" type="strongSpikes" gid="38" x="3072" y="2304" width="128" height="128"/>
   <object id="1873" type="enterLevel1Sub" gid="53" x="8083.75" y="2689.79" width="300.503" height="380.424"/>
   <object id="411" name="hero" type="hero" gid="84" x="1370.91" y="1721.18" width="142" height="148"/>
+  <object id="1877" gid="53" x="8318.15" y="285.636" width="188" height="238"/>
+  <object id="1879" type="strongSpikes" gid="38" x="9856" y="2304" width="128" height="128"/>
+  <object id="1880" type="strongSpikes" gid="38" x="10112" y="2304" width="128" height="128"/>
+  <object id="1881" type="strongSpikes" gid="38" x="9984" y="2304" width="128" height="128"/>
+  <object id="1882" type="strongSpikes" gid="38" x="10368" y="2304" width="128" height="128"/>
+  <object id="1883" type="strongSpikes" gid="38" x="10240" y="2304" width="128" height="128"/>
+  <object id="1884" type="strongSpikes" gid="38" x="10624" y="2304" width="128" height="128"/>
+  <object id="1885" type="strongSpikes" gid="38" x="10496" y="2304" width="128" height="128"/>
+  <object id="1886" gid="38" x="9856" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1887" gid="38" x="10112" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1888" gid="38" x="9984" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1889" gid="38" x="10624" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1890" gid="38" x="10496" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1891" gid="38" x="10240" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1892" gid="38" x="10368" y="2176" width="128" height="128">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1898" gid="37" x="9856" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1899" gid="37" x="10112" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1900" gid="37" x="9984" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1901" gid="37" x="10624" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1902" gid="37" x="10496" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1903" gid="37" x="10368" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="1904" gid="37" x="10240" y="2048" width="128" height="99">
+   <properties>
+    <property name="friction" type="float" value="3"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

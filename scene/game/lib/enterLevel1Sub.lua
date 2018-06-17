@@ -26,7 +26,7 @@ function M.new( instance )
 			transition.to( self.fill.effect, { time = 666, exposure = -5, onComplete = function()
 				fx.fadeOut( function() 
 					composer.gotoScene( "scene.level1Sub", { params = { map = self.map, score = scene.score:get() } } )
-					composer.removeScene( "scene.level1" )
+					composer.removeScene( "scene.level1", { params = { map = self.map, score = scene.score:get() } } )
 				end )
 			end } )
 		end
