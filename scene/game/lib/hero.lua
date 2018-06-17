@@ -38,6 +38,10 @@ function M.new( instance, options )
     local sheetOptionsThrow = require("assets.spritesheets.ninjaBoy.ninjaBoyThrow")
     local sheetThrowingNinja = graphics.newImageSheet( "./assets/spritesheets/ninjaBoy/ninjaBoyThrow.png", sheetOptionsThrow:getSheet() )
 
+    local sheetOptionsSlide = require("assets.spritesheets.ninjaBoy.ninjaBoySlide")
+    local sheetSlidingNinja = graphics.newImageSheet( "./assets/spritesheets/ninjaBoy/ninjaBoySlide.png", sheetOptionsSlide:getSheet() )
+
+
     -- sequences table
     local sequence_data = {
         -- consecutive frames sequence
@@ -80,7 +84,15 @@ function M.new( instance, options )
             time = 1000,
             loopCount = 1,
             sheet = sheetJumpingNinja
-        }
+        },
+        {
+            name = "slide",
+            start = 1,
+            count = 10,
+            time = 1000,
+            loopCount = 0,
+            sheet = sheetSlidingNinja
+        },
 
     }
 
@@ -116,6 +128,12 @@ function M.new( instance, options )
 				instance:jump()
 				instance:play()
 			end
+			if "down" == name or "s" == name then 
+				flip = 0.133
+				instance:setSequence( "slide" )
+				instance:play()
+				instance:applyLinearImpulse( 2000, 0, instance.x, instance.y )
+			end	
 			if not ( left == 0 and right == 0 ) and not instance.jumping then
 				instance:setSequence( "walk" )
 				instance:play()
@@ -123,6 +141,10 @@ function M.new( instance, options )
 		elseif phase == "up" then
 			if "left" == name or "a" == name then left = 0 end
 			if "right" == name or "d" == name then right = 0 end
+			if "down" == name or "s" == name then 
+				right = 0 
+				left = 0 
+			end
 			if left == 0 and right == 0 and not instance.jumping then
 				instance:setSequence("idle")
 				instance:play()

@@ -167,6 +167,7 @@ function scene:show( event )
 	if ( phase == "will" ) then
 		fx.fadeIn()	-- Fade up from black
 		Runtime:addEventListener( "enterFrame", enterFrame )
+		-- Move hero if coming from sublevel
 		if prevScene == "scene.level1Sub" then 
 			transition.to( hero, { time = 10, x = 8500, y = 290 } )
 		end
