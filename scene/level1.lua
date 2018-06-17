@@ -168,12 +168,12 @@ function scene:show( event )
 			transition.to( hero, { time = 1, x = 8500, y = 290 } )
 			hero.isDead = false
 		end	
-		
 	elseif ( phase == "did" ) then
 		-- Start playing background music sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:
 		-- https://docs.coronalabs.com/guide/media/audioSystem/index.html
 		audio.play( backgroundMusic )
+		
 		
 	end
 
