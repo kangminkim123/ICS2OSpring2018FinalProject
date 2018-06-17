@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="280" height="90" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="15136">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="280" height="90" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="15137">
  <properties>
   <property name="bodyType" value="static"/>
  </properties>
@@ -16381,7 +16381,6 @@
     <property name="friction" type="float" value="0.5"/>
    </properties>
   </object>
-  <object id="2943" type="exitToSubLevel7" gid="22" x="29059.2" y="6543.58" width="511" height="640.03"/>
   <object id="15002" gid="5" x="32128" y="7552" width="128" height="128"/>
   <object id="15003" gid="5" x="32000" y="7552" width="128" height="128"/>
   <object id="15004" gid="5" x="31872" y="7552" width="128" height="128"/>
@@ -16498,7 +16497,7 @@
   <object id="15115" gid="5" x="29696" y="6912" width="128" height="128"/>
   <object id="15116" gid="5" x="29824" y="6912" width="128" height="128"/>
   <object id="15117" gid="5" x="29952" y="6912" width="128" height="128"/>
-  <object id="15135" type="exitToSubLevel7" gid="22" x="2578.04" y="6708.75" width="511" height="640.03"/>
+  <object id="15136" type="exitToSubLevel7" gid="22" x="28854.4" y="6549.05" width="511" height="640.03"/>
  </objectgroup>
  <objectgroup name="forground">
   <properties>
