@@ -1,3 +1,7 @@
+
+-- Extends an object to load a new map
+
+-- Define module
 local M = {}
 
 local composer = require( "composer" )
@@ -25,10 +29,8 @@ function M.new( instance )
 			self.fill.effect = "filter.exposure"
 			transition.to( self.fill.effect, { time = 666, exposure = -5, onComplete = function()
 				fx.fadeOut( function()
-					other.isDead = true
-					composer.gotoScene( "scene.Level1", { params = { map = self.map, score = scene.score:get() } } )
-					composer.removeScene( "scene.level1Sub")
-
+					composer.gotoScene( "scene.level12sub", { params = { map = self.map, score = scene.score:get() } } )
+				    --composer.gotoScene( "scene.levelSelectScene", { params = { map = self.map, score = scene.score:get() } } )
 				end )
 			end } )
 		end
