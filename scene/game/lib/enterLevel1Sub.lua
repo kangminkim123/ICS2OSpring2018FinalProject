@@ -25,8 +25,8 @@ function M.new( instance )
 			self.fill.effect = "filter.exposure"
 			transition.to( self.fill.effect, { time = 666, exposure = -5, onComplete = function()
 				fx.fadeOut( function()
-					composer.gotoScene( "scene.refresh", { params = { map = self.map, score = scene.score:get() } } )
 					composer.gotoScene( "scene.level1Sub", { params = { map = self.map, score = scene.score:get() } } )
+					composer.removeScene( "scene.level1" )
 				end )
 			end } )
 		end

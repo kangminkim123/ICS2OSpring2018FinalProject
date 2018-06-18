@@ -9,7 +9,7 @@ local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
 
 -- Variables local to scene
-local map, hero, shield, parallax
+local map, hero, shield, parallax, backgoundMusic
 
 -- Create a new Composer scene
 local scene = composer.newScene()
@@ -78,7 +78,11 @@ function scene:create( event )
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		iceCoin = audio.loadSound(sndDir .. "iceCoin.mp3")
 	}
+
+	-- Background music during level
+	backgoundMusic = audio.loadSound(sndDir .. "loops/level7.mp3")
 
 	-- Start physics before loading map
 	physics.start()
@@ -101,7 +105,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes", "iceCoin", "exitToSubLevel7" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
@@ -125,7 +129,7 @@ function scene:create( event )
 	-- Touch the sheilds to go back to the main...
 	function shield:tap(event)
 		fx.fadeOut( function()
-				composer.gotoScene( "scene.levelSelectScene")
+				composer.gotoScene("scene.levelSelectScene")
 			end )
 	end
 	shield:addEventListener("tap")
@@ -166,7 +170,7 @@ function scene:show( event )
 		-- Start playing wind sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:
 		-- https://docs.coronalabs.com/guide/media/audioSystem/index.html
-		audio.play( self.sounds.wind, { loops = -1, fadein = 750, channel = 15 } )
+		audio.play(backgoundMusic, {loops=-1})
 	end
 
 end
@@ -183,7 +187,7 @@ function scene:hide( event )
 end
 
 -- This function is called when scene is destroyed
-function scene:destroy( event )
+function scene:destroy( event ) 
 
 	audio.stop()  -- Stop all audio
 	for s, v in pairs( self.sounds ) do  -- Release all audio handles

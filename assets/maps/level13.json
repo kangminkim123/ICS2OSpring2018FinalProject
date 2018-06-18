@@ -7211,6 +7211,18 @@
                  "width":1038,
                  "x":11904,
                  "y":128
+                }, 
+                {
+                 "gid":54,
+                 "height":404,
+                 "id":865,
+                 "name":"Old Sword",
+                 "rotation":180,
+                 "type":"swordCoin",
+                 "visible":true,
+                 "width":336.667,
+                 "x":7552,
+                 "y":1024
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9301,18 +9313,6 @@
                  "width":128,
                  "x":12416,
                  "y":1280
-                }, 
-                {
-                 "gid":54,
-                 "height":404,
-                 "id":865,
-                 "name":"Old Sword",
-                 "rotation":180,
-                 "type":"coin2",
-                 "visible":true,
-                 "width":336.667,
-                 "x":7552,
-                 "y":1024
                 }],
          "opacity":1,
          "type":"objectgroup",
