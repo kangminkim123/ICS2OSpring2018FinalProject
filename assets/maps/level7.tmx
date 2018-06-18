@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="280" height="90" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="15137">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="280" height="90" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="15137">
  <properties>
   <property name="bodyType" value="static"/>
  </properties>
