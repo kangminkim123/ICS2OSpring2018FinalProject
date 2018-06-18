@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="280" height="90" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="15118">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="280" height="90" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="15137">
  <properties>
   <property name="bodyType" value="static"/>
  </properties>
@@ -4683,37 +4683,37 @@
   <object id="433" gid="1" x="1539.17" y="5135.58" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="432" gid="7" x="1795.17" y="5135.58" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="431" gid="7" x="1667.17" y="5135.58" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="430" gid="7" x="1923.17" y="5135.58" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="429" gid="7" x="2051.17" y="5135.58" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="434" gid="1073741825" x="2307.17" y="5007.58" width="128" height="128" rotation="180">
    <properties>
     <property name="bodyType" value="static"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="586" type="spikes" gid="29" x="2307.17" y="7055.58" width="256" height="256">
@@ -4783,35 +4783,35 @@
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="607" gid="15" x="3971.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="608" gid="15" x="3843.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="609" gid="16" x="4227.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="610" gid="14" x="3715.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="707" type="spikes" gid="29" x="4611.17" y="7055.58" width="256" height="256">
@@ -4848,28 +4848,28 @@
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="717" gid="15" x="3843.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="718" gid="15" x="3971.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="719" gid="15" x="4099.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="720" gid="15" x="5507.17" y="6287.58" width="128" height="93">
@@ -4883,14 +4883,14 @@
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="722" gid="15" x="5251.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="723" gid="16" x="5635.17" y="6287.58" width="128" height="93">
@@ -4911,14 +4911,14 @@
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="726" gid="15" x="5379.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="727" gid="15" x="5507.17" y="6287.58" width="128" height="93">
@@ -4932,49 +4932,49 @@
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="729" gid="15" x="4995.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="730" gid="15" x="4867.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="731" gid="15" x="4867.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="732" gid="15" x="4995.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="733" gid="15" x="5123.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="734" gid="14" x="4739.17" y="6287.58" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.5"/>
+    <property name="friction" type="float" value="0.3"/>
    </properties>
   </object>
   <object id="905" gid="7" x="6147.17" y="7055.58" width="128" height="128"/>
@@ -16327,10 +16327,6 @@
     <property name="friction" type="float" value="0.5"/>
    </properties>
   </object>
-  <object id="14951" name="enemy" type="enemy" gid="21" x="12288" y="10112" width="101" height="101"/>
-  <object id="14952" name="enemy" type="enemy" gid="21" x="11392" y="10112" width="101" height="101"/>
-  <object id="14953" name="enemy" type="enemy" gid="21" x="17792" y="8192" width="101" height="101"/>
-  <object id="14954" name="enemy" type="enemy" gid="21" x="18816" y="10112" width="101" height="101"/>
   <object id="14957" gid="15" x="18816" y="8192" width="128" height="93">
    <properties>
     <property name="bodyType" value="static"/>
@@ -16385,7 +16381,6 @@
     <property name="friction" type="float" value="0.5"/>
    </properties>
   </object>
-  <object id="2943" type="exit" gid="22" x="29059.2" y="6543.58" width="511" height="640.03"/>
   <object id="15002" gid="5" x="32128" y="7552" width="128" height="128"/>
   <object id="15003" gid="5" x="32000" y="7552" width="128" height="128"/>
   <object id="15004" gid="5" x="31872" y="7552" width="128" height="128"/>
@@ -16502,6 +16497,7 @@
   <object id="15115" gid="5" x="29696" y="6912" width="128" height="128"/>
   <object id="15116" gid="5" x="29824" y="6912" width="128" height="128"/>
   <object id="15117" gid="5" x="29952" y="6912" width="128" height="128"/>
+  <object id="15136" type="exitToSubLevel7" gid="22" x="28854.4" y="6549.05" width="511" height="640.03"/>
  </objectgroup>
  <objectgroup name="forground">
   <properties>
@@ -16515,8 +16511,6 @@
   <object id="714" name="hero" type="hero" gid="19" x="1795.17" y="5007.58" width="101" height="101">
    <properties>
     <property name="bodyType" value="dynamic"/>
-    <property name="bounce" type="float" value="0"/>
-    <property name="friction" type="float" value="0.6"/>
    </properties>
   </object>
   <object id="735" name="Spikes" type="spikes" gid="68" x="5123.65" y="6196.19" width="128" height="80">
@@ -16642,7 +16636,7 @@
     <property name="bounce" type="float" value="2"/>
    </properties>
   </object>
-  <object id="10206" name="Spikes" type="spikes" gid="68" x="21120" y="6656" width="128" height="80">
+  <object id="10206" name="Spikes" type="spikes" gid="68" x="21121.7" y="6670.96" width="128" height="80">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
@@ -16703,5 +16697,21 @@
   <object id="14999" type="coin" gid="66" x="5513.5" y="6041.5" width="77" height="77"/>
   <object id="15000" type="coin" gid="66" x="7401.5" y="5385.5" width="77" height="77"/>
   <object id="15001" type="coin" gid="66" x="9705.5" y="5177.5" width="77" height="77"/>
+  <object id="15118" type="iceCoin" gid="70" x="11126" y="9611.61" width="97" height="78"/>
+  <object id="15119" type="iceCoin" gid="70" x="12145.1" y="9198.9" width="97" height="78"/>
+  <object id="15120" type="iceCoin" gid="70" x="13097.7" y="8632.47" width="97" height="78"/>
+  <object id="15121" type="iceCoin" gid="70" x="14349" y="8895.09" width="97" height="78"/>
+  <object id="15122" type="iceCoin" gid="70" x="14493.2" y="9888.91" width="97" height="78"/>
+  <object id="15123" type="iceCoin" gid="70" x="15857.8" y="10064" width="97" height="78"/>
+  <object id="15124" type="iceCoin" gid="70" x="17912.4" y="9991.9" width="97" height="78"/>
+  <object id="15125" type="iceCoin" gid="70" x="17598.3" y="8261.72" width="97" height="78"/>
+  <object id="15126" type="iceCoin" gid="70" x="16413.9" y="8385.3" width="97" height="78"/>
+  <object id="15127" type="iceCoin" gid="70" x="18684.8" y="7999.11" width="97" height="78"/>
+  <object id="15128" type="iceCoin" gid="70" x="20677.6" y="4404.87" width="97" height="78"/>
+  <object id="15129" type="iceCoin" gid="70" x="26645.6" y="5434.74" width="97" height="78"/>
+  <object id="15130" name="enemy" type="enemy" gid="21" x="18796" y="10093.7" width="101" height="101"/>
+  <object id="15132" name="enemy" type="enemy" gid="21" x="11431" y="10085.5" width="101" height="101"/>
+  <object id="15133" name="enemy" type="enemy" gid="21" x="12514" y="10090.1" width="101" height="101"/>
+  <object id="15134" name="enemy" type="enemy" gid="21" x="17722.3" y="8192.7" width="101" height="101"/>
  </objectgroup>
 </map>

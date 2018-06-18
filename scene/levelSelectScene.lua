@@ -35,7 +35,7 @@ local level12
 local level13
 local level14
 local level15
-
+local settings
 local scene = composer.newScene()
 
 -- 'onRelease' event listener for level0

@@ -66,18 +66,20 @@ function scene:create( event )
 	-- Sounds
 	local sndDir = "scene/game/sfx/"
 	scene.sounds = {
-		thud = audio.loadSound( sndDir .. "death.mp3" ),
+		thud = audio.loadSound( sndDir .. "squish2.mp3" ),
 		sword = audio.loadSound( sndDir .. "sword.mp3" ),
-		squish = audio.loadSound( sndDir .. "squish.mp3" ),
+		squish = audio.loadSound( sndDir .. "squish2.mp3" ),
 		slime = audio.loadSound( sndDir .. "slime.mp3" ),
 		wind = audio.loadSound( sndDir .. "loops/spooky.mp3" ),
 		door = audio.loadSound( sndDir .. "door2.mp3" ),
 		hurt = {
 			audio.loadSound( sndDir .. "hurt1.mp3" ),
-			audio.loadSound( sndDir .. "hurt2.mp3" ),
+			audio.loadSound( sndDir .. "death.mp3" ),
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
-		coin = audio.loadSound( sndDir .. "coin2.mp3" ),	
+		coin = audio.loadSound( sndDir .. "coin2.mp3" ),
+		coin3 = audio.loadSound( sndDir .. "coin3.mp3" ),
+		coin4 = audio.loadSound( sndDir .. "coin4.mp3" ),	
 	}
 
 
@@ -102,7 +104,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes", "coin3", "coin4" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
