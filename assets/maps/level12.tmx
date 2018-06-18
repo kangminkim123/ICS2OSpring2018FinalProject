@@ -589,7 +589,7 @@
   <object id="444" gid="12" x="5343.28" y="1237.31" width="343.083" height="116.648"/>
   <object id="473" type="blob" gid="45" x="3001.17" y="944.542" width="205.85" height="354.52"/>
   <object id="475" type="coin" gid="41" x="4533.61" y="1177.84" width="176.116" height="176.116"/>
-  <object id="478" type="exit12sub" gid="47" x="12474.9" y="1225.87" width="429.997" height="544.358"/>
+  <object id="478" type="exitlevel1Sub" gid="47" x="12474.9" y="1225.87" width="429.997" height="544.358"/>
   <object id="481" type="blob" gid="44" x="8341.83" y="950.11" width="142.765" height="227.235"/>
   <object id="507" name="boarder" gid="51" x="250" y="945.946" height="1681.06">
    <properties>
