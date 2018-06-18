@@ -1069,13 +1069,13 @@
  </objectgroup>
  <objectgroup name="forground">
   <object id="1877" type="coin" gid="55" x="1704" y="1152" width="168.333" height="161.722"/>
-  <object id="1878" type="coin2" gid="56" x="1388" y="1152" width="172" height="172"/>
+  <object id="1878" type="gem" gid="56" x="1388" y="1152" width="172" height="172"/>
   <object id="1879" name="enemy" type="enemy" gid="60" x="2749.33" y="1153.94" width="120" height="201"/>
   <object id="2193" type="coin" gid="55" x="2072" y="1152" width="168.333" height="161.722"/>
   <object id="2194" type="coin" gid="55" x="2390" y="1152" width="168.333" height="161.722"/>
   <object id="2195" type="coin" gid="55" x="3296.36" y="1156" width="168.333" height="161.722"/>
-  <object id="2196" type="coin2" gid="56" x="3640.36" y="1156" width="172" height="172"/>
-  <object id="2197" type="coin2" gid="56" x="3916.36" y="1154" width="172" height="172"/>
+  <object id="2196" type="gem" gid="56" x="3640.36" y="1156" width="172" height="172"/>
+  <object id="2197" type="gem" gid="56" x="3916.36" y="1154" width="172" height="172"/>
   <object id="2198" type="coin" gid="55" x="4212.2" y="1155.14" width="168.333" height="161.722"/>
   <object id="2199" name="enemy" type="enemy" gid="60" x="4618.91" y="1153.68" width="120" height="201"/>
   <object id="2362" type="coin" gid="55" x="5248" y="1152" width="168.333" height="161.722"/>
@@ -1085,6 +1085,6 @@
   <object id="2366" type="coin" gid="55" x="6534" y="1150" width="168.333" height="161.722"/>
   <object id="2367" name="enemy" type="enemy" gid="60" x="7181.7" y="1152.47" width="120" height="201"/>
   <object id="2368" type="exit" gid="53" x="7954.92" y="1152" width="322.046" height="407.697"/>
-  <object id="2371" type="hero" gid="84" x="896" y="1152" width="142" height="148"/>
+  <object id="2371" type="hero" gid="84" x="888.515" y="877.152" width="142" height="148"/>
  </objectgroup>
 </map>

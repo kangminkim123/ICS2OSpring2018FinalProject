@@ -78,7 +78,7 @@ function scene:create( event )
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
-		coin2 = audio.loadSound( sndDir .. "coin2.mp3" ),
+		gem = audio.loadSound( sndDir .. "gem.mp3" ),
 	}
 
 	-- Start physics before loading map
@@ -102,7 +102,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "coin", "spikes", "coin2", "exit12sub" )
+	map:extend( "blob", "enemy", "coin", "spikes", "gem", "exit12sub" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
@@ -163,6 +163,9 @@ function scene:show( event )
 	if ( phase == "will" ) then
 		fx.fadeIn()	-- Fade up from black
 		Runtime:addEventListener( "enterFrame", enterFrame )
+		if prevScene == "scene.level12sub" then
+			transition.to( hero, { time = 10, x = 8500, y = 290 } )
+		end
 	elseif ( phase == "did" ) then
 		-- Start playing wind sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:

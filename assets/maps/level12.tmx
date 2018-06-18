@@ -589,7 +589,7 @@
   <object id="444" gid="12" x="5343.28" y="1237.31" width="343.083" height="116.648"/>
   <object id="473" type="blob" gid="45" x="3001.17" y="944.542" width="205.85" height="354.52"/>
   <object id="475" type="coin" gid="41" x="4533.61" y="1177.84" width="176.116" height="176.116"/>
-  <object id="478" type="exitlevel1Sub" gid="47" x="12474.9" y="1225.87" width="429.997" height="544.358"/>
+  <object id="478" type="exit12sub" gid="47" x="12474.9" y="1225.87" width="429.997" height="544.358"/>
   <object id="481" type="blob" gid="44" x="8341.83" y="950.11" width="142.765" height="227.235"/>
   <object id="507" name="boarder" gid="51" x="250" y="945.946" height="1681.06">
    <properties>
@@ -656,7 +656,7 @@
   <object id="627" type="spikes" gid="35" x="11640.8" y="2374.42" width="271.254" height="238.807"/>
   <object id="628" type="spikes" gid="35" x="11762.8" y="2584.42" width="271.254" height="238.807"/>
   <object id="629" type="spikes" gid="35" x="11614.8" y="2584.42" width="271.254" height="238.807"/>
-  <object id="632" type="coin2" gid="48" x="3648" y="216" width="204" height="196"/>
-  <object id="633" type="coin2" gid="48" x="8698" y="974" width="204" height="196"/>
+  <object id="632" type="gem" gid="48" x="3648" y="216" width="204" height="196"/>
+  <object id="633" type="gem" gid="48" x="8698" y="974" width="204" height="196"/>
  </objectgroup>
 </map>
