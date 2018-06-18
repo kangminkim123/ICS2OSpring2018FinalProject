@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="316" height="30" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#3f3f3f" nextobjectid="1813">
- <tileset firstgid="1" name="level8" tilewidth="357" tileheight="464" tilecount="49" columns="0">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="316" height="30" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#3f3f3f" nextobjectid="2008">
+ <tileset firstgid="1" name="level8" tilewidth="357" tileheight="464" tilecount="50" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="256" height="256" source="../sprites/space/Tiles/Acid1.png"/>
@@ -148,6 +148,9 @@
   </tile>
   <tile id="48">
    <image width="90" height="155" source="../sprites/enemy/spikeMan_stand.png"/>
+  </tile>
+  <tile id="49">
+   <image width="64" height="64" source="../../scene/game/img/gem.png"/>
   </tile>
  </tileset>
  <objectgroup name="parallax"/>
@@ -615,7 +618,6 @@
   <object id="527" name="spikes" type="spikes" gid="35" x="2176" y="1920" width="357" height="361"/>
   <object id="528" name="spikes" type="spikes" gid="35" x="2944" y="1920" width="357" height="361"/>
   <object id="529" name="spikes" type="spikes" gid="35" x="3824" y="1920" width="357" height="361"/>
-  <object id="531" name="coin" type="coin" gid="42" x="4736" y="2304" width="77" height="77"/>
   <object id="532" gid="8" x="10752" y="3840" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
@@ -1039,13 +1041,6 @@
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="677" name="coin" type="coin" gid="42" x="5248" y="2176" width="77" height="77"/>
-  <object id="678" name="coin" type="coin" gid="42" x="5888" y="2176" width="77" height="77"/>
-  <object id="679" name="coin" type="coin" gid="42" x="6528" y="2176" width="77" height="77"/>
-  <object id="680" name="coin" type="coin" gid="42" x="7296" y="2304" width="77" height="77"/>
-  <object id="681" name="coin" type="coin" gid="42" x="3712" y="2560" width="77" height="77"/>
-  <object id="683" name="coin" type="coin" gid="42" x="2816" y="2560" width="77" height="77"/>
-  <object id="684" name="coin" type="coin" gid="42" x="2048" y="2560" width="77" height="77"/>
   <object id="685" name="enemy" type="enemy" gid="47" x="4096" y="2560" width="121" height="191"/>
   <object id="768" gid="7" x="14592" y="3840" width="256" height="256">
    <properties>
@@ -2320,14 +2315,9 @@
    </properties>
   </object>
   <object id="1052" name="spikes" type="spikes" gid="13" x="9088" y="1792" width="256" height="256"/>
-  <object id="1053" name="coin" type="coin" gid="42" x="9472" y="1792" width="77" height="77"/>
-  <object id="1054" name="coin" type="coin" gid="42" x="9728" y="2048" width="77" height="77"/>
   <object id="1055" name="coin" type="coin" gid="42" x="9088" y="1408" width="77" height="77"/>
   <object id="1056" name="coin" type="coin" gid="42" x="9216" y="1408" width="77" height="77"/>
   <object id="1057" name="coin" type="coin" gid="42" x="9216" y="1408" width="77" height="77"/>
-  <object id="1058" name="coin" type="coin" gid="42" x="8576" y="2048" width="77" height="77"/>
-  <object id="1059" name="coin" type="coin" gid="42" x="8576" y="2048" width="77" height="77"/>
-  <object id="1060" name="coin" type="coin" gid="42" x="8832" y="1792" width="77" height="77"/>
   <object id="1061" gid="3" x="11264" y="2816" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2376,8 +2366,6 @@
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="1069" name="coin" type="coin" gid="42" x="9984" y="2304" width="77" height="77"/>
-  <object id="1070" name="coin" type="coin" gid="42" x="8320" y="2304" width="77" height="77"/>
   <object id="1071" gid="8" x="26368" y="3840" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2650,7 +2638,6 @@
   <object id="1187" name="spikes" type="spikes" gid="32" x="16128" y="3584" width="280" height="464"/>
   <object id="1188" name="enemy" type="enemy" gid="47" x="11520" y="3584" width="121" height="191"/>
   <object id="1189" name="enemy" type="enemy" gid="47" x="15744" y="3584" width="121" height="191"/>
-  <object id="1190" name="enemy" type="enemy" gid="47" x="15232" y="3584" width="121" height="191"/>
   <object id="1191" name="enemy" type="enemy" gid="47" x="14720" y="3584" width="121" height="191"/>
   <object id="1192" name="enemy" type="enemy" gid="47" x="14208" y="3584" width="121" height="191"/>
   <object id="1193" name="enemy" type="enemy" gid="47" x="13184" y="3584" width="121" height="191"/>
@@ -2718,14 +2705,6 @@
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="1223" name="coin" type="coin" gid="42" x="12544" y="2048" width="77" height="77"/>
-  <object id="1224" name="coin" type="coin" gid="42" x="13184" y="1920" width="77" height="77"/>
-  <object id="1227" name="coin" type="coin" gid="42" x="15104" y="1536" width="77" height="77"/>
-  <object id="1228" name="coin" type="coin" gid="42" x="15232" y="1536" width="77" height="77"/>
-  <object id="1231" name="coin" type="coin" gid="42" x="13312" y="1920" width="77" height="77"/>
-  <object id="1232" name="coin" type="coin" gid="42" x="12672" y="2048" width="77" height="77"/>
-  <object id="1233" name="coin" type="coin" gid="42" x="15744" y="1408" width="77" height="77"/>
-  <object id="1234" name="coin" type="coin" gid="42" x="15872" y="1408" width="77" height="77"/>
   <object id="1235" gid="4" x="1152" y="2560" width="0.01" height="1e+9">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2883,25 +2862,6 @@
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="1277" name="coin" type="coin" gid="42" x="14592" y="1664" width="77" height="77"/>
-  <object id="1278" name="coin" type="coin" gid="42" x="14464" y="1664" width="77" height="77"/>
-  <object id="1279" name="coin" type="coin" gid="42" x="13952" y="1792" width="77" height="77"/>
-  <object id="1280" name="coin" type="coin" gid="42" x="13824" y="1792" width="77" height="77"/>
-  <object id="1281" name="coin" type="coin" gid="42" x="15872" y="3584" width="77" height="77"/>
-  <object id="1282" name="coin" type="coin" gid="42" x="15744" y="3584" width="77" height="77"/>
-  <object id="1283" name="coin" type="coin" gid="42" x="15616" y="3584" width="77" height="77"/>
-  <object id="1284" name="coin" type="coin" gid="42" x="15488" y="3584" width="77" height="77"/>
-  <object id="1285" name="coin" type="coin" gid="42" x="15360" y="3584" width="77" height="77"/>
-  <object id="1286" name="coin" type="coin" gid="42" x="15232" y="3584" width="77" height="77"/>
-  <object id="1287" name="enemy" type="enemy" gid="47" x="15488" y="3584" width="121" height="191"/>
-  <object id="1288" name="coin" type="coin" gid="42" x="14464" y="1664" width="77" height="77"/>
-  <object id="1289" name="coin" type="coin" gid="42" x="14592" y="1664" width="77" height="77"/>
-  <object id="1290" name="coin" type="coin" gid="42" x="14848" y="3584" width="77" height="77"/>
-  <object id="1291" name="coin" type="coin" gid="42" x="14976" y="3584" width="77" height="77"/>
-  <object id="1292" name="coin" type="coin" gid="42" x="14848" y="3584" width="77" height="77"/>
-  <object id="1293" name="coin" type="coin" gid="42" x="14976" y="3584" width="77" height="77"/>
-  <object id="1294" name="coin" type="coin" gid="42" x="14464" y="3584" width="77" height="77"/>
-  <object id="1295" name="coin" type="coin" gid="42" x="14336" y="3584" width="77" height="77"/>
   <object id="1296" gid="7" x="14336" y="3840" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
@@ -5160,6 +5120,201 @@
   <object id="1810" name="enemy" type="enemy" gid="47" x="37120" y="2560" width="129.04" height="203.691"/>
   <object id="1811" name="enemy" type="enemy" gid="49" x="37666" y="2560" width="95.9801" height="165.299"/>
   <object id="1812" name="enemy" type="enemy" gid="47" x="36608" y="2560" width="129.04" height="203.691"/>
+  <object id="1819" name="ghulaab" type="ghulaab" gid="50" x="2048" y="2560" width="125" height="125"/>
+  <object id="1820" name="ghulaab" type="ghulaab" gid="50" x="2816" y="2560" width="125" height="125"/>
+  <object id="1821" name="ghulaab" type="ghulaab" gid="50" x="3712" y="2560" width="125" height="125"/>
+  <object id="1822" name="ghulaab" type="ghulaab" gid="50" x="4608" y="2304" width="125" height="125"/>
+  <object id="1823" name="ghulaab" type="ghulaab" gid="50" x="4736" y="2304" width="125" height="125"/>
+  <object id="1824" name="ghulaab" type="ghulaab" gid="50" x="5248" y="2176" width="125" height="125"/>
+  <object id="1825" name="ghulaab" type="ghulaab" gid="50" x="5120" y="2176" width="125" height="125"/>
+  <object id="1826" name="ghulaab" type="ghulaab" gid="50" x="5760" y="2176" width="125" height="125"/>
+  <object id="1827" name="ghulaab" type="ghulaab" gid="50" x="5888" y="2176" width="125" height="125"/>
+  <object id="1828" name="ghulaab" type="ghulaab" gid="50" x="6400" y="2176" width="125" height="125"/>
+  <object id="1829" name="ghulaab" type="ghulaab" gid="50" x="6528" y="2176" width="125" height="125"/>
+  <object id="1830" name="ghulaab" type="ghulaab" gid="50" x="7168" y="2304" width="125" height="125"/>
+  <object id="1831" name="ghulaab" type="ghulaab" gid="50" x="7296" y="2304" width="125" height="125"/>
+  <object id="1832" name="ghulaab" type="ghulaab" gid="50" x="8320" y="2304" width="125" height="125"/>
+  <object id="1833" name="ghulaab" type="ghulaab" gid="50" x="8192" y="2304" width="125" height="125"/>
+  <object id="1834" name="ghulaab" type="ghulaab" gid="50" x="8576" y="2048" width="125" height="125"/>
+  <object id="1835" name="ghulaab" type="ghulaab" gid="50" x="8448" y="2048" width="125" height="125"/>
+  <object id="1836" name="ghulaab" type="ghulaab" gid="50" x="8832" y="1792" width="125" height="125"/>
+  <object id="1837" name="ghulaab" type="ghulaab" gid="50" x="8704" y="1792" width="125" height="125"/>
+  <object id="1838" name="ghulaab" type="ghulaab" gid="50" x="9600" y="1792" width="125" height="125"/>
+  <object id="1839" name="ghulaab" type="ghulaab" gid="50" x="9472" y="1792" width="125" height="125"/>
+  <object id="1840" name="ghulaab" type="ghulaab" gid="50" x="9856" y="2048" width="125" height="125"/>
+  <object id="1841" name="ghulaab" type="ghulaab" gid="50" x="9728" y="2048" width="125" height="125"/>
+  <object id="1842" name="ghulaab" type="ghulaab" gid="50" x="10112" y="2304" width="125" height="125"/>
+  <object id="1843" name="ghulaab" type="ghulaab" gid="50" x="9984" y="2304" width="125" height="125"/>
+  <object id="1844" name="ghulaab" type="ghulaab" gid="50" x="10368" y="2560" width="125" height="125"/>
+  <object id="1845" name="ghulaab" type="ghulaab" gid="50" x="10240" y="2560" width="125" height="125"/>
+  <object id="1846" name="ghulaab" type="ghulaab" gid="50" x="10624" y="2816" width="125" height="125"/>
+  <object id="1847" name="ghulaab" type="ghulaab" gid="50" x="10496" y="2816" width="125" height="125"/>
+  <object id="1848" name="ghulaab" type="ghulaab" gid="50" x="11264" y="2560" width="125" height="125"/>
+  <object id="1849" name="ghulaab" type="ghulaab" gid="50" x="11392" y="2560" width="125" height="125"/>
+  <object id="1850" name="ghulaab" type="ghulaab" gid="50" x="12032" y="2176" width="125" height="125"/>
+  <object id="1851" name="ghulaab" type="ghulaab" gid="50" x="12160" y="2176" width="125" height="125"/>
+  <object id="1852" name="ghulaab" type="ghulaab" gid="50" x="12544" y="2048" width="125" height="125"/>
+  <object id="1853" name="ghulaab" type="ghulaab" gid="50" x="12672" y="2048" width="125" height="125"/>
+  <object id="1854" name="ghulaab" type="ghulaab" gid="50" x="13184" y="1920" width="125" height="125"/>
+  <object id="1855" name="ghulaab" type="ghulaab" gid="50" x="13312" y="1920" width="125" height="125"/>
+  <object id="1856" name="ghulaab" type="ghulaab" gid="50" x="13824" y="1792" width="125" height="125"/>
+  <object id="1857" name="ghulaab" type="ghulaab" gid="50" x="13952" y="1792" width="125" height="125"/>
+  <object id="1858" name="ghulaab" type="ghulaab" gid="50" x="14464" y="1664" width="125" height="125"/>
+  <object id="1859" name="ghulaab" type="ghulaab" gid="50" x="14592" y="1664" width="125" height="125"/>
+  <object id="1860" name="ghulaab" type="ghulaab" gid="50" x="15104" y="1536" width="125" height="125"/>
+  <object id="1861" name="ghulaab" type="ghulaab" gid="50" x="15232" y="1536" width="125" height="125"/>
+  <object id="1862" name="ghulaab" type="ghulaab" gid="50" x="14976" y="3584" width="125" height="125"/>
+  <object id="1863" name="ghulaab" type="ghulaab" gid="50" x="14848" y="3584" width="125" height="125"/>
+  <object id="1864" name="ghulaab" type="ghulaab" gid="50" x="15232" y="3584" width="125" height="125"/>
+  <object id="1865" name="ghulaab" type="ghulaab" gid="50" x="15104" y="3584" width="125" height="125"/>
+  <object id="1866" name="ghulaab" type="ghulaab" gid="50" x="15488" y="3584" width="125" height="125"/>
+  <object id="1867" name="ghulaab" type="ghulaab" gid="50" x="15360" y="3584" width="125" height="125"/>
+  <object id="1868" name="ghulaab" type="ghulaab" gid="50" x="15744" y="3584" width="125" height="125"/>
+  <object id="1869" name="ghulaab" type="ghulaab" gid="50" x="15616" y="3584" width="125" height="125"/>
+  <object id="1870" name="ghulaab" type="ghulaab" gid="50" x="14592" y="3584" width="125" height="125"/>
+  <object id="1871" name="ghulaab" type="ghulaab" gid="50" x="14720" y="3584" width="125" height="125"/>
+  <object id="1872" name="ghulaab" type="ghulaab" gid="50" x="14336" y="3584" width="125" height="125"/>
+  <object id="1873" name="ghulaab" type="ghulaab" gid="50" x="14464" y="3584" width="125" height="125"/>
+  <object id="1874" name="ghulaab" type="ghulaab" gid="50" x="14208" y="3584" width="125" height="125"/>
+  <object id="1875" name="ghulaab" type="ghulaab" gid="50" x="13952" y="3584" width="125" height="125"/>
+  <object id="1876" name="ghulaab" type="ghulaab" gid="50" x="14080" y="3584" width="125" height="125"/>
+  <object id="1877" name="ghulaab" type="ghulaab" gid="50" x="13696" y="3584" width="125" height="125"/>
+  <object id="1878" name="ghulaab" type="ghulaab" gid="50" x="13824" y="3584" width="125" height="125"/>
+  <object id="1879" name="ghulaab" type="ghulaab" gid="50" x="13568" y="3584" width="125" height="125"/>
+  <object id="1880" name="ghulaab" type="ghulaab" gid="50" x="13312" y="3584" width="125" height="125"/>
+  <object id="1881" name="ghulaab" type="ghulaab" gid="50" x="13440" y="3584" width="125" height="125"/>
+  <object id="1882" name="ghulaab" type="ghulaab" gid="50" x="13056" y="3584" width="125" height="125"/>
+  <object id="1883" name="ghulaab" type="ghulaab" gid="50" x="13184" y="3584" width="125" height="125"/>
+  <object id="1884" name="ghulaab" type="ghulaab" gid="50" x="12928" y="3584" width="125" height="125"/>
+  <object id="1885" name="ghulaab" type="ghulaab" gid="50" x="12672" y="3584" width="125" height="125"/>
+  <object id="1886" name="ghulaab" type="ghulaab" gid="50" x="12800" y="3584" width="125" height="125"/>
+  <object id="1887" name="ghulaab" type="ghulaab" gid="50" x="12416" y="3584" width="125" height="125"/>
+  <object id="1888" name="ghulaab" type="ghulaab" gid="50" x="12544" y="3584" width="125" height="125"/>
+  <object id="1889" name="ghulaab" type="ghulaab" gid="50" x="12288" y="3584" width="125" height="125"/>
+  <object id="1890" name="ghulaab" type="ghulaab" gid="50" x="15872" y="1408" width="125" height="125"/>
+  <object id="1891" name="ghulaab" type="ghulaab" gid="50" x="15744" y="1408" width="125" height="125"/>
+  <object id="1892" name="ghulaab" type="ghulaab" gid="50" x="16512" y="2176" width="125" height="125"/>
+  <object id="1893" name="ghulaab" type="ghulaab" gid="50" x="16384" y="2176" width="125" height="125"/>
+  <object id="1894" name="ghulaab" type="ghulaab" gid="50" x="17152" y="2176" width="125" height="125"/>
+  <object id="1895" name="ghulaab" type="ghulaab" gid="50" x="17024" y="2176" width="125" height="125"/>
+  <object id="1896" name="ghulaab" type="ghulaab" gid="50" x="17792" y="2176" width="125" height="125"/>
+  <object id="1897" name="ghulaab" type="ghulaab" gid="50" x="17664" y="2176" width="125" height="125"/>
+  <object id="1898" name="ghulaab" type="ghulaab" gid="50" x="18432" y="1920" width="125" height="125"/>
+  <object id="1899" name="ghulaab" type="ghulaab" gid="50" x="18304" y="1920" width="125" height="125"/>
+  <object id="1900" name="ghulaab" type="ghulaab" gid="50" x="18432" y="1920" width="125" height="125"/>
+  <object id="1901" name="ghulaab" type="ghulaab" gid="50" x="18304" y="1920" width="125" height="125"/>
+  <object id="1902" name="ghulaab" type="ghulaab" gid="50" x="19968" y="640" width="125" height="125"/>
+  <object id="1903" name="ghulaab" type="ghulaab" gid="50" x="19840" y="640" width="125" height="125"/>
+  <object id="1904" name="ghulaab" type="ghulaab" gid="50" x="20736" y="640" width="125" height="125"/>
+  <object id="1905" name="ghulaab" type="ghulaab" gid="50" x="20608" y="640" width="125" height="125"/>
+  <object id="1906" name="ghulaab" type="ghulaab" gid="50" x="21376" y="640" width="125" height="125"/>
+  <object id="1907" name="ghulaab" type="ghulaab" gid="50" x="21248" y="640" width="125" height="125"/>
+  <object id="1908" name="ghulaab" type="ghulaab" gid="50" x="22016" y="640" width="125" height="125"/>
+  <object id="1909" name="ghulaab" type="ghulaab" gid="50" x="21888" y="640" width="125" height="125"/>
+  <object id="1910" name="ghulaab" type="ghulaab" gid="50" x="22656" y="640" width="125" height="125"/>
+  <object id="1911" name="ghulaab" type="ghulaab" gid="50" x="22528" y="640" width="125" height="125"/>
+  <object id="1912" name="ghulaab" type="ghulaab" gid="50" x="23168" y="640" width="125" height="125"/>
+  <object id="1913" name="ghulaab" type="ghulaab" gid="50" x="23296" y="640" width="125" height="125"/>
+  <object id="1914" name="ghulaab" type="ghulaab" gid="50" x="23808" y="640" width="125" height="125"/>
+  <object id="1915" name="ghulaab" type="ghulaab" gid="50" x="23936" y="640" width="125" height="125"/>
+  <object id="1916" name="ghulaab" type="ghulaab" gid="50" x="24448" y="640" width="125" height="125"/>
+  <object id="1917" name="ghulaab" type="ghulaab" gid="50" x="24576" y="640" width="125" height="125"/>
+  <object id="1918" name="ghulaab" type="ghulaab" gid="50" x="19200" y="2304" width="125" height="125"/>
+  <object id="1919" name="ghulaab" type="ghulaab" gid="50" x="19328" y="2304" width="125" height="125"/>
+  <object id="1920" name="ghulaab" type="ghulaab" gid="50" x="19712" y="2560" width="125" height="125"/>
+  <object id="1921" name="ghulaab" type="ghulaab" gid="50" x="19840" y="2560" width="125" height="125"/>
+  <object id="1922" name="ghulaab" type="ghulaab" gid="50" x="20096" y="2560" width="125" height="125"/>
+  <object id="1923" name="ghulaab" type="ghulaab" gid="50" x="20224" y="2560" width="125" height="125"/>
+  <object id="1924" name="ghulaab" type="ghulaab" gid="50" x="20736" y="2560" width="125" height="125"/>
+  <object id="1925" name="ghulaab" type="ghulaab" gid="50" x="20864" y="2560" width="125" height="125"/>
+  <object id="1926" gid="3" x="20736" y="2816" width="256" height="256">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="1927" name="ghulaab" type="ghulaab" gid="50" x="21376" y="2560" width="125" height="125"/>
+  <object id="1928" name="ghulaab" type="ghulaab" gid="50" x="21248" y="2560" width="125" height="125"/>
+  <object id="1929" name="ghulaab" type="ghulaab" gid="50" x="22016" y="2560" width="125" height="125"/>
+  <object id="1930" name="ghulaab" type="ghulaab" gid="50" x="21888" y="2560" width="125" height="125"/>
+  <object id="1931" name="ghulaab" type="ghulaab" gid="50" x="22784" y="2560" width="125" height="125"/>
+  <object id="1932" name="ghulaab" type="ghulaab" gid="50" x="22656" y="2560" width="125" height="125"/>
+  <object id="1933" name="ghulaab" type="ghulaab" gid="50" x="23168" y="2560" width="125" height="125"/>
+  <object id="1934" name="ghulaab" type="ghulaab" gid="50" x="23040" y="2560" width="125" height="125"/>
+  <object id="1935" name="ghulaab" type="ghulaab" gid="50" x="23808" y="2560" width="125" height="125"/>
+  <object id="1936" name="ghulaab" type="ghulaab" gid="50" x="23680" y="2560" width="125" height="125"/>
+  <object id="1937" name="ghulaab" type="ghulaab" gid="50" x="24320" y="2560" width="125" height="125"/>
+  <object id="1938" name="ghulaab" type="ghulaab" gid="50" x="24192" y="2560" width="125" height="125"/>
+  <object id="1939" name="ghulaab" type="ghulaab" gid="50" x="19200" y="1408" width="125" height="125"/>
+  <object id="1940" name="ghulaab" type="ghulaab" gid="50" x="19072" y="1408" width="125" height="125"/>
+  <object id="1941" name="ghulaab" type="ghulaab" gid="50" x="25216" y="2048" width="125" height="125"/>
+  <object id="1942" name="ghulaab" type="ghulaab" gid="50" x="25088" y="2048" width="125" height="125"/>
+  <object id="1943" name="ghulaab" type="ghulaab" gid="50" x="26368" y="1792" width="125" height="125"/>
+  <object id="1944" name="ghulaab" type="ghulaab" gid="50" x="26240" y="1792" width="125" height="125"/>
+  <object id="1945" name="ghulaab" type="ghulaab" gid="50" x="27648" y="2560" width="125" height="125"/>
+  <object id="1946" name="ghulaab" type="ghulaab" gid="50" x="27520" y="2560" width="125" height="125"/>
+  <object id="1947" name="ghulaab" type="ghulaab" gid="50" x="26240" y="1792" width="125" height="125"/>
+  <object id="1948" name="ghulaab" type="ghulaab" gid="50" x="26368" y="1792" width="125" height="125"/>
+  <object id="1949" name="ghulaab" type="ghulaab" gid="50" x="25856" y="640" width="125" height="125"/>
+  <object id="1950" name="ghulaab" type="ghulaab" gid="50" x="25728" y="640" width="125" height="125"/>
+  <object id="1951" name="ghulaab" type="ghulaab" gid="50" x="25728" y="640" width="125" height="125"/>
+  <object id="1952" name="ghulaab" type="ghulaab" gid="50" x="25856" y="640" width="125" height="125"/>
+  <object id="1953" name="ghulaab" type="ghulaab" gid="50" x="27008" y="640" width="125" height="125"/>
+  <object id="1954" name="ghulaab" type="ghulaab" gid="50" x="27136" y="640" width="125" height="125"/>
+  <object id="1955" name="ghulaab" type="ghulaab" gid="50" x="28288" y="640" width="125" height="125"/>
+  <object id="1956" name="ghulaab" type="ghulaab" gid="50" x="28416" y="640" width="125" height="125"/>
+  <object id="1957" name="ghulaab" type="ghulaab" gid="50" x="29440" y="640" width="125" height="125"/>
+  <object id="1958" name="ghulaab" type="ghulaab" gid="50" x="29568" y="640" width="125" height="125"/>
+  <object id="1959" name="ghulaab" type="ghulaab" gid="50" x="28160" y="2560" width="125" height="125"/>
+  <object id="1960" name="ghulaab" type="ghulaab" gid="50" x="28288" y="2560" width="125" height="125"/>
+  <object id="1961" name="ghulaab" type="ghulaab" gid="50" x="28160" y="2560" width="125" height="125"/>
+  <object id="1962" name="ghulaab" type="ghulaab" gid="50" x="28288" y="2560" width="125" height="125"/>
+  <object id="1963" name="ghulaab" type="ghulaab" gid="50" x="28672" y="2560" width="125" height="125"/>
+  <object id="1964" name="ghulaab" type="ghulaab" gid="50" x="28800" y="2560" width="125" height="125"/>
+  <object id="1965" name="ghulaab" type="ghulaab" gid="50" x="30080" y="2560" width="125" height="125"/>
+  <object id="1966" name="ghulaab" type="ghulaab" gid="50" x="30208" y="2560" width="125" height="125"/>
+  <object id="1967" name="ghulaab" type="ghulaab" gid="50" x="31488" y="2560" width="125" height="125"/>
+  <object id="1968" name="ghulaab" type="ghulaab" gid="50" x="31616" y="2560" width="125" height="125"/>
+  <object id="1969" name="ghulaab" type="ghulaab" gid="50" x="32384" y="2560" width="125" height="125"/>
+  <object id="1970" name="ghulaab" type="ghulaab" gid="50" x="32512" y="2560" width="125" height="125"/>
+  <object id="1971" name="ghulaab" type="ghulaab" gid="50" x="31232" y="2560" width="125" height="125"/>
+  <object id="1972" name="ghulaab" type="ghulaab" gid="50" x="31360" y="2560" width="125" height="125"/>
+  <object id="1973" name="ghulaab" type="ghulaab" gid="50" x="30848" y="640" width="125" height="125"/>
+  <object id="1974" name="ghulaab" type="ghulaab" gid="50" x="30976" y="640" width="125" height="125"/>
+  <object id="1975" name="ghulaab" type="ghulaab" gid="50" x="32128" y="640" width="125" height="125"/>
+  <object id="1976" name="ghulaab" type="ghulaab" gid="50" x="32256" y="640" width="125" height="125"/>
+  <object id="1977" name="ghulaab" type="ghulaab" gid="50" x="33280" y="640" width="125" height="125"/>
+  <object id="1978" name="ghulaab" type="ghulaab" gid="50" x="33408" y="640" width="125" height="125"/>
+  <object id="1979" name="ghulaab" type="ghulaab" gid="50" x="33536" y="2560" width="125" height="125"/>
+  <object id="1980" name="ghulaab" type="ghulaab" gid="50" x="33664" y="2560" width="125" height="125"/>
+  <object id="1981" name="ghulaab" type="ghulaab" gid="50" x="33920" y="2560" width="125" height="125"/>
+  <object id="1982" name="ghulaab" type="ghulaab" gid="50" x="33792" y="2560" width="125" height="125"/>
+  <object id="1983" name="ghulaab" type="ghulaab" gid="50" x="35072" y="2560" width="125" height="125"/>
+  <object id="1984" name="ghulaab" type="ghulaab" gid="50" x="35200" y="2560" width="125" height="125"/>
+  <object id="1985" name="ghulaab" type="ghulaab" gid="50" x="34944" y="2560" width="125" height="125"/>
+  <object id="1986" name="ghulaab" type="ghulaab" gid="50" x="34816" y="2560" width="125" height="125"/>
+  <object id="1987" gid="3" x="35072" y="2816" width="256" height="256">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" value="1.0"/>
+   </properties>
+  </object>
+  <object id="1988" name="ghulaab" type="ghulaab" gid="50" x="35840" y="2560" width="125" height="125"/>
+  <object id="1989" name="ghulaab" type="ghulaab" gid="50" x="35968" y="2560" width="125" height="125"/>
+  <object id="1990" name="ghulaab" type="ghulaab" gid="50" x="36224" y="2560" width="125" height="125"/>
+  <object id="1991" name="ghulaab" type="ghulaab" gid="50" x="36096" y="2560" width="125" height="125"/>
+  <object id="1996" name="ghulaab" type="ghulaab" gid="50" x="36864" y="2560" width="125" height="125"/>
+  <object id="1997" name="ghulaab" type="ghulaab" gid="50" x="36992" y="2560" width="125" height="125"/>
+  <object id="1998" name="ghulaab" type="ghulaab" gid="50" x="36736" y="2560" width="125" height="125"/>
+  <object id="1999" name="ghulaab" type="ghulaab" gid="50" x="36608" y="2560" width="125" height="125"/>
+  <object id="2000" name="ghulaab" type="ghulaab" gid="50" x="37632" y="2560" width="125" height="125"/>
+  <object id="2001" name="ghulaab" type="ghulaab" gid="50" x="37760" y="2560" width="125" height="125"/>
+  <object id="2002" name="ghulaab" type="ghulaab" gid="50" x="37504" y="2560" width="125" height="125"/>
+  <object id="2003" name="ghulaab" type="ghulaab" gid="50" x="37376" y="2560" width="125" height="125"/>
+  <object id="2004" name="ghulaab" type="ghulaab" gid="50" x="35840" y="1408" width="125" height="125"/>
+  <object id="2005" name="ghulaab" type="ghulaab" gid="50" x="35968" y="1408" width="125" height="125"/>
+  <object id="2006" name="ghulaab" type="ghulaab" gid="50" x="35712" y="1408" width="125" height="125"/>
+  <object id="2007" name="ghulaab" type="ghulaab" gid="50" x="35584" y="1408" width="125" height="125"/>
  </objectgroup>
  <objectgroup name="forground"/>
 </map>
