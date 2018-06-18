@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="783">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="795">
  <tileset firstgid="1" name="Cavern" tilewidth="188" tileheight="238" tilecount="19" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -58,6 +58,120 @@
   </tile>
   <tile id="18">
    <image width="188" height="238" source="../sprites/blockyLand/door.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="20" name="coins and enemys" tilewidth="260" tileheight="207" tilecount="37" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="51" height="49" source="../sprites/items/particle_blue.png"/>
+  </tile>
+  <tile id="1">
+   <image width="48" height="46" source="../sprites/items/particle_green.png"/>
+  </tile>
+  <tile id="2">
+   <image width="150" height="174" source="../sprites/enemy/bunny1_hurt.png"/>
+  </tile>
+  <tile id="3">
+   <image width="150" height="181" source="../sprites/enemy/bunny1_jump.png"/>
+  </tile>
+  <tile id="4">
+   <image width="120" height="191" source="../sprites/enemy/bunny1_ready.png"/>
+  </tile>
+  <tile id="5">
+   <image width="120" height="201" source="../sprites/enemy/bunny1_stand.png"/>
+  </tile>
+  <tile id="6">
+   <image width="120" height="201" source="../sprites/enemy/bunny1_walk1.png"/>
+  </tile>
+  <tile id="7">
+   <image width="120" height="207" source="../sprites/enemy/bunny1_walk2.png"/>
+  </tile>
+  <tile id="8">
+   <image width="150" height="174" source="../sprites/enemy/bunny2_hurt.png"/>
+  </tile>
+  <tile id="9">
+   <image width="150" height="181" source="../sprites/enemy/bunny2_jump.png"/>
+  </tile>
+  <tile id="10">
+   <image width="121" height="191" source="../sprites/enemy/bunny2_ready.png"/>
+  </tile>
+  <tile id="11">
+   <image width="121" height="201" source="../sprites/enemy/bunny2_stand.png"/>
+  </tile>
+  <tile id="12">
+   <image width="121" height="201" source="../sprites/enemy/bunny2_walk1.png"/>
+  </tile>
+  <tile id="13">
+   <image width="121" height="207" source="../sprites/enemy/bunny2_walk2.png"/>
+  </tile>
+  <tile id="14">
+   <image width="260" height="134" source="../sprites/enemy/cloud.png"/>
+  </tile>
+  <tile id="15">
+   <image width="122" height="139" source="../sprites/enemy/flyMan_fly.png"/>
+  </tile>
+  <tile id="16">
+   <image width="122" height="135" source="../sprites/enemy/flyMan_jump.png"/>
+  </tile>
+  <tile id="17">
+   <image width="122" height="139" source="../sprites/enemy/flyMan_stand.png"/>
+  </tile>
+  <tile id="18">
+   <image width="120" height="132" source="../sprites/enemy/flyMan_still_fly.png"/>
+  </tile>
+  <tile id="19">
+   <image width="120" height="128" source="../sprites/enemy/flyMan_still_jump.png"/>
+  </tile>
+  <tile id="20">
+   <image width="120" height="132" source="../sprites/enemy/flyMan_still_stand.png"/>
+  </tile>
+  <tile id="21">
+   <image width="148" height="141" source="../sprites/enemy/spikeBall_2.png"/>
+  </tile>
+  <tile id="22">
+   <image width="142" height="148" source="../sprites/enemy/spikeBall1.png"/>
+  </tile>
+  <tile id="23">
+   <image width="114" height="155" source="../sprites/enemy/spikeMan_jump.png"/>
+  </tile>
+  <tile id="24">
+   <image width="90" height="155" source="../sprites/enemy/spikeMan_stand.png"/>
+  </tile>
+  <tile id="25">
+   <image width="120" height="159" source="../sprites/enemy/spikeMan_walk1.png"/>
+  </tile>
+  <tile id="26">
+   <image width="90" height="155" source="../sprites/enemy/spikeMan_walk2.png"/>
+  </tile>
+  <tile id="27">
+   <image width="110" height="141" source="../sprites/enemy/springMan_hurt.png"/>
+  </tile>
+  <tile id="28">
+   <image width="110" height="141" source="../sprites/enemy/springMan_stand.png"/>
+  </tile>
+  <tile id="29">
+   <image width="142" height="148" source="../sprites/enemy/sun1.png"/>
+  </tile>
+  <tile id="30">
+   <image width="148" height="142" source="../sprites/enemy/sun2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="174" height="126" source="../sprites/enemy/wingMan1.png"/>
+  </tile>
+  <tile id="32">
+   <image width="206" height="107" source="../sprites/enemy/wingMan2.png"/>
+  </tile>
+  <tile id="33">
+   <image width="216" height="101" source="../sprites/enemy/wingMan3.png"/>
+  </tile>
+  <tile id="34">
+   <image width="216" height="101" source="../sprites/enemy/wingMan4.png"/>
+  </tile>
+  <tile id="35">
+   <image width="182" height="123" source="../sprites/enemy/wingMan5.png"/>
+  </tile>
+  <tile id="36">
+   <image width="95" height="53" source="../sprites/environment/spikes_top.png"/>
   </tile>
  </tileset>
  <objectgroup name="parallax">
@@ -826,6 +940,18 @@
   <object id="780" gid="5" x="2048" y="-512" width="128" height="128" rotation="-270"/>
   <object id="781" gid="5" x="1920" y="-512" width="128" height="128" rotation="-270"/>
   <object id="782" name="exitLevel14Sub" type="exitLevel14Sub" gid="19" x="1408" y="1024" width="322.046" height="407.697"/>
+  <object id="783" name="crystal" type="crystal" gid="21" x="768" y="640" width="118.957" height="114"/>
+  <object id="784" name="crystal" type="crystal" gid="21" x="768" y="896" width="118.957" height="114"/>
+  <object id="785" name="crystal" type="crystal" gid="21" x="640" y="768" width="118.957" height="114"/>
+  <object id="786" name="crystal" type="crystal" gid="21" x="768" y="768" width="118.957" height="114"/>
+  <object id="787" name="crystal" type="crystal" gid="21" x="1024" y="768" width="118.957" height="114"/>
+  <object id="788" name="crystal" type="crystal" gid="21" x="896" y="640" width="118.957" height="114"/>
+  <object id="789" name="crystal" type="crystal" gid="21" x="512" y="896" width="118.957" height="114"/>
+  <object id="790" name="crystal" type="crystal" gid="21" x="640" y="896" width="118.957" height="114"/>
+  <object id="791" name="crystal" type="crystal" gid="21" x="896" y="768" width="118.957" height="114"/>
+  <object id="792" name="crystal" type="crystal" gid="21" x="896" y="896" width="118.957" height="114"/>
+  <object id="793" name="crystal" type="crystal" gid="21" x="1024" y="896" width="118.957" height="114"/>
+  <object id="794" name="crystal" type="crystal" gid="21" x="1152" y="896" width="118.957" height="114"/>
  </objectgroup>
  <objectgroup name="foreground">
   <object id="138" name="hero" type="hero" gid="18" x="256" y="896" width="128" height="128"/>
