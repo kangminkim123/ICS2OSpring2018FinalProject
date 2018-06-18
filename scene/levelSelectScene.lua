@@ -35,7 +35,7 @@ local level12
 local level13
 local level14
 local level15
-
+local settings
 local scene = composer.newScene()
 
 -- 'onRelease' event listener for level0
@@ -183,6 +183,15 @@ local function onlevel15Release()
 	return true	-- indicates successful touch
 end
 
+-- 'onRelease' event listener for level15
+local function onSettingsRelease()
+	
+	-- go to level0.lua scene
+	composer.gotoScene( "scene.settings", { params = {} } )
+	
+	return true	-- indicates successful touch
+end
+
 
 function scene:create( event )
 	local sceneGroup = self.view
@@ -193,7 +202,7 @@ function scene:create( event )
 	-- e.g. add display objects to 'sceneGroup', add touch listeners, etc.
 
 	-- display a background image
-	local background = display.newImageRect( "./assets/sprites/menu/background.jpg", display.actualContentWidth, display.actualContentHeight )
+	local background = display.newImageRect( "./assets/sprites/menu/levelSelectScreen.png", display.actualContentWidth, display.actualContentHeight )
 	background.anchorX = 0
 	background.anchorY = 0
 	background.x = 0 + display.screenOriginX 
@@ -208,7 +217,7 @@ function scene:create( event )
 	level0 = widget.newButton{
 		label = "Level 0",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -221,7 +230,7 @@ function scene:create( event )
 	level1 = widget.newButton{
 		label = "Level 1",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -234,7 +243,7 @@ function scene:create( event )
 	level2 = widget.newButton{
 		label = "Level 2",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -247,7 +256,7 @@ function scene:create( event )
 	level3 = widget.newButton{
 		label = "Level 3",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -260,7 +269,7 @@ function scene:create( event )
 	level4 = widget.newButton{
 		label = "Level 4",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -273,7 +282,7 @@ function scene:create( event )
 	level5 = widget.newButton{
 		label = "Level 5",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -286,7 +295,7 @@ function scene:create( event )
 	level6 = widget.newButton{
 		label = "Level 6",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -299,7 +308,7 @@ function scene:create( event )
 	level7 = widget.newButton{
 		label = "Level 7",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -312,7 +321,7 @@ function scene:create( event )
 	level8 = widget.newButton{
 		label = "Level 8",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -325,7 +334,7 @@ function scene:create( event )
 	level9 = widget.newButton{
 		label = "Level 9",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -338,7 +347,7 @@ function scene:create( event )
 	level10 = widget.newButton{
 		label = "Level 10",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -351,7 +360,7 @@ function scene:create( event )
 	level11 = widget.newButton{
 		label = "Level 11",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -364,7 +373,7 @@ function scene:create( event )
 	level12 = widget.newButton{
 		label = "Level 12",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -377,7 +386,7 @@ function scene:create( event )
 	level13 = widget.newButton{
 		label = "Level 13",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -390,7 +399,7 @@ function scene:create( event )
 	level14 = widget.newButton{
 		label = "Level 14",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -403,7 +412,7 @@ function scene:create( event )
 	level15 = widget.newButton{
 		label = "Level 15",
 		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
 		default = "button.png",
 		over = "button-over.png",
 		width = (154*4), 
@@ -412,6 +421,19 @@ function scene:create( event )
 	}
 	level15.x = 1800
 	level15.y = 800
+
+	settings = widget.newButton{
+		label = "Settings",
+		fontSize = 48*2,
+		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
+		default = "button.png",
+		over = "button-over.png",
+		width = (154*4), 
+		height = (40*4),
+		onRelease = onSettingsRelease	-- event listener function
+	}
+	settings.x = 1800
+	settings.y = 1000
 
 	
 	
@@ -434,6 +456,7 @@ function scene:create( event )
 	sceneGroup:insert( level13 )
 	sceneGroup:insert( level14 )
 	sceneGroup:insert( level15 )
+	sceneGroup:insert( settings )
 end
 
 function scene:show( event )
@@ -520,6 +543,9 @@ function scene:destroy( event )
 
 	level15:removeSelf()	
 	level15 = nil
+
+	settings:removeSelf()
+	settings = nil
 
 	level16:removeSelf()	
 	level16 = nil

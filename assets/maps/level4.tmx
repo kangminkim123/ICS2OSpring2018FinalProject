@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2669">
- <tileset firstgid="1" name="block" tilewidth="2000" tileheight="1143" tilecount="73" columns="0">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#1a1e1f" nextobjectid="2677">
+ <tileset firstgid="1" name="block" tilewidth="2000" tileheight="1143" tilecount="74" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="2000" height="1143" source="../sprites/graveyard/graveyardBG.png"/>
@@ -220,6 +220,9 @@
   </tile>
   <tile id="72">
    <image width="280" height="464" source="../sprites/space/Objects/DoorOpen.png"/>
+  </tile>
+  <tile id="73">
+   <image width="417" height="417" source="../sprites/blockyLand/diamond.png"/>
   </tile>
  </tileset>
  <objectgroup name="parallax" locked="1">
@@ -2722,7 +2725,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1599" gid="8" x="768" y="2304" width="128" height="2320">
+  <object id="1599" gid="8" x="768" y="2304" height="2336">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -4899,7 +4902,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="2654" gid="8" x="18432" y="2304" width="128" height="2312">
+  <object id="2654" gid="8" x="18432" y="2304" height="2312">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -4931,7 +4934,7 @@
   </object>
  </objectgroup>
  <objectgroup name="forground">
-  <object id="337" name="hero" type="hero" gid="2" x="768" y="2304" width="178" height="142"/>
+  <object id="337" name="hero" type="hero" gid="2" x="1152" y="2304" width="178" height="142"/>
   <object id="953" name="coin" type="coin" gid="32" x="3188" y="1608" width="104" height="94"/>
   <object id="1044" name="coin" type="coin" gid="32" x="3380" y="1728" width="104" height="94"/>
   <object id="1045" name="coin" type="coin" gid="32" x="3544" y="1880" width="104" height="94"/>
@@ -4959,7 +4962,12 @@
   <object id="1611" type="enemy" gid="42" x="3696" y="2288" width="121" height="201"/>
   <object id="1612" type="blob" gid="37" x="4712" y="2288" width="120" height="201"/>
   <object id="2664" name="coin" type="coin" gid="32" x="6084" y="2016" width="104" height="94"/>
-  <object id="2666" type="blob" gid="45" x="14398" y="1539" width="260" height="134"/>
-  <object id="2668" name="coin2" type="level4NewCoin" gid="2" x="1627" y="1981" width="106" height="106"/>
+  <object id="2666" type="blob" gid="45" x="14455.6" y="1542.03" width="150.909" height="103.697"/>
+  <object id="2669" name="diamond" type="level4NewCoin" gid="74" x="1584" y="2088" width="113" height="109"/>
+  <object id="2671" name="diamond" type="level4NewCoin" gid="74" x="1936" y="1984" width="113" height="109"/>
+  <object id="2672" name="diamond" type="level4NewCoin" gid="74" x="2304" y="1836" width="113" height="109"/>
+  <object id="2674" name="diamond" type="level4NewCoin" gid="74" x="16132" y="1852" width="113" height="109"/>
+  <object id="2675" name="diamond" type="level4NewCoin" gid="74" x="16648" y="1732" width="113" height="109"/>
+  <object id="2676" name="diamond" type="level4NewCoin" gid="74" x="17276" y="1608" width="113" height="109"/>
  </objectgroup>
 </map>

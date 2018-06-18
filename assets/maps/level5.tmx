@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#ddf8ff" nextobjectid="4801">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#ddf8ff" nextobjectid="4814">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -14319,26 +14319,20 @@
   <object id="2111" name="spikes" type="spikes" gid="54" x="2048" y="3072" width="128" height="80"/>
   <object id="2112" name="spikes" type="spikes" gid="54" x="2176" y="3072" width="128" height="80"/>
   <object id="2113" name="spikes" type="spikes" gid="54" x="2304" y="3072" width="128" height="80"/>
-  <object id="2116" name="coin" type="coin" gid="55" x="1278.77" y="1744.44" width="168.333" height="161.722"/>
   <object id="2121" name="coin" type="coin" gid="55" x="1830.77" y="1474.44" width="168.333" height="161.722"/>
   <object id="2126" name="blob" type="blob" gid="101" x="2504" y="1280" width="121" height="191"/>
-  <object id="2127" name="blob" type="blob" gid="101" x="2896" y="1272" width="121" height="191"/>
   <object id="2128" name="blob" type="blob" gid="101" x="3256" y="1272" width="121" height="191"/>
   <object id="2129" name="coin" type="coin" gid="55" x="2676.77" y="1038.44" width="168.333" height="161.722"/>
-  <object id="2130" name="coin" type="coin" gid="55" x="3068.77" y="1022.44" width="168.333" height="161.722"/>
   <object id="2467" name="coin" type="coin" gid="55" x="4088.77" y="786.442" width="168.333" height="161.722"/>
-  <object id="2471" name="coin" type="coin" gid="55" x="4692.77" y="310.442" width="168.333" height="161.722"/>
   <object id="2475" name="coin" type="coin" gid="55" x="5272.77" y="694.442" width="168.333" height="161.722"/>
   <object id="2479" name="blob" type="blob" gid="101" x="4872" y="296" width="121" height="191"/>
   <object id="2480" name="enemy" type="enemy" gid="103" x="3968" y="1280" width="121" height="201"/>
   <object id="2482" name="enemy" type="enemy" gid="103" x="5456" y="1280" width="121" height="201"/>
   <object id="2646" name="coin" type="coin" gid="55" x="6086.22" y="992.503" width="168.333" height="161.722"/>
-  <object id="2647" name="coin" type="coin" gid="55" x="6658.95" y="432.745" width="168.333" height="161.722"/>
   <object id="2648" name="coin" type="coin" gid="55" x="6227.19" y="756.018" width="168.333" height="161.722"/>
   <object id="2649" name="blob" type="blob" gid="101" x="7222" y="1152" width="199" height="255"/>
   <object id="2853" name="coin" type="coin" gid="55" x="8352.77" y="782.442" width="168.333" height="161.722"/>
   <object id="2858" name="blob" type="blob" gid="101" x="9040.94" y="526.303" width="121" height="191"/>
-  <object id="2862" name="coin" type="coin" gid="55" x="9320.77" y="838.442" width="168.333" height="161.722"/>
   <object id="2983" name="coin" type="coin" gid="55" x="9864.77" y="674.442" width="168.333" height="161.722"/>
   <object id="2987" name="spikes" type="spikes" gid="54" x="14546.5" y="2248.61" width="128" height="80" visible="0"/>
   <object id="2989" name="spikes" type="spikes" gid="54" x="8192" y="3072" width="368" height="272"/>
@@ -14400,5 +14394,14 @@
   <object id="4798" name="spikes" type="spikes" gid="54" x="23808" y="1424" width="688" height="304"/>
   <object id="4799" name="spikes" type="spikes" gid="54" x="23808" y="1424" width="688" height="304"/>
   <object id="4800" name="spikes" type="spikes" gid="54" x="23808" y="1424" width="688" height="304"/>
+  <object id="4801" name="coinlevel5" type="coinlevel5" gid="120" x="1321" y="1690" width="142" height="148"/>
+  <object id="4802" name="coinlevel5" type="coinlevel5" gid="120" x="1321" y="1690" width="142" height="148"/>
+  <object id="4805" name="coinlevel5" type="coinlevel5" gid="120" x="3069" y="1034" width="142" height="148"/>
+  <object id="4806" name="coinlevel5" type="coinlevel5" gid="120" x="4709" y="270" width="142" height="148"/>
+  <object id="4807" name="coinlevel5" type="coinlevel5" gid="120" x="6601" y="366" width="142" height="148"/>
+  <object id="4808" name="coinlevel5" type="coinlevel5" gid="120" x="9345" y="838" width="142" height="148"/>
+  <object id="4809" name="coinlevel5" type="coinlevel5" gid="120" x="15701" y="-306" width="142" height="148"/>
+  <object id="4810" name="coinlevel5" type="coinlevel5" gid="120" x="18681" y="166" width="142" height="148"/>
+  <object id="4812" name="blobLevel5" type="blobLevel5" gid="105" x="2830" y="1271" width="260" height="134"/>
  </objectgroup>
 </map>

@@ -889,7 +889,6 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="865" name="Old Sword" type="coin" gid="54" x="7552" y="1024" width="336.667" height="404" rotation="180"/>
   <object id="866" gid="9" x="7936" y="1920" width="128" height="128"/>
   <object id="867" gid="9" x="8064" y="1920" width="128" height="128"/>
   <object id="868" gid="9" x="8064" y="1920" width="128" height="128"/>
@@ -1102,7 +1101,8 @@
   <object id="1151" gid="39" x="12544" y="1792" width="128" height="128"/>
   <object id="1152" gid="39" x="12544" y="1664" width="128" height="128"/>
   <object id="1153" gid="39" x="12544" y="1536" width="128" height="128"/>
-  <object id="1154" gid="40" x="11904" y="128" width="1038" rotation="90"/>
+  <object id="1154" gid="40" x="11904" y="128" width="1038" height="101" rotation="90"/>
+  <object id="865" name="Old Sword" type="swordCoin" gid="54" x="7552" y="1024" width="336.667" height="404" rotation="180"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="417" gid="21" x="128" y="1276" width="287.655" height="291"/>

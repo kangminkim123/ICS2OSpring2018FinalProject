@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="128" tileheight="128" infinite="0" nextobjectid="137">
+ <tileset firstgid="1" name="winter" tilewidth="511" tileheight="280" tilecount="28" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="101" height="101" source="../sprites/winter/Object/Crate.png"/>
+  </tile>
+  <tile id="1">
+   <image width="97" height="78" source="../sprites/winter/Object/Crystal.png"/>
+  </tile>
+  <tile id="2">
+   <image width="101" height="101" source="../sprites/winter/Object/IceBox.png"/>
+  </tile>
+  <tile id="3">
+   <image width="511" height="201" source="../sprites/winter/Object/Igloo.png"/>
+  </tile>
+  <tile id="4">
+   <image width="87" height="94" source="../sprites/winter/Object/Sign1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="87" height="93" source="../sprites/winter/Object/Sign2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="193" height="210" source="../sprites/winter/Object/SnowMan.png"/>
+  </tile>
+  <tile id="7">
+   <image width="124" height="78" source="../sprites/winter/Object/Stone.png"/>
+  </tile>
+  <tile id="8">
+   <image width="364" height="280" source="../sprites/winter/Object/Tree1.png"/>
+  </tile>
+  <tile id="9">
+   <image width="228" height="280" source="../sprites/winter/Object/Tree2.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter1.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter2.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter3.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter4.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter5.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter6.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter7.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter8.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter9.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter10.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter11.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter12.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter13.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter14.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter15.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="93" source="../sprites/winter/Tiles/winter16.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="99" source="../sprites/winter/Tiles/winter17.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="../sprites/winter/Tiles/winter18.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="parallax">
+  <object id="1" gid="15" x="0" y="3200" width="648" height="644"/>
+  <object id="2" gid="15" x="640" y="3200" width="648" height="644"/>
+  <object id="3" gid="15" x="1280" y="3200" width="648" height="644"/>
+  <object id="4" gid="15" x="1920" y="3200" width="648" height="644"/>
+  <object id="5" gid="15" x="2560" y="3200" width="648" height="644"/>
+  <object id="6" gid="15" x="-640" y="3200" width="648" height="644"/>
+  <object id="7" gid="15" x="3200" y="3200" width="648" height="644"/>
+  <object id="8" gid="15" x="3840" y="3200" width="648" height="644"/>
+  <object id="9" gid="15" x="4480" y="3200" width="648" height="644"/>
+  <object id="10" gid="15" x="5120" y="3200" width="648" height="644"/>
+  <object id="11" gid="15" x="5760" y="3200" width="648" height="644"/>
+  <object id="12" gid="15" x="6400" y="3200" width="648" height="644"/>
+  <object id="13" gid="15" x="6400" y="3840" width="648" height="644"/>
+  <object id="14" gid="15" x="5760" y="3840" width="648" height="644"/>
+  <object id="15" gid="15" x="5120" y="3840" width="648" height="644"/>
+  <object id="16" gid="15" x="4480" y="3840" width="648" height="644"/>
+  <object id="17" gid="15" x="3840" y="3840" width="648" height="644"/>
+  <object id="18" gid="15" x="3200" y="3840" width="648" height="644"/>
+  <object id="19" gid="15" x="2560" y="3840" width="648" height="644"/>
+  <object id="20" gid="15" x="1920" y="3840" width="648" height="644"/>
+  <object id="21" gid="15" x="1280" y="3840" width="648" height="644"/>
+  <object id="22" gid="15" x="640" y="3840" width="648" height="644"/>
+  <object id="23" gid="15" x="0" y="4480" width="648" height="644"/>
+  <object id="24" gid="15" x="-640" y="3840" width="648" height="644"/>
+  <object id="38" gid="15" x="-640" y="2560" width="648" height="644"/>
+  <object id="39" gid="15" x="0" y="2560" width="648" height="644"/>
+  <object id="40" gid="15" x="640" y="2560" width="648" height="644"/>
+  <object id="41" gid="15" x="1280" y="2560" width="648" height="644"/>
+  <object id="42" gid="15" x="1920" y="2560" width="648" height="644"/>
+  <object id="43" gid="15" x="2560" y="2560" width="648" height="644"/>
+  <object id="44" gid="15" x="3200" y="2560" width="648" height="644"/>
+  <object id="45" gid="15" x="3840" y="2560" width="648" height="644"/>
+  <object id="46" gid="15" x="4480" y="2560" width="648" height="644"/>
+  <object id="47" gid="15" x="5120" y="2560" width="648" height="644"/>
+  <object id="48" gid="15" x="5760" y="2560" width="648" height="644"/>
+  <object id="49" gid="15" x="6400" y="2560" width="648" height="644"/>
+  <object id="50" gid="15" x="-640" y="1920" width="648" height="644"/>
+  <object id="51" gid="15" x="0" y="1920" width="648" height="644"/>
+  <object id="52" gid="15" x="640" y="1920" width="648" height="644"/>
+  <object id="53" gid="15" x="1280" y="1920" width="648" height="644"/>
+  <object id="54" gid="15" x="1920" y="1920" width="648" height="644"/>
+  <object id="55" gid="15" x="2560" y="1920" width="648" height="644"/>
+  <object id="56" gid="15" x="3200" y="1920" width="648" height="644"/>
+  <object id="57" gid="15" x="3840" y="1920" width="648" height="644"/>
+  <object id="58" gid="15" x="4480" y="1920" width="648" height="644"/>
+  <object id="59" gid="15" x="5120" y="1920" width="648" height="644"/>
+  <object id="60" gid="15" x="5760" y="1920" width="648" height="644"/>
+  <object id="61" gid="15" x="6400" y="1920" width="648" height="644"/>
+  <object id="62" gid="15" x="-640" y="4480" width="648" height="644"/>
+  <object id="63" gid="15" x="0" y="3840" width="648" height="644"/>
+  <object id="64" gid="15" x="640" y="4480" width="648" height="644"/>
+  <object id="67" gid="15" x="1152" y="4480" width="648" height="644"/>
+  <object id="68" gid="15" x="1792" y="4480" width="648" height="644"/>
+  <object id="69" gid="15" x="2304" y="4480" width="648" height="644"/>
+  <object id="70" gid="15" x="2944" y="4480" width="648" height="644"/>
+  <object id="71" gid="15" x="3584" y="4480" width="648" height="644"/>
+  <object id="72" gid="15" x="4224" y="4480" width="648" height="644"/>
+  <object id="73" gid="15" x="4864" y="4480" width="648" height="644"/>
+  <object id="74" gid="15" x="5504" y="4480" width="648" height="644"/>
+  <object id="75" gid="15" x="6144" y="4480" width="920" height="644"/>
+  <object id="76" gid="15" x="0" y="1280" width="648" height="644"/>
+  <object id="77" gid="15" x="640" y="1280" width="648" height="644"/>
+  <object id="78" gid="15" x="1280" y="1280" width="648" height="644"/>
+  <object id="79" gid="15" x="1920" y="1280" width="648" height="644"/>
+  <object id="80" gid="15" x="2560" y="1280" width="648" height="644"/>
+  <object id="81" gid="15" x="3200" y="1280" width="648" height="644"/>
+  <object id="82" gid="15" x="3840" y="1280" width="648" height="644"/>
+  <object id="83" gid="15" x="4480" y="1280" width="648" height="644"/>
+  <object id="84" gid="15" x="5120" y="1280" width="648" height="644"/>
+  <object id="85" gid="15" x="5760" y="1280" width="648" height="644"/>
+  <object id="131" gid="4" x="5760" y="3456" width="511" height="201"/>
+ </objectgroup>
+ <objectgroup name="midground">
+  <object id="32" gid="3" x="4" y="3840" width="1037" height="377">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="33" gid="3" x="1024" y="3840" width="1037" height="377">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="34" gid="3" x="2048" y="3840" width="1037" height="377">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="35" gid="3" x="3072" y="3840" width="1037" height="377">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="36" gid="3" x="4096" y="3840" width="1037" height="377">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="37" gid="3" x="5120" y="3840" width="1289" height="377">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="87" gid="3" x="1280" y="3072" width="597" height="113">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="89" gid="3" x="2560" y="3072" width="597" height="113">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="90" gid="3" x="3749.5" y="3047.5" width="597" height="113">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="92" gid="3" x="4864" y="3072" width="597" height="113">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="forground">
+  <object id="29" gid="22" x="0" y="3328" width="0.01" height="1020"/>
+  <object id="30" gid="22" x="6400" y="4224" width="0.01" height="2048">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="31" gid="22" x="0" y="4224" width="0.01" height="2048">
+   <properties>
+    <property name="bodyType" value="static"/>
+   </properties>
+  </object>
+  <object id="100" type="iceGem" gid="3" x="1536" y="2816" width="101" height="101"/>
+  <object id="102" type="iceGem" gid="3" x="2816" y="2816" width="101" height="101"/>
+  <object id="103" type="iceGem" gid="3" x="3981.5" y="2749.5" width="101" height="101"/>
+  <object id="113" type="iceGem" gid="3" x="5073.5" y="2745.5" width="101" height="101"/>
+  <object id="116" type="blob" gid="7" x="1484" y="2945" width="193" height="210"/>
+  <object id="118" type="blob" gid="7" x="2816" y="2944" width="193" height="210"/>
+  <object id="119" type="blob" gid="7" x="3968" y="2944" width="193" height="210"/>
+  <object id="120" type="blob" gid="7" x="4992" y="2944" width="193" height="210"/>
+  <object id="127" type="enemy" gid="7" x="1420" y="3457" width="193" height="210"/>
+  <object id="128" type="enemy" gid="7" x="2688" y="3456" width="193" height="210"/>
+  <object id="129" type="enemy" gid="7" x="3968" y="3456" width="193" height="210"/>
+  <object id="130" type="enemy" gid="7" x="5120" y="3456" width="193" height="210"/>
+  <object id="132" type="exit" gid="4" x="5760" y="3456" width="511" height="201"/>
+  <object id="136" type="hero" gid="10" x="278" y="3388" width="228" height="280"/>
+ </objectgroup>
+</map>

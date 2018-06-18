@@ -9,7 +9,7 @@ local scoring = require( "scene.game.lib.score" )
 local heartBar = require( "scene.game.lib.heartBar" )
 
 -- Variables local to scene
-local map, hero, shield, parallax
+local map, hero, shield, parallax, backgroundMusic
 
 -- Create a new Composer scene
 local scene = composer.newScene()
@@ -66,20 +66,21 @@ function scene:create( event )
 	-- Sounds
 	local sndDir = "scene/game/sfx/"
 	scene.sounds = {
-		thud = audio.loadSound( sndDir .. "thud.mp3" ),
-		sword = audio.loadSound( sndDir .. "sword.mp3" ),
-		squish = audio.loadSound( sndDir .. "squish.mp3" ),
-		slime = audio.loadSound( sndDir .. "slime.mp3" ),
-		wind = audio.loadSound( sndDir .. "loops/spacewind.mp3" ),
-		door = audio.loadSound( sndDir .. "door.mp3" ),
+		thud = audio.loadSound( sndDir .. "newthud.mp3" ),
+		sword = audio.loadSound( sndDir .. "sharpsword.mp3" ),
+		squish = audio.loadSound( sndDir .. "squash.mp3" ),
+		slime = audio.loadSound( sndDir .. "newslime.mp3" ),
+		wind = audio.loadSound( sndDir .. "loops/HeavyWind.mp3" ),
+		door = audio.loadSound( sndDir .. "portal.mp3" ),
 		hurt = {
-			audio.loadSound( sndDir .. "hurt1.mp3" ),
-			audio.loadSound( sndDir .. "hurt2.mp3" ),
+			audio.loadSound( sndDir .. "newhurt.mp3" ),
+			audio.loadSound( sndDir .. "newhurt2.mp3" ),
 		},
-		hit = audio.loadSound( sndDir .. "hit.mp3" ),
+		hit = audio.loadSound( sndDir .. "newhit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		goldendiamond = audio.loadSound( sndDir .. "goldendiamond.mp3" ),
 	}
-
+    backgroundMusic = audio.loadStream( sndDir .. "loops/ultrainstinct.mp3" )
 	-- Start physics before loading map
 	physics.start()
 	physics.setGravity( 0, 32 )
@@ -101,7 +102,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes", "goldendiamond" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
@@ -166,7 +167,7 @@ function scene:show( event )
 		-- Start playing wind sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:
 		-- https://docs.coronalabs.com/guide/media/audioSystem/index.html
-		audio.play( self.sounds.wind, { loops = -1, fadein = 750, channel = 15 } )
+		audio.play( backgroundMusic )
 	end
 
 end

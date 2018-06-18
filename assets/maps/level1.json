@@ -1051,18 +1051,6 @@
                  "y":896
                 }, 
                 {
-                 "gid":84,
-                 "height":148,
-                 "id":411,
-                 "name":"hero",
-                 "rotation":0,
-                 "type":"hero",
-                 "visible":true,
-                 "width":142,
-                 "x":1370.91,
-                 "y":1721.18
-                }, 
-                {
                  "gid":22,
                  "height":128,
                  "id":413,
@@ -14105,8 +14093,8 @@
                  "type":"enemy",
                  "visible":true,
                  "width":120,
-                 "x":8137.45,
-                 "y":2688.92
+                 "x":7713.45,
+                 "y":2686.92
                 }, 
                 {
                  "gid":60,
@@ -15405,8 +15393,8 @@
                  "type":"gem",
                  "visible":true,
                  "width":172,
-                 "x":2960.60606060606,
-                 "y":467.030303030303
+                 "x":2960.61,
+                 "y":467.03
                 }, 
                 {
                  "gid":60,
@@ -15465,8 +15453,8 @@
                  "type":"gem",
                  "visible":true,
                  "width":172,
-                 "x":8386.72727272727,
-                 "y":2689.75757575758
+                 "x":7884.73,
+                 "y":2689.76
                 }, 
                 {
                  "gid":38,
@@ -15599,6 +15587,30 @@
                  "width":128,
                  "x":3072,
                  "y":2304
+                }, 
+                {
+                 "gid":53,
+                 "height":380.424,
+                 "id":1873,
+                 "name":"",
+                 "rotation":0,
+                 "type":"enterLevel1Sub",
+                 "visible":true,
+                 "width":300.503,
+                 "x":7987.7485,
+                 "y":2691.788
+                }, 
+                {
+                 "gid":84,
+                 "height":148,
+                 "id":411,
+                 "name":"hero",
+                 "rotation":0,
+                 "type":"hero",
+                 "visible":true,
+                 "width":142,
+                 "x":1370.91,
+                 "y":1721.18
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -15606,7 +15618,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1873,
+ "nextobjectid":1875,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",

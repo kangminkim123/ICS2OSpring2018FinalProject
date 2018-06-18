@@ -103,7 +103,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes", "gem", "strongSpikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes", "gem", "strongSpikes", "enterLevel1Sub" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
@@ -164,11 +164,17 @@ function scene:show( event )
 	if ( phase == "will" ) then
 		fx.fadeIn()	-- Fade up from black
 		Runtime:addEventListener( "enterFrame", enterFrame )
+		if hero.isDead == true then
+			transition.to( hero, { time = 1, x = 8500, y = 290 } )
+			hero.isDead = false
+		end	
 	elseif ( phase == "did" ) then
 		-- Start playing background music sound
 		-- For more details on options to play a pre-loaded sound, see the Audio Usage/Functions guide:
 		-- https://docs.coronalabs.com/guide/media/audioSystem/index.html
 		audio.play( backgroundMusic )
+		
+		
 	end
 
 end
